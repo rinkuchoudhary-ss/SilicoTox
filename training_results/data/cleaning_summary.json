@@ -1,0 +1,9 @@
+{
+  "n_before": 7707,
+  "n_after": 7645,
+  "exact_duplicate_rows_removed": 51,
+  "conflicting_structures": 4,
+  "conflicting_rows_removed": 11,
+  "conflict_policy": "drop",
+  "total_removed": 62
+}

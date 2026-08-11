@@ -1,0 +1,1070 @@
+lineno,raw_smiles,toxicity,reason
+1,OC[C@@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1CCC[C@H]1C(=O)NNC(=O)N)CCCN=C(N)N)CC(C)C)COC(C)(C)C)Cc1ccc(cc1)O)NC(=O)[C@H](Cc1c[nH]c2c1cccc2)NC(=O)[C@@H](NC(=O)[C@@H]1CCC(=O)N1)Cc1[nH]cnc1,0,"biologic / oversized (MW=1269, heavy=91)"
+2,NC(=O)C[C@@H]1NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)CCSSC[C@@H](NC1=O)C(=O)N1CCC[C@H]1C(=O)N[C@H](C(=O)NCC(=O)N)CCCNC(=N)N)Cc1ccc(cc1)O,0,"biologic / oversized (MW=1069, heavy=74)"
+3,OC[C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1CCC[C@H]1C(=O)N[C@@H](C(=O)N)C)CCCNC(=N)N)CC(C)C)CCCNC(=O)N)Cc1ccc(cc1)O)NC(=O)[C@@H](Cc1cccnc1)NC(=O)[C@@H](Cc1ccc(cc1)Cl)NC(=O)[C@@H](Cc1ccc2c(c1)cccc2)NC(=O)C,0,"biologic / oversized (MW=1431, heavy=102)"
+4,C/C=C/C[C@H]([C@@H]([C@@H]1/C(=N/[C@@H](CC)C(=O)N(C)CC(=O)N(C)[C@@H](CC(C)C)/C(=N\[C@@H](C(C)C)C(=O)N(C)[C@@H](CC(C)C)/C(=N\[C@H](/C(=N\[C@H](C(=O)N([C@H](C(=O)N([C@H](C(=O)N([C@@H](C(=O)N1C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)/O)C)/O)/O)/O)O)C,0,"biologic / oversized (MW=1203, heavy=85)"
+5,NCCCC[C@@H](C(=O)NCC(=O)N)NC(=O)[C@@H]1CCCN1C(=O)[C@H]1CSSC[C@@H](N)C(=O)N[C@@H](Cc2ccccc2)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)CC(=O)N)CCC(=O)N)Cc1ccccc1,0,"biologic / oversized (MW=1040, heavy=72)"
+6,NCCCC[C@@H]1NC(=O)[C@H](NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@H](CSSC[C@H](NC(=O)[C@@H](NC1=O)[C@H](O)C)C(=O)N[C@@H]([C@H](O)C)CO)NC(=O)[C@@H](Cc1ccccc1)N)Cc1c[nH]c2c1cccc2,0,"biologic / oversized (MW=1019, heavy=71)"
+152,OC[C@H]1O[C@H](O[C@H]([C@@H](C(=O)N[C@@H]([C@H]([C@@H](C(=O)N[C@H](C(=O)NCCc2scc(n2)c2scc(n2)C(=O)NCCC[S](C)C)[C@H](O)C)C)O)C)NC(=O)c2nc(nc(c2C)N)[C@H](CC(=O)N)NC[C@@H](C(=O)N)N)c2[nH]cnc2)[C@H]([C@H]([C@H]1O)O)O[C@H]1O[C@H](CO)[C@@H]([C@@H]([C@@H]1O)OC(=O)N)O,0,"biologic / oversized (MW=1416, heavy=96)"
+212,CCCCCOc1ccc(cc1)c1ccc(cc1)c1ccc(cc1)C(=O)N[C@@H]1C[C@@H](O)[C@@H](O)NC(=O)[C@@H]2[C@@H](O)[C@H](CN2C(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H]2N(C(=O)[C@@H](NC1=O)[C@H](O)C)C[C@@H](C2)O)[C@@H]([C@H](c1ccc(cc1)O)O)O)[C@H](O)C)C,0,"biologic / oversized (MW=1140, heavy=82)"
+245,CSCC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N)Cc1ccccc1)CC(=O)O)NC(=O)[C@H](Cc1c[nH]c2c1cccc2)NC(=O)CNC(=O)[C@@H]([C@H](O)C)NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H]1CCC(=O)N1)CCC(=O)N)CC(=O)O)Cc1ccc(cc1)OS(=O)(=O)O,0,"biologic / oversized (MW=1352, heavy=94)"
+271,N=O,0,inorganic (no carbon)
+328,OC[C@H]1O[C@@H](Oc2c3cc4cc2Oc2ccc(cc2Cl)[C@@H](O)[C@@H]2NC(=O)[C@H](NC(=O)[C@H]4NC(=O)[C@H](CC(=O)N)NC(=O)[C@@H]([C@@H](c4ccc(O3)c(Cl)c4)O)NC(=O)[C@@H](CC(C)C)NC)c3ccc(c(c3)c3c(O)cc(cc3[C@H](NC2=O)C(=O)O)O)O)[C@@H]([C@H]([C@@H]1O)O)O[C@@H]1O[C@@H](C)[C@H]([C@@](C1)(C)N)O,0,"biologic / oversized (MW=1449, heavy=101)"
+332,NCCN[C@H]1NC(=O)[C@H]2[C@@H](O)CCN2C(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H]2N(C(=O)[C@@H](NC(=O)[C@H](C[C@@H]1O)NC(=O)CCCCCCCC[C@@H](C[C@@H](CC)C)C)[C@H](O)C)C[C@@H](C2)O)[C@@H]([C@H](c1ccc(cc1)O)O)O)[C@@H](CCN)O,0,"biologic / oversized (MW=1093, heavy=77)"
+368,CO[C@H]1O[C@H](COS(=O)(=O)O)[C@H]([C@@H]([C@H]1NS(=O)(=O)O)O)O[C@@H]1O[C@@H](C(=O)O)[C@H]([C@@H]([C@H]1OS(=O)(=O)O)O)O[C@H]1O[C@H](COS(=O)(=O)O)[C@H]([C@@H]([C@H]1NS(=O)(=O)O)OS(=O)(=O)O)O[C@@H]1O[C@H](C(=O)O)[C@H]([C@@H]([C@H]1O)O)O[C@H]1O[C@H](COS(=O)(=O)O)[C@H]([C@@H]([C@H]1NS(=O)(=O)O)O)O,0,"biologic / oversized (MW=1508, heavy=91)"
+413,NCCC[C@H]1NC(=O)[C@@H](CCCCNC(=O)[C@H](CC(=O)N)NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](NC1=O)[C@H](CC)C)Cc1ccccc1)Cc1nc[nH]c1)CC(=O)O)NC(=O)[C@H]([C@H](CC)C)NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@@H]1CSC(=N1)[C@H]([C@H](CC)C)N)CC(C)C)CCC(=O)O,0,"biologic / oversized (MW=1423, heavy=100)"
+428,OC[C@@H](C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N1CCC[C@@H]1C(=O)NCC(=O)N)CCCN=C(N)N)CC(C)C)Cc1ccc(cc1)O)NC(=O)[C@H](Cc1c[nH]c2c1cccc2)NC(=O)[C@@H](NC(=O)[C@@H]1CCC(=O)N1)Cc1[nH]cnc1,0,"biologic / oversized (MW=1182, heavy=85)"
+435,OS(=O)(=O)O,0,inorganic (no carbon)
+447,OC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1CCC[C@@H]1C(=O)NCC(=O)N)CCCNC(=N)N)CC(C)C)Cc1ccc2c(c1)cccc2)Cc1ccc(cc1)O)NC(=O)[C@H](Cc1c[nH]c2c1cccc2)NC(=O)[C@@H](NC(=O)[C@@H]1CCC(=O)N1)Cc1nc[nH]c1,0,"biologic / oversized (MW=1322, heavy=96)"
+484,OC(=O)CCC1=C(C)/C/2=C/c3[nH]c(c(c3C)[C@@H](O[C@@H](c3c4C[C@@H]5N=C(C(=C5C)C)/C=c/5\[nH]/c(=C\C6=N/C(=C\c(c3C)[nH]4)/C(=C6CCC(=O)O)C)/c(c5C)CCC(=O)O)C)C)C[C@H]3N=C(/C=c/4\[nH]/c(=C\C1=N2)/c(CCC(=O)O[C@@H](c1c2C[C@@H]5N=C(C(=C5C)C)/C=c/5\[nH]/c(=C\C6=N/C(=C\c(c1C)[nH]2)/C(=C6CCC(=O)O)C)/c(c5C)CCC(=O)O)C)c4C)C(=C3C)C,0,"biologic / oversized (MW=1676, heavy=124)"
+542,NCC[C@@H](C(=O)N[C@H]1CCNC(=O)[C@@H](NC(=O)[C@@H](CCN)NC(=O)[C@H](NC(=O)[C@H](NC(=O)[C@H](NC(=O)[C@@H](NC1=O)CCN)Cc1ccccc1)CC(C)C)CCN)[C@H](O)C)NC(=O)[C@H]([C@H](O)C)NC(=O)[C@@H](NC(=O)CCCC[C@@H](CC)C)CCN,0,"biologic / oversized (MW=1203, heavy=85)"
+561,NCC[C@@H](C(=O)N[C@H]1CCNC(=O)[C@@H](NC(=O)[C@H](CCN)NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@H](NC(=O)[C@@H](NC1=O)CCN)CC(C)C)CC(C)C)CCN)[C@H](O)C)NC(=O)[C@@H]([C@H](O)C)NC(=O)[C@@H](NC(=O)CCC[C@@H](CC)C)CCN,0,"biologic / oversized (MW=1155, heavy=81)"
+699,O=C1N[C@H](C(C)C)C(=O)N2CCC[C@H]2C(=O)N(C)CC(=O)N([C@@H](C(=O)O[C@@H]([C@@H]1NC(=O)c1c2nc3c(ccc(c3oc2c(c(=O)c1N)C)C)C(=O)N[C@H]1[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)CN(C(=O)[C@H]2N(C(=O)[C@H](NC1=O)C(C)C)CCC2)C)C)C(C)C)C,0,"biologic / oversized (MW=1255, heavy=90)"
+803,CC[C@H](CCCCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H]1CCNC(=O)[C@@H](NC(=O)[C@H](CCNCS(=O)(=O)O)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](NC1=O)CCNCS(=O)(=O)O)CC(C)C)CC(C)C)CCNCS(=O)(=O)O)[C@@H](O)C)CCNCS(=O)(=O)O)[C@@H](O)C)CCNCS(=O)(=O)O)C,0,"biologic / oversized (MW=1640, heavy=107)"
+826,CCCCCOc1ccc(cc1)c1onc(c1)c1ccc(cc1)C(=O)N[C@H]1C[C@@H](O)[C@@H](O)NC(=O)[C@@H]2[C@@H](O)[C@H](CN2C(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H]2N(C(=O)[C@@H](NC1=O)[C@H](O)C)C[C@@H](C2)O)[C@@H]([C@H](c1ccc(c(c1)OS(=O)(=O)O)O)O)O)[C@H](CC(=O)N)O)C,0,"biologic / oversized (MW=1270, heavy=89)"
+906,OC[C@@H](CNC(=O)c1c(I)c(N(C(=O)C)C[C@H](CN(c2c(I)c(C(=O)NC[C@H](CO)O)c(c(c2I)C(=O)NC[C@H](CO)O)I)C(=O)C)O)c(c(c1I)C(=O)NC[C@H](CO)O)I)O,0,"biologic / oversized (MW=1550, heavy=62)"
+963,CC[C@H]1NC(=O)[C@@H](NC(=O)c2ncccc2O)[C@@H](C)OC(=O)[C@@H](NC(=O)[C@H]2N(C(=O)[C@@H](N(C(=O)[C@H]3N(C1=O)CCC3)C)Cc1ccc(cc1)N(C)C)C[C@H](CS[C@@H]1CN3CC[C@H]1CC3)C(=O)C2)c1ccccc1,0,"biologic / oversized (MW=1022, heavy=73)"
+1063,O=C(Nc1c(I)cc(c(c1I)C(=O)O)I)CCCCC(=O)Nc1c(I)cc(c(c1I)C(=O)O)I,0,"biologic / oversized (MW=1140, heavy=34)"
+1064,O=C(Nc1cccc(c1)C(=O)Nc1cc(ccc1C)C(=O)Nc1ccc(c2c1c(cc(c2)S(=O)(=O)O)S(=O)(=O)O)S(=O)(=O)O)Nc1cccc(c1)C(=O)Nc1cc(ccc1C)C(=O)Nc1ccc(c2c1c(cc(c2)S(=O)(=O)O)S(=O)(=O)O)S(=O)(=O)O,0,"biologic / oversized (MW=1297, heavy=86)"
+1085,NCCCC[C@H]1NC(=O)[C@@H](NC(=O)[C@@H](Cc2ccc(cc2)O)NC(=O)[C@@H](CSSC[C@H](NC(=O)[C@H](NC1=O)C(C)C)C(=O)N[C@@H](C(=O)N)Cc1cc2c([nH]1)cccc2)NC(=O)[C@H](Cc1ccccc1)N)Cc1c[nH]c2c1cccc2,0,"biologic / oversized (MW=1131, heavy=80)"
+1089,OC[C@H]1O[C@@H](Oc2c3Oc4ccc(cc4Cl)[C@@H](O)[C@@H](NC(=O)[C@@H](CC(C)C)NC)C(=O)N[C@H](C(=O)N[C@@H]4c(c3)cc2Oc2ccc(cc2Cl)[C@@H](O[C@@H]2O[C@@H](C)[C@@H]([C@@](C2)(C)N)O)[C@H]2NC(=O)[C@H](NC4=O)c3ccc(c(c3)c3c(O)cc(cc3[C@H](NC2=O)C(=O)O)O)O)CC(=O)N)[C@@H]([C@H]([C@@H]1O)O)O[C@@H]1O[C@@H](C)[C@@H]([C@@](C1)(C)NCc1ccc(cc1)c1ccc(cc1)Cl)O,0,"biologic / oversized (MW=1793, heavy=125)"
+1116,OC[C@@H](C(=O)N1Cc2ccccc2C[C@@H]1C(=O)N1[C@H]2CCCC[C@H]2C[C@H]1C(=O)N[C@H](C(=O)O)CCCN=C(N)N)NC(=O)[C@H](Cc1cccs1)NC(=O)CNC(=O)[C@@H]1C[C@H](CN1C(=O)[C@@H]1CCCN1C(=O)[C@@H](NC(=O)[C@@H](CCCN=C(N)N)N)CCCN=C(N)N)O,0,"biologic / oversized (MW=1305, heavy=92)"
+1127,OC[C@H]1O[C@H](Oc2cc(O)cc3c2c2cc(ccc2O)[C@H]2NC(=O)[C@H]4NC(=O)[C@@H]5NC(=O)[C@H](Cc6ccc(Oc7cc4cc(Oc4ccc([C@H]([C@@H](C(=O)N[C@H]3C(=O)NCCCN(C)C)NC2=O)O)cc4Cl)c7O[C@@H]2O[C@H](C(=O)O)[C@H]([C@@H]([C@H]2NC(=O)CCCCCCCCC(C)C)O)O)cc6)NC(=O)[C@H](NC)c2cc(Oc3cc5c(Cl)c(c3)O)c(O)cc2)[C@H]([C@H]([C@@H]1O)O)O,0,"biologic / oversized (MW=1817, heavy=128)"
+1152,NCCCC[C@@H]1NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@H]2N(C(=O)[C@@H](NC(=O)[C@@H](NC1=O)Cc1ccc(cc1)OCc1ccccc1)Cc1ccccc1)C[C@@H](C2)OC(=O)NCCN)c1ccccc1)Cc1c[nH]c2c1cccc2,0,"biologic / oversized (MW=1047, heavy=77)"
+1160,OC[C@@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@@H](C(=O)N[C@@H](C(=O)N1CCC[C@H]1C(=O)N[C@@H](C(=O)N)C)CCCCNC(C)C)CC(C)C)Cc1ccc(cc1)NC(=O)N)Cc1ccc(cc1)NC(=O)[C@H]1CC(=O)NC(=O)N1)NC(=O)[C@H](NC(=O)[C@H](NC(=O)[C@@H](Cc1ccc2c(c1)cccc2)NC(=O)C)Cc1ccc(cc1)Cl)Cc1cccnc1,0,"biologic / oversized (MW=1632, heavy=117)"
+1183,CCNC(=NCCCC[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1CCC[C@H]1C(=O)N[C@@H](C(=O)N)C)CCCCN=C(NCC)NCC)CC(C)C)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@H](NC(=O)[C@@H](Cc1ccc2c(c1)cccc2)NC(=O)C)Cc1ccc(cc1)Cl)Cc1cccnc1)CO)Cc1ccc(cc1)O)NCC,0,"biologic / oversized (MW=1570, heavy=112)"
+1184,NCCCC[C@@H]1NC(=O)[C@@H](NC(=O)[C@@H](Cc2ccc(cc2)O)NC(=O)[C@@H](CSSC[C@H](NC(=O)[C@@H](NC1=O)C(C)C)C(=O)N[C@H](C(=O)N)[C@@H](O)C)NC(=O)[C@H](Cc1ccc2c(c1)cccc2)N)Cc1c[nH]c2c1cccc2,0,"biologic / oversized (MW=1096, heavy=77)"
+1191,CO[C@@H]([C@@H]1Cc2cc3cc(O[C@@H]4O[C@H](C)[C@H]([C@@H](C4)O[C@H]4C[C@@H](O)[C@@H]([C@H](O4)C)O)O)c(c(c3c(c2C(=O)[C@H]1O[C@@H]1O[C@H](C)[C@H]([C@@H](C1)O[C@@H]1O[C@H](C)[C@@H]([C@@H](C1)O[C@@H]1O[C@H](C)[C@H]([C@@](C1)(C)O)O)O)O)O)O)C)C(=O)[C@H]([C@H](O)C)O,0,"biologic / oversized (MW=1085, heavy=76)"
+1234,CO[C@@H]1[C@H](OC/C/2=C/C=C/C[C@H](O)/C(=C\[C@H](CC)[C@H](/C(=C/C(=C\C[C@H](OC2=O)[C@H](O)C)/C)/C)O[C@@H]2OC(C)(C)[C@H]([C@@H]([C@@H]2O)O)OC(=O)C(C)C)/C)O[C@@H]([C@H]([C@@H]1O)OC(=O)c1c(O)c(Cl)c(c(c1CC)Cl)O)C,0,"biologic / oversized (MW=1058, heavy=72)"
+1240,OC(=O)CC[C@@H]1NC(=O)[C@@H]2CSSC[C@@H]3NC(=O)[C@H](C)NC(=O)[C@H]4N(C(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC1=O)Cc1ccc(cc1)O)CSSC[C@H](NC(=O)CNC(=O)[C@@H](NC3=O)[C@H](O)C)C(=O)N[C@H](C(=O)O)Cc1ccc(cc1)O)CSSC[C@@H](C(=O)N2)N)CC(=O)N)CCC4,0,"biologic / oversized (MW=1527, heavy=101)"
+1333,NCCCC[C@@H]1NC(=O)[C@H](CSSC[C@@H](NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC1=O)CC(=O)N)Cc1ccccc1)Cc1ccccc1)Cc1c[nH]c2c1cccc2)CCCCN)[C@@H](O)C)[C@@H](O)C)C(=O)O)NC(=O)CNC(=O)[C@@H](N)C,0,"biologic / oversized (MW=1638, heavy=115)"
+1336,ON=O,0,inorganic (no carbon)
+1344,OP(=O)(O)O,0,inorganic (no carbon)
+1348,O=O,0,inorganic (no carbon)
+1349,CSCC[C@@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N)Cc1ccccc1)CC(=O)O)CCSC)Cc1c[nH]c2c1cccc2)NC(=O)[C@@H](NC(=O)[C@H](CC(=O)O)N)Cc1ccc(cc1)OS(=O)(=O)O,0,"biologic / oversized (MW=1143, heavy=78)"
+1352,OP(=O)(OP(=O)(O)O)O,0,inorganic (no carbon)
+1357,N#N,0,inorganic (no carbon)
+1411,OCCNC(=O)c1c(I)c(NC(=O)CNC(=O)c2c(I)c(C(=O)NC)c(c(c2I)N(C(=O)C)C)I)c(c(c1I)C(=O)O)I,0,"biologic / oversized (MW=1269, heavy=43)"
+3987,O[Mg]OS(=O)(=O)O[Mg]O,0,inorganic (no carbon)
+4137,O=BOB(OB(OB=O)O)O,0,inorganic (no carbon)
+4142,Cl[Ca]Cl,0,inorganic (no carbon)
+4232,Cl[Cu]Cl,0,inorganic (no carbon)
+4438,Cl[Fe](Cl)Cl,0,inorganic (no carbon)
+4631,I[Zn]I,0,inorganic (no carbon)
+4948,FS(F)(F)(F)(F)F,0,inorganic (no carbon)
+5116,Cl[Zn]Cl,0,inorganic (no carbon)
+5384,O=C(C(Oc1ccc(cc1)Cl)(C)C)O[Mg]OC(=O)C(Oc1ccc(cc1)Cl)(C)C,0,contains metal
+5424,OC(=O)CN1CCN(CC(=O)O)CC(=O)O[Ca]OC(=O)C1,0,contains metal
+5478,OC[C@H]([C@H]([C@@H]([C@H](C(=O)O[Mg]OC(=O)[C@@H]([C@H]([C@@H]([C@@H]([C@@H](CO)O)O)O)O)O)O)O)O)O,0,contains metal
+5501,O=C([C@@H]1CCC(=O)N1)O[Mg]OC(=O)[C@@H]1CCC(=O)N1,0,contains metal
+5558,OS(=O)(=O)S,0,inorganic (no carbon)
+5757,N#C[Fe](C#N)(C#N)(C#N)(C#N)C#N,0,contains metal
+5801,CCC(=O)O[Ca]OC(=O)CC,0,contains metal
+6069,P12P3P1P23,1,inorganic (no carbon)
+6079,BrBr,1,inorganic (no carbon)
+6092,CC(=O)O[Cd]OC(=O)C,1,contains metal
+6093,Br[Cd]Br,1,inorganic (no carbon)
+6094,Cl[Cd]Cl,1,inorganic (no carbon)
+6095,F[Cd]F,1,inorganic (no carbon)
+6096,I[Cd]I,1,inorganic (no carbon)
+6097,C[C@H](C(=O)O[Cd]OC(=O)[C@H](O)C)O,1,contains metal
+6098,O=[Cd],1,inorganic (no carbon)
+6099,S=[Cd],1,inorganic (no carbon)
+6108,O[Fe](O)O,1,inorganic (no carbon)
+6109,Br[Zn]Br,1,inorganic (no carbon)
+6110,O=[Cl](=O)O[Zn]O[Cl](=O)=O,1,inorganic (no carbon)
+6111,N#C[Zn]C#N,1,contains metal
+6112,F[Zn]F,1,inorganic (no carbon)
+6113,O[S@@](=O)[S@@](=O)O,1,inorganic (no carbon)
+6205,CC(=O)O[Zn](OC(=O)C)(OC(=O)C)OC(=O)C,1,contains metal
+6207,F[Cu]F,1,inorganic (no carbon)
+6208,[Cu]O[Cu],1,inorganic (no carbon)
+6209,[Cu][Cu][Cu],1,inorganic (no carbon)
+6210,[Cu]S[Cu],1,inorganic (no carbon)
+6211,[Cu]Br,1,inorganic (no carbon)
+6212,[Cu]I,1,inorganic (no carbon)
+6213,CC(=O)O[Cu]OC(=O)C,1,contains metal
+6214,Br[Cu]Br,1,inorganic (no carbon)
+6215,FC(S(=O)(=O)O[Cu]OS(=O)(=O)C(F)(F)F)(F)F,1,contains metal
+6217,O=CO[Cu]OC=O,1,contains metal
+6218,C[C@H](C(=O)O[Cu]OC[C@@H](C=O)O)O,1,contains metal
+6219,C/C(=C/C(=O)C)/O[Cu]O/C(=C\C(=O)C)/C,1,contains metal
+6220,CC[C@H]1CC[C@@H](C1)CCC(=O)O[Cu]OC(=O)CC[C@@H]1CC[C@@H](C1)C,1,contains metal
+6221,NCCN[Cu]NCCN,1,contains metal
+6227,O=C(O[Cd]OC(=O)CCCC1CCCCC1)CCCC1CCCCC1,1,contains metal
+6228,N#C[Cd]C#N,1,contains metal
+6232,CCN(C(=S)S[Zn]SC(=S)N(CC)CC)CC,1,contains metal
+6234,Oc1ccc(cc1)S(=O)(=O)O[Zn]OS(=O)(=O)c1ccc(cc1)O,1,contains metal
+6235,CN(C(=S)S[Zn]SC(=S)N(C)C)C,1,contains metal
+6236,CC([Zn]C(C)C)C,1,contains metal
+6237,Cl[Zn](Cl)(Cl)Cl,1,inorganic (no carbon)
+6238,OP(=S)(S)O,1,inorganic (no carbon)
+6239,O=CO[Zn]OC=O,1,contains metal
+6240,CCC(=O)O[Zn]OC(=O)CC,1,contains metal
+6243,FP(F)(F)(F)(F)F,1,unparseable SMILES
+6244,O[I](=O)=O,1,inorganic (no carbon)
+6260,O[Br](=O)=O,1,inorganic (no carbon)
+6261,BrB(Br)Br,1,inorganic (no carbon)
+6262,Br[Fe]Br,1,inorganic (no carbon)
+6263,Br[Mg]Br,1,inorganic (no carbon)
+6264,BrN(Br)Br,1,inorganic (no carbon)
+6265,BrP(Br)(Br)(Br)Br,1,inorganic (no carbon)
+6266,BrS(=O)Br,1,inorganic (no carbon)
+6280,ClBr,1,inorganic (no carbon)
+6310,[Ca]1P2[Ca]P1[Ca]2,1,inorganic (no carbon)
+6691,[Ag][F][Ag],1,unparseable SMILES
+6692,[Ag][Te][Ag],1,inorganic (no carbon)
+6693,[Ag]C#C,1,contains metal
+6694,[Ag]N=[N+]=[N-],1,inorganic (no carbon)
+6695,[Ag]O[Ag],1,inorganic (no carbon)
+6696,[Ag]O[Br](=O)=O,1,inorganic (no carbon)
+6697,[Ag]O[Cl](=O)(=O)=O,1,inorganic (no carbon)
+6698,[Ag]O[Cl](=O)=O,1,inorganic (no carbon)
+6699,[Ag]O[Cr](=O)(=O)O[Ag],1,inorganic (no carbon)
+6700,[Ag]O[I](=O)=O,1,inorganic (no carbon)
+6701,[Ag]O[Mo](=O)(=O)O[Ag],1,inorganic (no carbon)
+6702,[Ag]O[N+]#[C-],1,contains metal
+6703,[Ag]OC(=O)C(=O)O[Ag],1,contains metal
+6704,[Ag]OC(=O)O[Ag],1,contains metal
+6705,[Ag+].[Ag+].[O-][Se]([O-])=O,1,inorganic (no carbon)
+6706,[Ag+].[Ag+].OS(O)(=O)=O,1,inorganic (no carbon)
+6708,[Ag+].F[B-](F)(F)F,1,inorganic (no carbon)
+6709,[Ag+].F[P-](F)(F)(F)(F)F,1,inorganic (no carbon)
+6711,[Ag+].O[Sb-](O)(O)(O)(O)O,1,inorganic (no carbon)
+6712,[Al]#[As],1,inorganic (no carbon)
+6713,[Al]#[Sb],1,inorganic (no carbon)
+6714,[Al]#[Ta],1,inorganic (no carbon)
+6715,[Al]#[Ti],1,inorganic (no carbon)
+6716,[Al]#P,1,inorganic (no carbon)
+6717,[Al].[Ni],1,inorganic (no carbon)
+6718,[Al]Cl,1,inorganic (no carbon)
+6719,[Al+3].[Al+3].[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+6720,[Al+3].[Al+3].[S--].[S--].[S--],1,inorganic (no carbon)
+6721,[Al+3].[Al+3].[Se--].[Se--].[Se--],1,inorganic (no carbon)
+6722,[Al+3].[K+].[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+6723,[Al+3].[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+6724,[Al+3].[O-]P([O-])([O-])=O,1,inorganic (no carbon)
+6727,[AlH2]O[AlH2],1,inorganic (no carbon)
+6728,[AlH3],1,inorganic (no carbon)
+6729,[Ar]C#N.[K]C#N,1,unparseable SMILES
+6730,[As]#[In],1,inorganic (no carbon)
+6731,[As]#[Y],1,inorganic (no carbon)
+6733,[AsH3],1,inorganic (no carbon)
+6734,[B].[B].[B].[B].[B].[B].[B].[B].[B].[B].[B].[B].[Al],1,inorganic (no carbon)
+6736,[Ba++].[O-][O-],1,inorganic (no carbon)
+6739,[Ba++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+6741,[Ba++].F[B-](F)(F)F.F[B-](F)(F)F,1,inorganic (no carbon)
+6742,[Ba++].F[Si--](F)(F)(F)(F)F,1,inorganic (no carbon)
+6743,[Be].[Cu],1,inorganic (no carbon)
+6744,[Be]=[Te],1,inorganic (no carbon)
+6745,[Be]=O,1,inorganic (no carbon)
+6748,[Be++].[Be++].[O-][Si]([O-])([O-])[O-],1,inorganic (no carbon)
+6749,[Be++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+6750,[Be++].[OH-].[OH-],1,inorganic (no carbon)
+6751,[Be++].[Zn++].[O-][Si]([O-])([O-])[O-],1,inorganic (no carbon)
+6753,[Be++].OP([O-])([O-])=O,1,inorganic (no carbon)
+6754,[BeH2],1,inorganic (no carbon)
+6755,[Br-].[Br-].[Br-].[Br-].[Pt+4],1,inorganic (no carbon)
+6756,[Br-].[Br-].[Br-].[Tb+3],1,inorganic (no carbon)
+6758,[Br-].[Br-].[Pt++],1,inorganic (no carbon)
+6759,[Br-].[Br-].[Sr++],1,inorganic (no carbon)
+6761,[Br-].[In+],1,inorganic (no carbon)
+6762,[Br-].[Ra],1,inorganic (no carbon)
+6763,[Br-].C1=CC=C(C=C1)[Sb+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+6764,[Br-][Mg+][Br-],1,unparseable SMILES
+6765,[C@H]1([C@@H]2[C@H]([C@@H](N3C4=CC(=C(C)C=C4[N+]([Co-3]456(N7C8=C(C9=[N+]4C(C([C@@H]9CCC(N)=O)(C)C)=CC4=[N+]5C(=C(C5=[N+]6[C@@]([C@]7([C@@H]([C@@]8(C)CCC(=O)NC[C@@]([H])(C)OP([O-])(=O)O2)CC(N)=O)[H])([C@@]([C@@H]5CCC(N)=O)(C)CC(N)=O)C)C)[C@@]([C@@H]4CCC(N)=O)(C)CC(N)=O)C)C#N)=C3)C)O1)O)CO,1,contains metal
+6766,[C@H]1(C[Co-3]2345[N+]6=C7C(C)=C8N2[C@]([H])([C@H](CC(=O)N)[C@]8(CCC(=O)NC[C@@H](C)OP([O-])(=O)O[C@@H]2[C@@H](CO)O[C@H](N8C=[N+]3C3=CC(C)=C(C)C=C83)[C@@H]2O)C)[C@@]2(C)[C@@](CC(=O)N)([C@H](CCC(=O)N)C(C(C)=C3[N+]4=C(C=C6C([C@@H]7CCC(=O)N)(C)C)[C@@H](CCC(=O)N)[C@@]3(CC(=O)N)C)=[N+]52)C)O[C@@H](N2C3=NC=NC(=C3N=C2)N)[C@H](O)[C@@H]1O,1,contains metal
+6769,[Ca++].[Ca++].[Ca++].[O-][As]([O-])([O-])=O.[O-][As]([O-])([O-])=O,1,inorganic (no carbon)
+6770,[Ca++].[O-][N+]([O-])=O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+6772,[Ca++].O[As]([O-])[O-],1,inorganic (no carbon)
+6774,[Cd].O[W](O)(=O)=O,1,inorganic (no carbon)
+6775,[Cd][As]=[Cd][As]=[Cd],1,inorganic (no carbon)
+6776,[Cd]=[Te],1,inorganic (no carbon)
+6777,[Cd]=[Te]=[Hg],1,inorganic (no carbon)
+6779,[Cd++].[Cd++].[Cd++].[O-]P([O-])([O-])=O.[O-]P([O-])([O-])=O,1,inorganic (no carbon)
+6780,[Cd++].[O-][Br](=O)=O.[O-][Br](=O)=O,1,inorganic (no carbon)
+6782,[Cd++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+6784,[Cd++].F[B-](F)(F)F.F[B-](F)(F)F,1,inorganic (no carbon)
+6785,[Cd++].S=[Hg]=S,1,inorganic (no carbon)
+6787,[Cl-].[Cl-].[Cl-].[Cl-].[Cl-].[U],1,inorganic (no carbon)
+6788,[Cl-].[Cl-].[Cl-].[Cl-].[Sn+4],1,inorganic (no carbon)
+6790,[Cl-].[Cl-].[Cl-].[Cr+3],1,inorganic (no carbon)
+6791,[Cl-].[Cl-].[Co++],1,inorganic (no carbon)
+6794,[Cl-].[Cl-].[Sn++],1,inorganic (no carbon)
+6796,[Cl-].[Cl-].[Zn++],1,inorganic (no carbon)
+6798,[Cl-].[Cl-].O=[U]=O,1,inorganic (no carbon)
+6799,[Cl-].[H][N]1([H])CC[N]([H])([H])[Co+]11(Cl)(Cl)[N]([H])([H])CC[N]1([H])[H],1,contains metal
+6800,[Cl-].[K+],1,inorganic (no carbon)
+6806,[Co](C1C=CC=C1)C1C=CC=C1,1,contains metal
+6813,[Co++].[O-][Mo]([O-])(=O)=O,1,inorganic (no carbon)
+6816,[Co++].[O-]N(=O)=O.[O-]N(=O)=O,1,inorganic (no carbon)
+6817,[Co++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+6821,[Cr]#C[Cr]C#[Cr],1,contains metal
+6824,[Cr++].[O-][Cr]([O-])(=O)=O,1,inorganic (no carbon)
+6826,[Cr+3].[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+6827,[Cr+6],1,inorganic (no carbon)
+6829,[Cs]O[Cr](=O)(=O)O[Cs],1,inorganic (no carbon)
+6830,[Cs+].[O-][N+]([O-])=O,1,inorganic (no carbon)
+6831,[Cu][Si]1([Cu])[Cu][Cu][Cu]1,1,inorganic (no carbon)
+6832,[Cu]C#N,1,contains metal
+6835,[Cu++].[Cu++].[Cu++].[O-][As]([O-])([O-])=O.[O-][As]([O-])([O-])=O,1,inorganic (no carbon)
+6836,[Cu++].[Cu++].[Cu++].[O-]P([O-])([O-])=O.[O-]P([O-])([O-])=O,1,inorganic (no carbon)
+6837,[Cu++].[Cu++].[O-]P([O-])(=O)OP([O-])([O-])=O,1,inorganic (no carbon)
+6839,[Cu++].[N-]=[N+]=[N-].[N-]=[N+]=[N-],1,inorganic (no carbon)
+6842,[Cu++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+6843,[Cu++].O[As]([O-])[O-],1,inorganic (no carbon)
+6847,[F-].[F-].[Ba++],1,inorganic (no carbon)
+6848,[F-].[F-].[F-].[F-].[F-].[F-].[K+].[Sb+5],1,inorganic (no carbon)
+6849,[F-].[F-].[F-].[F-].[F-].[F-].[Si+4].[Cd++],1,inorganic (no carbon)
+6851,[Fe++].[Fe++].[Fe++].[O-][As]([O-])([O-])=O.[O-][As]([O-])([O-])=O,1,inorganic (no carbon)
+6852,[Fe+3].[Br-].[Br-].[Br-],1,inorganic (no carbon)
+6853,[Fe+3].[O-][As]([O-])([O-])=O,1,inorganic (no carbon)
+6854,[Fe+3].[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+6855,[Ga]#[As],1,inorganic (no carbon)
+6856,[Ga]=[Se],1,inorganic (no carbon)
+6857,[Ga+3].[Ga+3].[Se--].[Se--].[Se--],1,inorganic (no carbon)
+6858,[Gd+3].[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+6859,[Ge]=[Se],1,inorganic (no carbon)
+6860,[H-].[H-].[Zn++],1,inorganic (no carbon)
+6997,[H][C@](C)(O)[C@]([H])(N=C(O)[C@@]([H])(C)[C@]([H])(O)[C@@]([H])(C)N=C(O)[C@@]([H])(N=C(O)C1=C(C)C(=N)NC(=N1)[C@]([H])(CC(O)=N)NC[C@]([H])(N)C(O)=N)[C@@]([H])(OC1([H])OC([H])(CO)C([H])(O)C([H])(O)C1([H])OC1([H])OC([H])(CO)C([H])(O)C([H])(OC(O)=N)C1([H])O)C1=CN=CN1)C(O)=NCCC1=NC(=CS1)C1=NC(=CS1)C(O)=NCCC[S+](C)C,1,"biologic / oversized (MW=1416, heavy=96)"
+6998,[H][C@](C)(O)[C@]1([H])N=C(O)[C@]([H])(C[C@@]([H])(O)[C@@]([H])(O)N=C(O)[C@@]2([H])N(C[C@]([H])(C)[C@]2([H])O)C(=O)[C@@]([H])(N=C(O)[C@@]([H])(N=C(O)[C@]2([H])C[C@@]([H])(O)CN2C1=O)[C@]([H])(O)[C@@]([H])(O)C1=CC=C(O)C=C1)[C@@]([H])(C)O)NC(=O)C1=CC=C(C=C1)C1=CC=C(C=C1)C1=CC=C(OCCCCC)C=C1,1,"biologic / oversized (MW=1140, heavy=82)"
+7001,[H][C@](CC(C)C)(NC)C(O)=N[C@@]1([H])C(O)=N[C@@]([H])(CC(O)=N)C(O)=N[C@]2([H])C3=CC(OC4=C(Cl)C=C(C=C4)[C@@]1([H])O)=C(O[C@]1([H])O[C@]([H])(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]1([H])O[C@@]1([H])C[C@](C)(N)[C@]([H])(O)[C@]([H])(C)O1)C(OC1=C(Cl)C=C(C=C1)[C@@]([H])(O)[C@]1([H])N=C(O)[C@]([H])(N=C2O)C2=CC(=C(O)C=C2)C2=C(C=C(O)C=C2O)[C@]([H])(N=C1O)C(O)=O)=C3,1,"biologic / oversized (MW=1449, heavy=101)"
+7104,[H][C@]1(O)O[C@]([H])(O[C@@]2([H])[C@]([H])(O)[C@@]([H])(OS(O)(=O)=O)C([H])(O)O[C@@]2([H])C(O)=O)[C@]([H])(OS(O)(=O)=O)[C@@]([H])(CS(O)(=O)=O)[C@]1([H])O[C@]1([H])O[C@]([H])(C(O)=O)[C@@]([H])(O[C@@]2([H])O[C@]([H])(COS(O)(=O)=O)[C@@]([H])(O)[C@]([H])(O)[C@@]2([H])N=C(C)O)[C@]([H])(O)[C@@]1([H])O,1,"biologic / oversized (MW=1040, heavy=65)"
+7139,[H]\C(=C(\[H])[C@]1([H])O[C@@]2([H])[C@]([H])(CC=C1)O[C@]1([H])C[C@]3([H])O[C@]4([H])C=C[C@]5([H])O[C@]6([H])C[C@@]([H])(O)[C@]7(C)O[C@]8([H])C[C@]([H])(C)C[C@]9([H])O[C@@]%10([H])[C@]([H])(C[C@@]9([H])O[C@@]8([H])C[C@@]7([H])O[C@@]6([H])C\C([H])=C([H])/C[C@@]5([H])O[C@@]4([H])C=C[C@@]3([H])O[C@@]1([H])[C@]2([H])O)O[C@]1([H])[C@@]([H])(C)[C@]([H])(C)[C@@]2(C[C@]([H])(O)CO2)O[C@@]1([H])[C@@]([H])(O)[C@]%10([H])C)[C@]([H])(O)CO,1,"biologic / oversized (MW=1111, heavy=79)"
+7140,[H]\C(=C(\[H])[C@]1([H])O[C@@]2([H])[C@]([H])(CC=C1)O[C@]1([H])C[C@]3([H])O[C@]4([H])C=C[C@]5([H])O[C@]6([H])C[C@@]([H])(O)[C@]7(C)O[C@]8([H])C[C@]([H])(C)C[C@]9([H])O[C@@]%10([H])[C@]([H])(C[C@@]9([H])O[C@@]8([H])C[C@@]7([H])O[C@@]6([H])C\C([H])=C([H])\C[C@@]5([H])O[C@@]4([H])C=C[C@@]3([H])O[C@@]1([H])[C@]2([H])O)O[C@]1([H])[C@@]([H])(C)[C@]([H])(C)[C@]2(CCCO2)O[C@@]1([H])[C@@]([H])(O)[C@]%10([H])C)[C@]([H])(O)CO,1,"biologic / oversized (MW=1095, heavy=78)"
+7141,[H]\C(=C(\[H])[C@]1([H])O[C@@]2([H])[C@]([H])(CC=C1)O[C@]1([H])C[C@]3([H])O[C@]4([H])C=C[C@]5([H])O[C@]6([H])C[C@@]([H])(O)[C@]7(C)O[C@]8([H])C[C@]([H])(C)C[C@]9([H])O[C@@]%10([H])[C@]([H])(C[C@@]9([H])O[C@@]8([H])C[C@@]7([H])O[C@@]6([H])C\C([H])=C([H])\C[C@@]5([H])O[C@@]4([H])C=C[C@@]3([H])O[C@@]1([H])[C@]2([H])O)O[C@]1([H])[C@@]([H])(C)[C@]([H])(C)[C@@]2(CCCO2)O[C@@]1([H])[C@@]([H])(O)[C@]%10([H])C)[C@]([H])(O)CO,1,"biologic / oversized (MW=1095, heavy=78)"
+7166,[H]\C(C)=C(\[H])CC(C)C(O)C1N(C)C(=O)C(C(C)C)N(C)C(=O)C(CC(C)C)N(C)C(=O)C(CC(C)C)N(C)C(=O)C(C)N=C(O)C(C)N=C(O)C(CC(C)C)N(C)C(=O)C(N=C(O)C(CC(C)C)N(C)C(=O)CN(C)C(=O)C(CC)N=C1O)C(C)C,1,"biologic / oversized (MW=1203, heavy=85)"
+7170,[H]\C(C[C@@]([H])(O)[C@]([H])(O)[C@]([H])(O)C\C([H])=C(\[H])C(=C)CC[C@]([H])(O)[C@@]([H])(O)[C@]([H])(O)[C@]([H])(C)C[C@@]1([H])O[C@]([H])(C(\[H])=C(\[H])[C@@]([H])(O)CC[C@]2([H])C[C@]3([H])C[C@]([H])(O2)[C@@]([H])(CC[C@@]2([H])O[C@]([H])(CN)C[C@@]2([H])O)O3)[C@@]([H])(O)[C@]([H])(O)[C@@]1([H])O)=C(\[H])/C(/[H])=C(/[H])[C@@]([H])(O)C[C@]1([H])O[C@]([H])(C[C@@]([H])(O)[C@]([H])(O)C[C@@]2([H])O[C@@]([H])(C[C@@]([H])(O)[C@]2([H])O)[C@]([H])(O)[C@]([H])(O)CC[C@]([H])(O)C(\[H])=C(/[H])[C@]([H])(C)[C@@]([H])(O)C[C@]2(O)O[C@]([H])(C[C@@]([H])(O)CCCCCCC[C@@]34C[C@@]([H])(C)C[C@@](C)(O3)[C@@]([H])(C[C@@]([H])(C)CCCCC[C@@]([H])(O)[C@]([H])(O)[C@]([H])(O)[C@@]([H])(O)[C@]([H])(O)[C@@]3([H])O[C@]([H])(C[C@]([H])(O)[C@]([H])(O)C(\C)=C(/[H])[C@]([H])(O)C[C@@]([H])(C)[C@]([H])(O)C(O)=N\C([H])=C(/[H])C(O)=NCCCO)[C@]([H])(O)[C@@]([H])(O)[C@]3([H])O)O4)[C@]([H])(O)[C@@]([H])(O)[C@@]2([H])O)[C@@]([H])(O)[C@]([H])(O)[C@@]1([H])O,1,"biologic / oversized (MW=2664, heavy=185)"
+7171,[H]\C(C=C)=C(\[H])[C@]1([H])O[C@@]2([H])[C@]([H])(CC=C1)O[C@]1([H])C[C@]3([H])O[C@]4([H])C=C[C@]5([H])O[C@]6([H])C[C@@]([H])(O)[C@]7(C)O[C@]8([H])C[C@]([H])(C)C[C@]9([H])O[C@@]%10([H])[C@]([H])(C[C@@]9([H])O[C@@]8([H])C[C@@]7([H])O[C@@]6([H])C\C([H])=C([H])/C[C@@]5([H])O[C@@]4([H])C=C[C@@]3([H])O[C@@]1([H])[C@]2([H])O)O[C@]1([H])[C@@]([H])(C)[C@]([H])(C)[C@@]2(CCCO2)O[C@@]1([H])[C@@]([H])(O)[C@]%10([H])C,1,"biologic / oversized (MW=1061, heavy=76)"
+7237,[Hg]1C=CC=C1,1,contains metal
+7238,[Hg]O[Hg],1,inorganic (no carbon)
+7239,[Hg+].[Hg+].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7240,[Hg++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7241,[K]Br,1,inorganic (no carbon)
+7242,[K]C#N,1,contains metal
+7243,[K]O[Cl](=O)(=O)=O,1,inorganic (no carbon)
+7244,[K]O[Cr](=O)(=O)O[Cr](=O)(=O)O[K],1,inorganic (no carbon)
+7245,[K]O[Cr](=O)(=O)O[K],1,inorganic (no carbon)
+7246,[K]O[Mn](=O)(=O)=O,1,inorganic (no carbon)
+7247,[K]O[Mn](=O)(=O)O[K],1,inorganic (no carbon)
+7248,[K]OC#N,1,contains metal
+7249,[K+].[Cr+3].[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7251,[K+].[K+].[K+].[Cr+5].[O-][O-].[O-][O-].[O-][O-].[O-][O-],1,inorganic (no carbon)
+7255,[K+].[K+].Cl[Pd--](Cl)(Cl)(Cl)(Cl)Cl,1,inorganic (no carbon)
+7256,[K+].[K+].I[Hg--](I)(I)I,1,inorganic (no carbon)
+7257,[K+].[K+].N#C[Hg--](C#N)(C#N)C#N,1,contains metal
+7258,[K+].[K+].O[Sb]([O-])(=O)O[Sb](O)([O-])=O,1,inorganic (no carbon)
+7259,[K+].[O-][As]([O-])[O-],1,inorganic (no carbon)
+7260,[K+].[O-][Br](=O)=O,1,inorganic (no carbon)
+7261,[K+].[O-][N+]([O-])=O,1,inorganic (no carbon)
+7262,[K+].[O-]N=O,1,inorganic (no carbon)
+7264,[K+].F[Al-](F)(F)F.F[Al-](F)(F)F.F[Al-](F)(F)F.F[Al-](F)(F)F.F[Al-](F)(F)F,1,inorganic (no carbon)
+7265,[Li]Br,1,inorganic (no carbon)
+7266,[Li]O[Cl](=O)(=O)=O,1,inorganic (no carbon)
+7267,[Li]O[Cr](=O)(=O)O[Li],1,inorganic (no carbon)
+7268,[Li+].[Al+3].[Cl-].[Cl-].[Cl-].[Cl-],1,inorganic (no carbon)
+7269,[Li+].[AlH4-],1,inorganic (no carbon)
+7270,[Li+].[O-][Al]=O,1,inorganic (no carbon)
+7271,[Li+].[O-][Co]=O,1,inorganic (no carbon)
+7272,[Li+].[O-][N+]([O-])=O,1,inorganic (no carbon)
+7273,[Li+].F[Sb-](F)(F)(F)(F)F,1,inorganic (no carbon)
+7274,[Mg++].[Mg++].[Mg++].[O-][As]([O-])([O-])=O.[O-][As]([O-])([O-])=O,1,inorganic (no carbon)
+7275,[Mg++].[O-][Al]=O.[O-][Al]=O,1,inorganic (no carbon)
+7276,[Mg++].[O-][Cl](=O)(=O)=O.[O-][Cl](=O)(=O)=O,1,inorganic (no carbon)
+7277,[Mg++].[O-][N+]([O-])=O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+7278,[Mg++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7281,[Mn].O[Mn]=O.O[Mn]=O,1,inorganic (no carbon)
+7283,[Mn++].[Mn++].[Mn++].[O-][As]([O-])([O-])=O.[O-][As]([O-])([O-])=O,1,inorganic (no carbon)
+7284,[Mn++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7290,[N-]=[N+]=N[Ba]N=[N+]=[N-],1,inorganic (no carbon)
+7291,[N-]=[N+]=N[Pb]N=[N+]=[N-],1,inorganic (no carbon)
+7292,[Na]Br,1,inorganic (no carbon)
+7293,[Na]C#N,1,contains metal
+7294,[Na]O[As]=O,1,inorganic (no carbon)
+7295,[Na]O[Cl](=O)(=O)=O,1,inorganic (no carbon)
+7296,[Na]O[Cr](=O)(=O)O[Cr](=O)(=O)O[Na],1,inorganic (no carbon)
+7297,[Na]O[Cr](=O)(=O)O[Na],1,inorganic (no carbon)
+7298,[Na]O[Mn](=O)(=O)=O,1,inorganic (no carbon)
+7299,[Na+].[Al+3].[Ca++].[O-][Si]([O-])([O-])[O-],1,inorganic (no carbon)
+7300,[Na+].[Al+3].[O-]P([O-])([O-])=O,1,inorganic (no carbon)
+7301,[Na+].[Al+3].[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7303,[Na+].[AlH4-],1,inorganic (no carbon)
+7304,[Na+].[Cl-],1,inorganic (no carbon)
+7306,[Na+].[Na+].[H]\C(CO)=C(\C)C(=C)[C@]([H])(O)C[C@@]([H])(C)[C@@]([H])(O)[C@]([H])(CC[C@@]([H])(C)[C@@]([H])(O)[C@@]([H])(C)[C@]1([H])O[C@@]2([H])[C@@]([H])(O[C@]3([H])C[C@]4([H])O[C@]5([H])[C@@]([H])(O)[C@]6([H])O[C@]([H])([C@]([H])(O)[C@@]([H])(O)C[C@]7([H])O[C@]8([H])C[C@]9([H])O[C@@]%10([H])[C@]([H])(C[C@@]9([H])O[C@@]8([H])[C@@]([H])(O)[C@@]7([H])OS([O-])(=O)=O)O[C@@]7([H])[C@]([H])(O)[C@@]([H])(O)[C@@]([H])(O[C@]7([H])[C@]%10([H])O)[C@]7([H])O[C@@]8([H])C[C@@]([H])(O)[C@@]([H])(O[C@@]8([H])[C@]([H])(O)[C@@]7([H])O)[C@]([H])(O)C[C@@]([H])(O)C[C@]7([H])O[C@@]8([H])C[C@@]([H])(O)[C@@]([H])(O[C@@]8([H])[C@]([H])(O)[C@@]7([H])O)[C@]7([H])O[C@]8([H])[C@]([H])(O)[C@]9(C)O[C@]%10([H])CC[C@]%11(C)O[C@]%12([H])C[C@]%13([H])O[C@@]([H])(CC[C@@]%13([H])O[C@@]%12(C)C[C@@]%11([H])O[C@@]%10(C)C[C@@]9([H])O[C@@]8(C)C[C@@]7([H])O)[C@]7(C)O[C@]8(C)C[C@]9([H])O[C@]%10([H])C[C@]%11([H])O[C@]%12([H])C\C([H])=C([H])/[C@]%13([H])O[C@]%14(C)C[C@]%15(C)O[C@]%16(C)CC[C@]([H])(O[C@@]%16([H])C[C@@]%15([H])O[C@@]%14([H])C[C@@]%13([H])O[C@@]%12([H])C[C@@]%11(C)O[C@@]%10(C)CC[C@@]9(C)O[C@@]8([H])C[C@@]7([H])O)[C@@]([H])(O)[C@]([H])(O)C[C@@]([H])(C)[C@@]([H])(C)CC=C)[C@]([H])(O)C[C@@]6([H])O[C@@]5(C)C[C@@]4([H])O[C@@]3(C)C[C@@]2([H])O)[C@@]([H])(O)[C@@]1([H])O)OS([O-])(=O)=O,1,"biologic / oversized (MW=3380, heavy=234)"
+7307,[Na+].[Na+].[Na+].[Co+3].ON=O.ON=O.ON=O.ON=O.ON=O.ON=O,1,inorganic (no carbon)
+7310,[Na+].[Na+].[Na+].[O-][V]([O-])([O-])=O,1,inorganic (no carbon)
+7311,[Na+].[Na+].[Na+].[P-3],1,inorganic (no carbon)
+7312,[Na+].[Na+].[Na+].F[Al-3](F)(F)(F)(F)F,1,inorganic (no carbon)
+7314,[Na+].[Na+].[Na+].S=[Sb-3](=S)(=S)=S,1,unparseable SMILES
+7315,[Na+].[Na+].[O-][Se]([O-])(=O)=O,1,inorganic (no carbon)
+7316,[Na+].[Na+].[O-][Se]([O-])=O,1,inorganic (no carbon)
+7317,[Na+].[Na+].[O-][U](=O)(=O)O[U]([O-])(=O)=O,1,inorganic (no carbon)
+7321,[Na+].[Na+].Cl[Pd--](Cl)(Cl)Cl,1,inorganic (no carbon)
+7323,[Na+].[O-][Al]=O,1,inorganic (no carbon)
+7324,[Na+].[O-][Br](=O)=O,1,inorganic (no carbon)
+7325,[Na+].[O-][N+]([O-])=O,1,inorganic (no carbon)
+7326,[Na+].[O-][V](=O)=O,1,inorganic (no carbon)
+7328,[Na+].[O-]Cl,1,inorganic (no carbon)
+7329,[Na+].[O-]N=O,1,inorganic (no carbon)
+7338,[Na+].F[Sb-](F)(F)(F)(F)F,1,inorganic (no carbon)
+7340,[Nb++].[Nb++].[Nb++].[Sn+4],1,inorganic (no carbon)
+7341,[NH2-].[NH2-].[Cl-].[Cl-].[Pt+4],1,inorganic (no carbon)
+7342,[NH3+]O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+7343,[NH4+].[Al+3].[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7344,[NH4+].[Br-],1,inorganic (no carbon)
+7345,[NH4+].[NH4+].[O-][Cr]([O-])(=O)=O,1,inorganic (no carbon)
+7346,[NH4+].[NH4+].[O-][Cr](=O)(=O)O[Cr]([O-])(=O)=O,1,inorganic (no carbon)
+7347,[NH4+].[NH4+].[Zn++].[Zn++].[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7348,[NH4+].[NH4+].Cl[Pd--](Cl)(Cl)(Cl)(Cl)Cl,1,inorganic (no carbon)
+7349,[NH4+].[NH4+].Cl[Pd--](Cl)(Cl)Cl,1,inorganic (no carbon)
+7350,[NH4+].[NH4+].Cl[Zn--](Cl)(Cl)Cl,1,inorganic (no carbon)
+7351,[NH4+].[NH4+].O.[O--].[O--].[O--].[O--].[U],1,inorganic (no carbon)
+7352,[NH4+].[NH4+].O[As]([O-])([O-])=O,1,inorganic (no carbon)
+7353,[NH4+].[O-][Cl](=O)(=O)=O,1,inorganic (no carbon)
+7354,[NH4+].[O-][Mn](=O)(=O)=O,1,inorganic (no carbon)
+7355,[NH4+].[O-][N+]([O-])=O,1,inorganic (no carbon)
+7356,[NH4+].[O-]N=O,1,inorganic (no carbon)
+7361,[Ni].O[As](O)(O)=O,1,inorganic (no carbon)
+7362,[Ni++].[Ni++].[Ni++].[O-]P([O-])([O-])=O.[O-]P([O-])([O-])=O,1,inorganic (no carbon)
+7363,[Ni++].[O-][N+]([O-])=O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+7365,[Ni++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7366,[O]#C[Cr](C#[O])(C#[O])(C#[O])(C#[O])C#[O],1,unparseable SMILES
+7367,[O--].[Al+3].[Ti+4].[Ba++],1,inorganic (no carbon)
+7368,[O--].[Ca++].[Ti+4].[Ba++],1,inorganic (no carbon)
+7369,[O--].[O--].[Hg++].[Hg++].[Hg++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7370,[O--].[O--].[O--].[Co+3].[Co+3],1,inorganic (no carbon)
+7371,[O--].[O--].[O--].[O--].[Co++].[Co+3].[Co+3],1,inorganic (no carbon)
+7372,[O--].[O--].[O--].[O--].[Fe+3].[Fe+3].[Ba++],1,inorganic (no carbon)
+7373,[O--].[O--].[O--].[O--].[O--].[Al+3].[Al+3].[Sr++].[Sr++],1,inorganic (no carbon)
+7374,[O--].[O--].[O--].[O--].[O--].[O--].[O--].[Mn].[Mn],1,inorganic (no carbon)
+7375,[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[Al+3].[Al+3].[Mo].[Mo],1,inorganic (no carbon)
+7376,[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[Cr+3].[Cr+3].[Mo].[Mo].[Pb++].[Pb++],1,inorganic (no carbon)
+7377,[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[P-3].[P-3].[Cu++].[Cu++].[Cu++],1,inorganic (no carbon)
+7378,[O--].[O--].[O--].[Ti+4].[Ba++],1,inorganic (no carbon)
+7379,[O--].[O--].[O--].[Zr+4].[Ba++],1,inorganic (no carbon)
+7380,[O][Br]=O,1,inorganic (no carbon)
+7382,[O-][N+]#C[Hg]C#[N+][O-],1,contains metal
+7383,[O-][N+](=O)[N+]([O-])=O,1,inorganic (no carbon)
+7404,[O-][N+](=O)O[Ag],1,inorganic (no carbon)
+7405,[O-][N+](=O)O[Ba]O[N+]([O-])=O,1,inorganic (no carbon)
+7406,[O-][N+](=O)O[Be]O[N+]([O-])=O,1,inorganic (no carbon)
+7407,[O-][N+](=O)O[Cd]O[N+]([O-])=O,1,inorganic (no carbon)
+7408,[O-][N+](=O)O[Cu]O[N+]([O-])=O,1,inorganic (no carbon)
+7409,[O-][N+](=O)O[Hg]C1=CC=CC=C1,1,contains metal
+7410,[O-][N+](=O)O[Pb]O[N+]([O-])=O,1,inorganic (no carbon)
+7412,[O-][N+](=O)OCl,1,inorganic (no carbon)
+7413,[O-][N+]1=CC=CC=C1S[Zn]SC1=CC=CC=[N+]1[O-],1,contains metal
+7414,[O-][U](=O)(=O)[U](=O)(=O)[U]([O-])(=O)=O,1,inorganic (no carbon)
+7416,[O-]N(=O)=O,1,inorganic (no carbon)
+7417,[O-]N=O,1,inorganic (no carbon)
+7419,[O-]P([O-])(=O)OP([O-])([O-])=O,1,inorganic (no carbon)
+7420,[O-]S([O-])=O,1,inorganic (no carbon)
+7422,[OH-].[Cu++].[Cu++].[O-][As]([O-])([O-])=O,1,inorganic (no carbon)
+7423,[OH-].[K+].[Zn++].[Zn++].[O-][Cr]([O-])(=O)=O.[O-][Cr]([O-])(=O)=O,1,inorganic (no carbon)
+7424,[OH-].[O--].[Al+3],1,inorganic (no carbon)
+7425,[OH-].[OH-].[Ba++],1,inorganic (no carbon)
+7426,[OH-].[OH-].[Cd++],1,inorganic (no carbon)
+7427,[OH-].[OH-].[Co++],1,inorganic (no carbon)
+7428,[OH-].[OH-].[OH-].[Cl-].[Cu++].[Cu++],1,inorganic (no carbon)
+7429,[OH-].[OH-].[OH-].[OH-].[Na+].[Na+].[Zn++],1,inorganic (no carbon)
+7430,[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[K+].[Sb+5],1,inorganic (no carbon)
+7431,[OH-].[OH-].[Zn++],1,inorganic (no carbon)
+7434,[P-3].[Cu+].[Cu+].[Cu+],1,inorganic (no carbon)
+7435,[P-3].[Fe+3],1,inorganic (no carbon)
+7436,[P-3].[P-3].[Zn++].[Zn++].[Zn++],1,inorganic (no carbon)
+7437,[Pb++].[O-][Cr]([O-])(=O)=O,1,inorganic (no carbon)
+7438,[Pb++].[O-][W]([O-])(=O)=O,1,inorganic (no carbon)
+7441,[Pb++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7442,[Pb++].[O-]S([S-])(=O)=O,1,inorganic (no carbon)
+7443,[Pb++].[Pb++].[Pb++].[O-]P([O-])([O-])=O.[O-]P([O-])([O-])=O,1,inorganic (no carbon)
+7445,[Pb++].F[B-](F)(F)F.F[B-](F)(F)F,1,inorganic (no carbon)
+7446,[Pb++].O[As]([O-])([O-])=O,1,inorganic (no carbon)
+7447,[Pb++].O=[Pb].[O-][Cr]([O-])(=O)=O,1,inorganic (no carbon)
+7448,[PbH4],1,inorganic (no carbon)
+7451,[Pd++].[O-][N+]([O-])=O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+7452,[Pd++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7454,[PdH2],1,inorganic (no carbon)
+7456,[Rb+].[O-][N+]([O-])=O,1,inorganic (no carbon)
+7457,[S--].[Ba++],1,inorganic (no carbon)
+7458,[S--].[S--].[S--].[Cr+3].[Cr+3],1,inorganic (no carbon)
+7459,[S--].[S--].[Zn++].[Cd++],1,inorganic (no carbon)
+7460,[S].[Se],1,inorganic (no carbon)
+7461,[S--].[Sn],1,inorganic (no carbon)
+7463,[Sb].[Sb].[Sb].[Sb],1,inorganic (no carbon)
+7464,[Sb+3],1,inorganic (no carbon)
+7466,[SbH3],1,inorganic (no carbon)
+7467,[SbH3].[SbH3].[SbH3].SS,1,inorganic (no carbon)
+7470,[Se].[Ag].[Ag],1,inorganic (no carbon)
+7471,[Se--].[Hg++],1,inorganic (no carbon)
+7472,[Se--].[Se--].[Se--].[In+3].[In+3],1,inorganic (no carbon)
+7473,[Se].[Se].[Se].[Sb].[Sb],1,inorganic (no carbon)
+7474,[Se--].[Sn],1,inorganic (no carbon)
+7475,[Se]=[As][Se][As]=[Se],1,inorganic (no carbon)
+7476,[Se]=[Cd],1,inorganic (no carbon)
+7477,[Se]=[Mn]=[Se],1,inorganic (no carbon)
+7478,[Se]=[Pb],1,inorganic (no carbon)
+7480,[Se]1[Sb][Se][Sb]1,1,inorganic (no carbon)
+7482,[SeH2],1,inorganic (no carbon)
+7483,[Sn].[Te--],1,inorganic (no carbon)
+7484,[Sn++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7485,[Sn++].F[B-](F)(F)F.F[B-](F)(F)F,1,inorganic (no carbon)
+7486,[Sn+4],1,inorganic (no carbon)
+7488,[SnH4],1,inorganic (no carbon)
+7489,[Sr++].[O-][Br](=O)=O,1,inorganic (no carbon)
+7490,[Sr++].[O-][Cr]([O-])(=O)=O,1,inorganic (no carbon)
+7491,[Sr++].[O-][N+]([O-])=O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+7492,[Te]=[Hg],1,inorganic (no carbon)
+7493,[Te]=[Pb],1,inorganic (no carbon)
+7494,[Tl+].[Tl+].[O-][Se]([O-])=O,1,inorganic (no carbon)
+7497,[V].[V].[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7498,[Zn].[SbH3],1,inorganic (no carbon)
+7499,[Zn].[Zn].O[Si](O)(O)O,1,inorganic (no carbon)
+7500,[Zn].OO,1,inorganic (no carbon)
+7501,[Zn]=[As][Zn][As]=[Zn],1,inorganic (no carbon)
+7502,[Zn]=[Se],1,inorganic (no carbon)
+7503,[Zn]=[Te],1,inorganic (no carbon)
+7504,[Zn++].[O-][Cr](=O)(=O)O[Cr]([O-])(=O)=O,1,inorganic (no carbon)
+7505,[Zn++].[O-]B([O-])[O-],1,inorganic (no carbon)
+7507,[Zn++].[O-]N(=O)=O.[O-]N(=O)=O,1,inorganic (no carbon)
+7508,[Zn++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+7510,[Zn++].[O-]S(=O)S([O-])=O,1,inorganic (no carbon)
+7512,[Zn++].[Zn++].[O-]P([O-])([S-])=S.[O-]P([O-])([S-])=S,1,inorganic (no carbon)
+7513,[Zn++].[Zn++].[O-]P([O-])(=O)OP([O-])([O-])=O,1,inorganic (no carbon)
+7514,[Zn++].[Zn++].[Zn++].[O-][As]([O-])([O-])=O.[O-][As]([O-])([O-])=O,1,inorganic (no carbon)
+7515,[Zn++].[Zn++].[Zn++].[O-]P([O-])([O-])=O.[O-]P([O-])([O-])=O,1,inorganic (no carbon)
+7519,B#[Al],1,inorganic (no carbon)
+7520,B#[As],1,inorganic (no carbon)
+7521,B#[U]#B,1,inorganic (no carbon)
+7522,B#P,1,inorganic (no carbon)
+7523,Br.Br.Br.Br.[Br-].[Nb],1,inorganic (no carbon)
+7524,Br.Br.Br.Br.O=[W],1,inorganic (no carbon)
+7525,Br[Ag],1,inorganic (no carbon)
+7526,Br[Al](Br)Br,1,inorganic (no carbon)
+7527,Br[As](Br)Br,1,inorganic (no carbon)
+7528,Br[Au](Br)Br,1,inorganic (no carbon)
+7529,Br[Ba]Br,1,inorganic (no carbon)
+7530,Br[Be]Br,1,inorganic (no carbon)
+7531,Br[Ce](Br)Br,1,inorganic (no carbon)
+7532,Br[Co]Br,1,inorganic (no carbon)
+7533,Br[Cs],1,inorganic (no carbon)
+7534,Br[Ga](Br)Br,1,inorganic (no carbon)
+7535,Br[Hg].Br[Hg],1,inorganic (no carbon)
+7536,Br[Hg]Br,1,inorganic (no carbon)
+7537,Br[In](Br)Br,1,inorganic (no carbon)
+7538,Br[La](Br)Br,1,inorganic (no carbon)
+7539,Br[Mn]Br,1,inorganic (no carbon)
+7540,Br[Ni]Br,1,inorganic (no carbon)
+7541,Br[Pb]Br,1,inorganic (no carbon)
+7542,Br[Rb],1,inorganic (no carbon)
+7544,Br[Sb](Br)Br,1,inorganic (no carbon)
+7545,Br[Se](Br)=O,1,inorganic (no carbon)
+7546,Br[Si](Br)(Br)Br,1,inorganic (no carbon)
+7547,Br[Sn](Br)(Br)Br,1,inorganic (no carbon)
+7548,Br[Sn]Br,1,inorganic (no carbon)
+7549,Br[Ta](Br)(Br)(Br)Br,1,inorganic (no carbon)
+7550,Br[Te](Br)(Br)Br,1,inorganic (no carbon)
+7551,Br[Te]Br,1,inorganic (no carbon)
+7552,Br[Ti](Br)(Br)Br,1,inorganic (no carbon)
+7553,Br[Tl],1,inorganic (no carbon)
+7554,Br[V](Br)Br,1,inorganic (no carbon)
+7555,Br[W](Br)(Br)(Br)Br,1,inorganic (no carbon)
+7556,Br[Y](Br)Br,1,inorganic (no carbon)
+7557,Br[Yb](Br)Br,1,inorganic (no carbon)
+7558,Br[Zn]1C[Zn]C[Zn](Br)[O]11CCCC1,1,unparseable SMILES
+7655,BrC1=CC=C(C=C1)[Sb](C1=CC=C(Br)C=C1)C1=CC=C(Br)C=C1,1,contains metal
+7708,BrP(Br)Br,1,inorganic (no carbon)
+7709,BrS(Br)=O,1,inorganic (no carbon)
+7717,C[Al](C)C,1,contains metal
+7718,C[Al]1[Br][Al](C)(C)(Br)[Br]1,1,unparseable SMILES
+7719,C[As](C)(=O)O[Fe](O[As](C)(C)=O)O[As](C)(C)=O,1,contains metal
+7720,C[As](C)(=O)O[Na],1,contains metal
+7728,C[As](O)(=O)O[Na],1,contains metal
+7736,C[Hg]\N=C(/N)NC#N,1,contains metal
+7737,C[Hg]C,1,contains metal
+7738,C[Hg]Cl,1,contains metal
+7739,C[Hg+],1,contains metal
+7743,C[Pb](C)(C)C,1,contains metal
+7744,C[Sb](C)(C)(Br)Br,1,contains metal
+7745,C[Sb](C)(C)(Cl)Cl,1,contains metal
+7746,C[Sb](C)(C)(F)Cl,1,contains metal
+7747,C[Sb](C)(C)(I)I,1,contains metal
+7750,C[Sn](C)(C)C,1,contains metal
+7751,C[Sn](C)(C)Cl,1,contains metal
+7752,C[Sn](C)(Cl)Cl,1,contains metal
+7753,C[Sn](Cl)(Cl)Cl,1,contains metal
+7754,C[Zn]C,1,contains metal
+7763,C1(CC[C@@]2([C@@H](CC(N)=O)[C@@]3([C@@]4([N+]5=C([C@H]([C@@]4(CC(N)=O)C)CCC(N)=O)C(C)=C4[N+]6=C(C=C7[N+]8=C([C@H](C7(C)C)CCC(N)=O)C(C)=C2N3[Co-3]568([N+]2=CN([C@H]3O[C@@H]([C@@H](OP(O[C@@H](CN1)C)([O-])=O)[C@H]3O)CO)C1=CC(C)=C(C=C21)C)C)[C@H]([C@@]4(CC(N)=O)C)CCC(N)=O)C)[H])C)=O,1,contains metal
+7766,C1=CC=C(C=C1)[Sb](C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+7767,C1=CC=C(C=C1)[Sn+](C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+7768,C1=CC=C(C=C1)[SnH](C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+7770,C1=CC=C(C=C1)P(C1=CC=CC=C1)(C1=CC=CC=C1)[Pd](P(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)(P(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)P(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+7794,C1=CC2=CC=CC([Sb](C3=CC=CC4=CC=CC=C34)C3=C4C=CC=CC4=CC=C3)=C2C=C1,1,contains metal
+7805,C1CCC(CC1)[Sn](C1CCCCC1)(C1CCCCC1)N1C=NC=N1,1,contains metal
+7819,CC(=O)\C=C(\C)O[Cr](O\C(C)=C/C(C)=O)O\C(C)=C/C(C)=O,1,contains metal
+7820,CC(=O)\C=C(\C)O[Cu]O\C(C)=C\C(C)=O,1,contains metal
+7821,CC(=O)\C=C(\C)O[Pd][O]=[C](C)=CC(C)=O,1,unparseable SMILES
+7840,CC(=O)O[Ag],1,contains metal
+7841,CC(=O)O[Al](O)OC(C)=O,1,contains metal
+7842,CC(=O)O[Al](OC(C)=O)OC(C)=O,1,contains metal
+7843,CC(=O)O[Be]OC(C)=O,1,contains metal
+7844,CC(=O)O[Cr](OC(C)=O)OC(C)=O,1,contains metal
+7845,CC(=O)O[Cr]OC(C)=O,1,contains metal
+7846,CC(=O)O[Cu]OC(C)=O,1,contains metal
+7847,CC(=O)O[Hg],1,contains metal
+7848,CC(=O)O[Hg]C1=CC=CC=C1,1,contains metal
+7849,CC(=O)O[Hg]OC(C)=O,1,contains metal
+7850,CC(=O)O[Mn]OC(C)=O,1,contains metal
+7851,CC(=O)O[Pb]OCC=O,1,contains metal
+7852,CC(=O)O[Pd]OC(C)=O,1,contains metal
+7853,CC(=O)O[Sb](OC(C)=O)(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+7915,CC(C)[Zn]C(C)C,1,contains metal
+7947,CC(C)C[Al](CC(C)C)CC(C)C,1,contains metal
+7948,CC(C)C[Al](Cl)CC(C)C,1,contains metal
+7949,CC(C)C[AlH]CC(C)C,1,contains metal
+7966,CC(C)C1N=C(O)C(CCCCN)N=C(O)C(CC2=CNC3=CC=CC=C23)N=C(O)C(CC2=CC=C(O)C=C2)N=C(O)C(CSSCC(N=C1O)C(O)=NC(CC1=CC2=CC=CC=C2N1)C(O)=N)N=C(O)C(N)CC1=CC=CC=C1,1,"biologic / oversized (MW=1131, heavy=80)"
+7978,CC(C)CC(N=C(O)C(CC1=CC2=CC=CC=C2C=C1)N=C(O)C(CC1=CC=C(O)C=C1)N=C(O)C(CO)N=C(O)C(CC1=CNC2=CC=CC=C12)N=C(O)C(CC1=CN=CN1)N=C(O)C1CCC(O)=N1)C(O)=NC(CCCNC(N)=N)C(=O)N1CCCC1C(O)=NCC(O)=N,1,"biologic / oversized (MW=1322, heavy=96)"
+7987,CC(C)CCCCCOC(=O)CS[Sn](C)(C)SCC(=O)OCCCCCC(C)C,1,contains metal
+7988,CC(C)CCCCCOC(=O)CS[Sn](C)(SCC(=O)OCCCCCC(C)C)SCC(=O)OCCCCCC(C)C,1,contains metal
+8006,CC(C)O[Sb](OC(C)C)OC(C)C,1,contains metal
+8036,CC(O)C(=O)O[Al](OC(=O)C(C)O)OC(=O)C(C)O,1,contains metal
+8037,CC(O)C(=O)O[Cd]OC(=O)C(C)O,1,contains metal
+8038,CC(O)C(=O)O[Cu]OCC(O)C=O,1,contains metal
+8056,CC[Al](CC)CC,1,contains metal
+8057,CC[Al](Cl)CC,1,contains metal
+8058,CC[Al](Cl)Cl,1,contains metal
+8059,CC[Al]1(Cl)[Cl][Al](CC)(CC)[Cl]1,1,unparseable SMILES
+8062,CC[Hg]CC,1,contains metal
+8063,CC[Hg]Cl,1,contains metal
+8064,CC[Hg]OP(O)(O)=O,1,contains metal
+8065,CC[Hg]SC1=CC=CC=C1C(=O)O[Na],1,contains metal
+8068,CC[Pb](C)(C)C,1,contains metal
+8069,CC[Pb](C)(C)CC,1,contains metal
+8070,CC[Pb](C)(CC)CC,1,contains metal
+8071,CC[Pb](CC)(CC)CC,1,contains metal
+8072,CC[Sn](Br)(CC)CC,1,contains metal
+8073,CC[Sn](CC)(CC)CC,1,contains metal
+8074,CC[Zn]CC,1,contains metal
+8146,CC1=CC=C(C=C1)[Sb](C1=CC=C(C)C=C1)C1=CC=C(C)C=C1,1,contains metal
+8161,CC1=CC=CC=C1[Sb](C1=CC=CC=C1C)C1=CC=CC=C1C,1,contains metal
+8199,CC1CC(O)=[O][Al+3]234(O1)OC(C)CC(O)=[O]2.CC(CC(O)=[O]3)O4,1,unparseable SMILES
+8211,CC1O[V]2(=O)(OC(C)C=C(C)O2)OC(C)=C1,1,contains metal
+8258,CCC(C)CCCCC(O)=NC(CCN)C(O)=NC(C(C)O)C(O)=NC(CCN)C(O)=NC1CCN=C(O)C(N=C(O)C(CCN)N=C(O)C(CCN)N=C(O)C(CC(C)C)N=C(O)C(CC2=CC=CC=C2)N=C(O)C(CCN)N=C1O)C(C)O,1,"biologic / oversized (MW=1203, heavy=85)"
+8263,CCC(C)O[Al](OC(C)CC)OC(C)CC,1,contains metal
+8301,CCC1CCC(CCC(=O)O[Cu]OC(=O)CCC2CCC(C)C2)C1,1,contains metal
+8322,CCCC(CC)CC(=O)O[Cd]OC(=O)CC(CC)CCC,1,contains metal
+8327,CCCC[Al](CCCC)CCCC,1,contains metal
+8328,CCCC[Sb](Br)(Br)(CCCC)CCCC,1,contains metal
+8329,CCCC[Sb](Br)(CCCC)(CCCC)CCCC,1,contains metal
+8330,CCCC[Sn](=O)CCCC,1,contains metal
+8331,CCCC[Sn](CCCC)(CCCC)CCCC,1,contains metal
+8332,CCCC[Sn](CCCC)(CCCC)O[Sn](CCCC)(CCCC)CCCC,1,contains metal
+8333,CCCC[Sn](CCCC)(CCCC)OC(=O)C(C)=C,1,contains metal
+8334,CCCC[Sn](CCCC)(OC(C)=O)OC(C)=O,1,contains metal
+8335,CCCC[Sn](Cl)(CCCC)CCCC,1,contains metal
+8336,CCCC[Sn](Cl)(Cl)CCCC,1,contains metal
+8337,CCCC[Sn](Cl)(Cl)Cl,1,contains metal
+8338,CCCC[Sn+3],1,contains metal
+8339,CCCC[SnH](CCCC)CCCC,1,contains metal
+8340,CCCC[SnH2]CCCC,1,contains metal
+8341,CCCC[SnH3],1,contains metal
+8362,CCCCC(CC)C(=O)O[Co]OC(=O)C(CC)CCCC,1,contains metal
+8379,CCCCCC[Al](CCCCCC)CCCCCC,1,contains metal
+8389,CCCCCCCC[Al](CCCCCCCC)CCCCCCCC,1,contains metal
+8390,CCCCCCCC[Sn](CCCCCCCC)(CCCCCCCC)CCCCCCCC,1,contains metal
+8391,CCCCCCCC[Sn](CCCCCCCC)CCCCCCCC,1,contains metal
+8392,CCCCCCCC[Sn](Cl)(CCCCCCCC)CCCCCCCC,1,contains metal
+8393,CCCCCCCC[Sn](Cl)(Cl)CCCCCCCC,1,contains metal
+8394,CCCCCCCC[Sn](Cl)(Cl)Cl,1,contains metal
+8395,CCCCCCCC\C=C/CCCCCCCC(=O)O[Hg]OC(=O)CCCCCCC\C=C/CCCCCCCC,1,contains metal
+8396,CCCCCCCC\C=C/CCCCCCCC(=O)O[Zn]OC(=O)CCCCCCC\C=C/CC[Zn]CCCCC,1,contains metal
+8397,CCCCCCCC\C=C\CCCCCCCC(=O)O[Al](OC(=O)CCCCCCC\C=C\CCCCCCCC)OC(=O)CCCCCCC\C=C\CCCCCCCC,1,contains metal
+8402,CCCCCCCCCC[Al](CCCCCCCCCC)CCCCCCCCCC,1,contains metal
+8405,CCCCCCCCCCCC(=O)N(C)CC(=O)O[Na],1,contains metal
+8407,CCCCCCCCCCCC(=O)O[Sn](CCCC)(CCCC)OC(=O)CCCCCCCCCCC,1,contains metal
+8409,CCCCCCCCCCCC[Al](CCCCCCCCCCCC)CCCCCCCCCCCC,1,contains metal
+8412,CCCCCCCCCCCCCC(=O)N(C)CC(=O)O[Na],1,contains metal
+8415,CCCCCCCCCCCCCC[Al](CCCCCCCCCCCCCC)CCCCCCCCCCCCCC,1,contains metal
+8418,CCCCCCCCCCCCCCCC(=O)O[Al](OC(=O)CCCCCCCCCCCCCCC)OC(=O)CCCCCCCCCCCCCCC,1,contains metal
+8421,CCCCCCCCCCCCCCCC[Al](CCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCC,1,contains metal
+8424,CCCCCCCCCCCCCCCCCC(=O)O[Pb]OC(=O)CCCCCCCCCCCCCCCCC,1,contains metal
+8426,CCCCCCCCCCCCCCCCCCCC[Al](CCCCCCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCC,1,contains metal
+8447,CCCCN(CCCC)C(=S)S[Ni]SC(=S)N(CCCC)CCCC,1,contains metal
+8494,CCN(CC)C(=S)S[Zn]SC(=S)N(CC)CC,1,contains metal
+8523,CCO[Al](OCC)OCC,1,contains metal
+8524,CCO[Sb](OCC)OCC,1,contains metal
+8563,CCOCC[Hg]O,1,contains metal
+8597,Cl[Ag],1,inorganic (no carbon)
+8598,Cl[Al](Cl)Cl,1,inorganic (no carbon)
+8600,Cl[As](Cl)(Cl)(Cl)Cl,1,inorganic (no carbon)
+8602,Cl[As](Cl)Cl,1,inorganic (no carbon)
+8604,Cl[Ba]Cl,1,inorganic (no carbon)
+8605,Cl[Be]Cl,1,inorganic (no carbon)
+8607,Cl[Cr](Cl)(=O)=O,1,inorganic (no carbon)
+8608,Cl[Cr]Cl,1,inorganic (no carbon)
+8609,Cl[Cu],1,inorganic (no carbon)
+8610,Cl[Hg].Cl[Hg],1,inorganic (no carbon)
+8611,Cl[Hg]C1=CC=CC=C1,1,contains metal
+8612,Cl[Hg]Cl,1,inorganic (no carbon)
+8613,Cl[NH2+][Hg++],1,inorganic (no carbon)
+8614,Cl[Ni]Cl,1,inorganic (no carbon)
+8615,Cl[Pb]Cl,1,inorganic (no carbon)
+8616,Cl[Pd](Cl)(P(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)P(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+8617,Cl[Pd]Cl,1,inorganic (no carbon)
+8619,Cl[PdH2](Cl)(Cl)Cl,1,inorganic (no carbon)
+8620,Cl[Sb](Cl)(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+8621,Cl[Sb](Cl)(CC1=CC=CC=C1)(CC1=CC=CC=C1)CC1=CC=CC=C1,1,contains metal
+8624,Cl[Sb](Cl)(Cl)(Cl)Cl,1,inorganic (no carbon)
+8625,Cl[Sb](Cl)Cl,1,inorganic (no carbon)
+8626,Cl[Se](Cl)(Cl)Cl,1,inorganic (no carbon)
+8627,Cl[Se](Cl)=O,1,inorganic (no carbon)
+8628,Cl[Sn](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+8629,Cl[U](Cl)(Cl)Cl,1,inorganic (no carbon)
+8630,Cl[U](Cl)Cl,1,inorganic (no carbon)
+8631,Cl[V](Cl)(Cl)=O,1,inorganic (no carbon)
+8632,Cl[V](Cl)(Cl)Cl,1,inorganic (no carbon)
+8633,Cl[V](Cl)Cl,1,inorganic (no carbon)
+8634,Cl[V]Cl,1,inorganic (no carbon)
+9041,I[Al](I)I,1,inorganic (no carbon)
+9042,I[As](I)I,1,inorganic (no carbon)
+9043,I[Ba]I,1,inorganic (no carbon)
+9044,I[Be]I,1,inorganic (no carbon)
+9045,I[Co]I,1,inorganic (no carbon)
+9046,I[Hg].I[Hg],1,inorganic (no carbon)
+9047,I[Hg]I,1,inorganic (no carbon)
+9048,I[Ni]I,1,inorganic (no carbon)
+9049,I[Pb]I,1,inorganic (no carbon)
+9050,I[Pd]I,1,inorganic (no carbon)
+9051,I[Sn](I)(I)I,1,inorganic (no carbon)
+9052,I[Sn]I,1,inorganic (no carbon)
+9053,I[V](I)I,1,inorganic (no carbon)
+9054,N#[Al],1,inorganic (no carbon)
+9055,N#[Cr],1,inorganic (no carbon)
+9056,N#[O+].F[Sb-](F)(F)(F)(F)F,1,inorganic (no carbon)
+9057,N#[U],1,inorganic (no carbon)
+9058,N#[V],1,inorganic (no carbon)
+9061,N#C[Ca]C#N,1,contains metal
+9062,N#C[Co]C#N,1,contains metal
+9063,N#C[Hg]C#N,1,contains metal
+9064,N#C[Ni]C#N,1,contains metal
+9076,N#CS[Pb]SC#N,1,contains metal
+9082,N.N.[Ce+4].O[N+]([O-])=O.O[N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+9083,N.N.[Cl-].[Cl-].[Pd++],1,inorganic (no carbon)
+9085,N.N.[Ni++].OS(O)(=O)=O.[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+9086,N.N.[Pd].ON=O.ON=O,1,inorganic (no carbon)
+9087,N.N.N.N.[Cu++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+9088,N.N.N.N.Cl[Pd]Cl,1,inorganic (no carbon)
+9089,N.N.N.N.N.N.[Cl-].[Cl-].[Cl-].[Co+3],1,inorganic (no carbon)
+9090,N.N.N.N.OC(=O)O[Pd]OC(O)=O,1,contains metal
+9091,N.O[V](=O)=O,1,inorganic (no carbon)
+9093,N[Pd](N)(Cl)Cl,1,inorganic (no carbon)
+9132,NC1=CC=C(C=C1)[As](O)(=O)O[Na],1,contains metal
+9163,NN,1,inorganic (no carbon)
+9169,NS(=O)(=O)O[Co]OS(N)(=O)=O,1,inorganic (no carbon)
+9170,NS(=O)(=O)O[Ni]OS(N)(=O)=O,1,inorganic (no carbon)
+9171,O([Al](OC1=C2N=CC=CC2=CC=C1)OC1=C2N=CC=CC2=CC=C1)C1=C2N=CC=CC2=CC=C1,1,contains metal
+9173,O([Pd]OC(\C=C\C1=CC=CC=C1)\C=C\C1=CC=CC=C1)C(\C=C\C1=CC=CC=C1)\C=C\C1=CC=CC=C1,1,contains metal
+9174,O.[Co+3].[H][C@@](C)(CN=C(O)CC[C@@]1(C)C2=N[C@]([H])([C@]1([H])CC([O-])=N)[C@]1(C)NC(=C(C)C3=NC(=CC4=NC(=C2C)[C@@]([H])(CCC([O-])=N)C4(C)C)[C@@]([H])(CCC([O-])=N)[C@]3(C)CC(O)=N)[C@@]([H])(CCC([O-])=N)[C@]1(C)CC(O)=N)OP(O)(=O)O[C@]1([H])[C@@]([H])(CO)O[C@]([H])([N+]2=CNC3=C2C=C(C)C(C)=C3)[C@]1([H])O,1,"biologic / oversized (MW=1269, heavy=90)"
+9175,O.[Cu].[Y].[Ba],1,inorganic (no carbon)
+9176,O.[K+].[K+].[K+].[Co+3].[O-]N=O.[O-]N=O.[O-]N=O.[O-]N=O.[O-]N=O.[O-]N=O,1,inorganic (no carbon)
+9177,O.[Mg++].[Mg++].[Mg++].O[Si]([O-])([O-])[O-].O[Si]([O-])([O-])[O-],1,inorganic (no carbon)
+9178,O.[Ni],1,inorganic (no carbon)
+9179,O.[Pb],1,inorganic (no carbon)
+9181,O.CCCCCCCCCCCCCCCCCC(=O)O[Al]OC(=O)CCCCCCCCCCCCCCCCC,1,contains metal
+9182,O.O.[Al+].[Al+].[O-][Si]([O-])=O,1,inorganic (no carbon)
+9184,O.O.[Ca++].[O-][Cr]([O-])(=O)=O,1,inorganic (no carbon)
+9187,O.O.[OH-].[OH-].[Cr].[Ba++],1,inorganic (no carbon)
+9188,O.O.[OH-].[OH-].[Cr].[Ni++],1,inorganic (no carbon)
+9189,O.O.[OH-].[OH-].[Cr].[Zn++],1,inorganic (no carbon)
+9190,O.O.[OH-].[OH-].[Zn++].[Mo],1,inorganic (no carbon)
+9191,O.O.[U],1,inorganic (no carbon)
+9192,O.O.[U].OO,1,inorganic (no carbon)
+9193,O.O.CCCCCCCCCCCCCCCCCC(=O)O[Al],1,contains metal
+9194,O.O.O.[Al],1,inorganic (no carbon)
+9195,O.O.O.[Al].[Al],1,inorganic (no carbon)
+9196,O.O.O.[Co],1,inorganic (no carbon)
+9197,O.O.O.[K+].[K+].[O-]C(=O)C1O[Sb]2OC(C(O[Sb]3OC1C(=O)O3)C([O-])=O)C(=O)O2,1,contains metal
+9200,O.O.O.O.[OH-].[OH-].[Cr].[Zn++],1,inorganic (no carbon)
+9201,O.O.O.O.[Sr++].[O-][As]=O.[O-][As]=O,1,inorganic (no carbon)
+9202,O.O.O.O.O.O.[Cr+3].[Cr+3].[Cr+3].[O-]S([O-])(=O)=O.[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+9203,O[AlH]Cl,1,inorganic (no carbon)
+9207,O[As](O)(=O)C1=CC=CC=C1NN=C1C(=O)C(=CC2=CC(=CC=C12)S(=O)(=O)O[Na])S(=O)(=O)O[Na],1,contains metal
+9208,O[As](O)(=O)O[K],1,inorganic (no carbon)
+9209,O[As](O)(=O)O[Na],1,inorganic (no carbon)
+9210,O[As](O)(O)=O,1,inorganic (no carbon)
+9211,O[As](O)O,1,inorganic (no carbon)
+9213,O[Cr](=O)(=O)O[Fe](O[Cr](O)(=O)=O)O[Cr](O)(=O)=O,1,inorganic (no carbon)
+9214,O[Cr](O)(=O)=O,1,inorganic (no carbon)
+9215,O[Cr](O)O,1,inorganic (no carbon)
+9216,O[Cr].O[Cu].O[2AsH2],1,inorganic (no carbon)
+9217,O[Cu]O,1,inorganic (no carbon)
+9218,O[Hg]C1=C2OC3=CC(=O)C(Br)=CC3=C(C2=CC(Br)=C1O[Na])C1=CC=CC=C1C(=O)O[Na],1,contains metal
+9219,O[N+]([O-])=O,1,inorganic (no carbon)
+9220,O[N+](=O)O[Hg],1,inorganic (no carbon)
+9221,O[N+](=O)O[Hg+],1,inorganic (no carbon)
+9222,O[Ni]O,1,inorganic (no carbon)
+9223,O[Pb]O,1,inorganic (no carbon)
+9224,O[Pb]O.[O-]C(=O)O[Pb+].[O-]C(=O)O[Pb+],1,contains metal
+9225,O[Pb]O.O[Pb]O.CC(=O)O[Pb]OC(C)=O,1,contains metal
+9226,O[Sb](Cl)(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+9227,O[Se](O)(=O)=O,1,inorganic (no carbon)
+9228,O[Se](O)=O,1,inorganic (no carbon)
+9229,O[Sn](C1CCCCC1)(C1CCCCC1)C1CCCCC1,1,contains metal
+9230,O[Sn]O,1,inorganic (no carbon)
+9231,O=[Ag],1,inorganic (no carbon)
+9232,O=[Al]O[Al]=O,1,inorganic (no carbon)
+9233,O=[As](=O)O[As](=O)=O,1,inorganic (no carbon)
+9234,O=[As]O[Pb]O[As]=O,1,inorganic (no carbon)
+9235,O=[As]O[Zn]O[As]=O,1,inorganic (no carbon)
+9236,O=[Ba],1,inorganic (no carbon)
+9237,O=[Br](=O)O[Ba]O[Br](=O)=O,1,inorganic (no carbon)
+9238,O=[Cl](=O)(=O)O[Ba]O[Cl](=O)(=O)=O,1,inorganic (no carbon)
+9239,O=[Cl](=O)(=O)O[Pb]O[Cl](=O)(=O)=O,1,inorganic (no carbon)
+9240,O=[Cl](=O)O[Ba]O[Cl](=O)=O,1,inorganic (no carbon)
+9241,O=[Cl](=O)O[Pb]O[Cl](=O)=O,1,inorganic (no carbon)
+9242,O=[Co],1,inorganic (no carbon)
+9243,O=[Cr],1,inorganic (no carbon)
+9244,O=[Cr](=O)=O,1,inorganic (no carbon)
+9245,O=[Cr]=O,1,inorganic (no carbon)
+9246,O=[Cr]O[Cr]=O,1,inorganic (no carbon)
+9247,O=[Cu],1,inorganic (no carbon)
+9248,O=[Cu].O=[Cu].O=[Cr]O[Cr]=O,1,inorganic (no carbon)
+9249,O=[Hg],1,inorganic (no carbon)
+9250,O=[Mn],1,inorganic (no carbon)
+9251,O=[Mn](=O)(=O)O[Ba]O[Mn](=O)(=O)=O,1,inorganic (no carbon)
+9252,O=[Mn](=O)(=O)O[Ca]O[Mn](=O)(=O)=O,1,inorganic (no carbon)
+9253,O=[Mn](=O)(=O)O[Zn]O[Mn](=O)(=O)=O,1,inorganic (no carbon)
+9254,O=[Mn]=O,1,inorganic (no carbon)
+9255,O=[Mn]O[Mn]=O,1,inorganic (no carbon)
+9256,O=[N+]=O.F[Sb-](F)(F)(F)(F)F,1,inorganic (no carbon)
+9257,O=[Ni],1,inorganic (no carbon)
+9258,O=[O+].F[Sb-](F)(F)(F)(F)F,1,inorganic (no carbon)
+9259,O=[Pb],1,inorganic (no carbon)
+9260,O=[Pb]=O,1,inorganic (no carbon)
+9261,O=[Pd],1,inorganic (no carbon)
+9262,O=[Sb](=O)O[Sb](=O)=O,1,inorganic (no carbon)
+9263,O=[Sb]O[Sb]=O,1,inorganic (no carbon)
+9264,O=[Se](=O)=O,1,inorganic (no carbon)
+9265,O=[Se]=O,1,inorganic (no carbon)
+9266,O=[Sn],1,inorganic (no carbon)
+9267,O=[Sn]=O,1,inorganic (no carbon)
+9268,O=[U]=O,1,inorganic (no carbon)
+9269,O=[U]=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O,1,inorganic (no carbon)
+9270,O=[U]=O.CC(=O)O[Zn](OC(C)=O)(OC(C)=O)OC(C)=O,1,contains metal
+9272,O=[U++]=O.[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+9273,O=[V],1,inorganic (no carbon)
+9274,O=[V](=O)O[V](=O)=O,1,inorganic (no carbon)
+9275,O=[V]=O,1,inorganic (no carbon)
+9276,O=[V]O[V]=O,1,inorganic (no carbon)
+9277,O=[V++].[O-]S([O-])(=O)=O,1,inorganic (no carbon)
+9278,O=[Zn],1,inorganic (no carbon)
+9280,O=C(CCCC1CCCCC1)O[Cd]OC(=O)CCCC1CCCCC1,1,contains metal
+9281,O=C(O[Co]OC(=O)C1=CC=C2C=CC=CC2=C1)C1=CC=C2C=CC=CC2=C1,1,contains metal
+9282,O=C(O[Cr](OC(=O)C1=CC=CC=N1)OC(=O)C1=CC=CC=N1)C1=CC=CC=N1,1,contains metal
+9283,O=C(O[Hg]OC(=O)C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+9284,O=C(O[Sb](OC(=O)C1=CC=CC=C1)(C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+9296,O=C1O[Pb]OC1=O,1,contains metal
+9301,O=CO[Co]OC=O,1,contains metal
+9302,O=CO[Ni]OC=O,1,contains metal
+9306,O1[As]2O[As]1O2,1,inorganic (no carbon)
+9309,O1OO1,1,inorganic (no carbon)
+9310,OB(O)O,1,inorganic (no carbon)
+9311,OB(O)O[Hg]C1=CC=CC=C1,1,contains metal
+9432,OC1=CC=C(C=C1)S(=O)(=O)O[Zn]OS(=O)(=O)C1=CC=C(O)C=C1,1,contains metal
+9494,OCC1OC2OC3C(CO)OC(OC4C(CO)OC(OC5C(CO)OC(OC6C(CO)OC(OC7C(CO)OC(OC8C(CO)OC(OC9C(CO)OC(OC1C(O)C2O)C(O)C9O)C(O)C8O)C(O)C7O)C(O)C6O)C(O)C5O)C(O)C4O)C(O)C3O,1,"biologic / oversized (MW=1297, heavy=88)"
+9512,OP(O)(O)=O,1,inorganic (no carbon)
+9515,OS(F)(=O)=O.F[Sb](F)(F)(F)F,1,inorganic (no carbon)
+9516,OS(O)(=O)=O,1,inorganic (no carbon)
+9517,P#[Ga],1,inorganic (no carbon)
+9518,P#[In],1,inorganic (no carbon)
+9519,P#[Ti],1,inorganic (no carbon)
+9520,S([Sb](SC1=CC=CC=C1)SC1=CC=CC=C1)C1=CC=CC=C1,1,contains metal
+9521,S.S.S.S.S.[As].[As],1,inorganic (no carbon)
+9522,S[As],1,inorganic (no carbon)
+9523,S=[Ag],1,inorganic (no carbon)
+9524,S=[Co],1,inorganic (no carbon)
+9525,S=[Cu],1,inorganic (no carbon)
+9526,S=[Hg],1,inorganic (no carbon)
+9527,S=[Mn],1,inorganic (no carbon)
+9528,S=[Ni],1,inorganic (no carbon)
+9529,S=[Ni][Ni][Ni]=S,1,inorganic (no carbon)
+9530,S=[Pb],1,inorganic (no carbon)
+9531,S=[Sb](=S)[Sb](=S)=S,1,inorganic (no carbon)
+9532,S=[Sb]S[Sb]=S,1,inorganic (no carbon)
+9533,S=[SbH],1,inorganic (no carbon)
+9534,S=[Se],1,inorganic (no carbon)
+9535,S=[Se]=S,1,inorganic (no carbon)
+9536,S=[Sn]=S,1,inorganic (no carbon)
+9537,S=[Zn],1,inorganic (no carbon)
+9541,S1[As]2S[As]3S[As]1S[As](S2)S3,1,inorganic (no carbon)
+9551,[O-]S(=O)(=O)[O-].[Zn+2],0,inorganic (no carbon)
+9554,CC1C(=O)NC(C(=O)NC2CSSCC3C(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(CSSCC(C(=O)NC(CSSCC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NCC(=O)N1)CCCCN)CCCCN)N)C(=O)NC(C(=O)NCC(=O)NC(C(=O)N3)CO)C(C)O)NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC2=O)CO)CCCNC(=N)N)CC(C)C)CCSC)CC4=CC=C(C=C4)O)CC(=O)O)C(=O)N)CCCCN)CO)CCCNC(=N)N)CCCCN,0,"biologic / oversized (MW=2639, heavy=177)"
+9563,[Xe],0,inorganic (no carbon)
+9567,CCC(C)C1C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NCC(=O)NC(CSSCC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCNC(=N)N)CC(=O)O)CC(C)C)CCCCN)CC(C)C)CC2=CC=CC=C2)NC(=O)CNC(=O)C(CCCCN)NC(=O)C(CO)NC(=O)C(CC(C)C)NC(=O)CNC(=O)C(CCCCN)NC(=O)C(CCCCN)NC(=O)C(CC(=O)N)NC(=O)C(C)NC(=O)CNC(=O)C(CCCCN)NC(=O)C(CC3=CC=C(C=C3)O)NC(=O)C(CCCCN)NC(=O)C(CCCNC(=N)N)NC(=O)C(C)NC(=O)C(CC(=O)N)NC(=O)C4CCCN4C(=O)C(CC5=CN=CN5)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)N)NC(=O)CNC(=O)C6CCCN6)C(=O)O)CC(C)C)CO)CCSC)CO,0,"biologic / oversized (MW=4103, heavy=286)"
+9572,CCC1C(=O)N(CC(=O)N(C(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)NC(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N1)C(C(C)CC=CC=C)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)CC(C)C)C)C,0,"biologic / oversized (MW=1215, heavy=86)"
+9577,CC1=CN(C(=O)NC1=O)C2CN(CC(O2)COP(=O)(N3CC(OC(C3)N4C=C(C(=O)NC4=O)C)COP(=O)(N5CC(OC(C5)N6C=NC7=C6N=C(NC7=O)N)COP(=O)(N8CC(OC(C8)N9C=C(C(=O)NC9=O)C)COP(=O)(N1CC(OC(C1)N1C=NC2=C1N=C(NC2=O)N)COP(=O)(N1CC(OC(C1)N1C=NC2=C1N=C(NC2=O)N)COP(=O)(N1CC(OC(C1)N1C=NC2=C(N=CN=C21)N)COP(=O)(N1CC(OC(C1)N1C=NC2=C(N=CN=C21)N)COP(=O)(N1CC(OC(C1)N1C=NC2=C1N=C(NC2=O)N)COP(=O)(N1CC(OC(C1)N1C=C(C(=O)NC1=O)C)COP(=O)(N1CC(OC(C1)N1C=CC(=NC1=O)N)COP(=O)(N1CC(OC(C1)N1C=C(C(=O)NC1=O)C)COP(=O)(N1CC(OC(C1)N1C=C(C(=O)NC1=O)C)COP(=O)(N1CC(OC(C1)N1C=NC2=C1N=C(NC2=O)N)COP(=O)(N1CC(OC(C1)N1C=NC2=C1N=C(NC2=O)N)COP(=O)(N1CC(OC(C1)N1C=CC(=NC1=O)N)COP(=O)(N1CC(OC(C1)N1C=CC(=NC1=O)N)COP(=O)(N1CC(OC(C1)N1C=C(C(=O)NC1=O)C)COP(=O)(N1CC(OC(C1)N1C=CC(=NC1=O)N)COP(=O)(N1CC(OC(C1)N1C=CC(=NC1=O)N)CO)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)N(C)C)P(=O)(N(C)C)OCC1CNCC(O1)N1C=CC(=NC1=O)N,0,"biologic / oversized (MW=6925, heavy=465)"
+9592,CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,0,"biologic / oversized (MW=1449, heavy=101)"
+9631,CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)N1CCCC1C(=O)NCC(=O)N)NC(=O)C(CC2=CNC3=CC=CC=C32)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CC7=CN=CN7)NC(=O)C8CCC(=O)N8,0,"biologic / oversized (MW=1311, heavy=95)"
+9692,O=[Ti]=O,0,inorganic (no carbon)
+9693,CCC(C)C(C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CCCCN)C(=O)NC(C)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC2=CNC3=CC=CC=C32)C(=O)NC(CC(C)C)C(=O)NC(C(C)CC)C(=O)NC(C)C(=O)NCC(=O)NCC(=O)N4CCCC4C(=O)NC(CO)C(=O)NC(CO)C(=O)NCC(=O)NC(C)C(=O)N5CCCC5C(=O)N6CCCC6C(=O)N7CCCC7C(=O)NC(CO)C(=O)N)NC(=O)C(CCCCNC(=O)CCCCCCCCCCCCCCCCCCC(=O)NC(CCC(=O)NCCOCCOCC(=O)NCCOCCOCC(=O)O)C(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(C)(C)NC(=O)C(C(C)CC)NC(=O)C(CO)NC(=O)C(CC8=CC=C(C=C8)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC9=CC=CC=C9)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(C)(C)NC(=O)C(CC1=CC=C(C=C1)O)N,0,"biologic / oversized (MW=4814, heavy=341)"
+9735,CCC=CCC(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(C)C(=O)NC(CC(=O)O)C(=O)NC(C)C(=O)NC(C(C)CC)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CCSC)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(C)C)C(=O)N,0,"biologic / oversized (MW=5136, heavy=361)"
+9736,CCC(C)C(C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CCSC)C(=O)NC(CC1=CNC=N1)C(=O)NC(CC(=O)N)C(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CCCCN)C(=O)NC(CC2=CNC=N2)C(=O)NC(CC(C)C)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CCSC)C(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(C(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)C)C(=O)NC(CC5=CNC=N5)C(=O)NC(CC(=O)N)C(=O)NC(CC6=CC=CC=C6)C(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)C)NC(=O)C(CO)N,0,"biologic / oversized (MW=4118, heavy=289)"
+9748,CN1CC(C2=C(C1)C(=CC(=C2)Cl)Cl)C3=CC(=CC=C3)S(=O)(=O)NCCOCCOCCNC(=O)NCCCCNC(=O)NCCOCCOCCNS(=O)(=O)C4=CC=CC(=C4)C5CN(CC6=C5C=C(C=C6Cl)Cl)C,0,"biologic / oversized (MW=1145, heavy=74)"
+9754,CCCCCCCCCCNCCNC1(CC(OC(C1O)C)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C(=C(C=C9C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)O)CNCP(=O)(O)O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)C,0,"biologic / oversized (MW=1756, heavy=121)"
+9757,CCC(C)C(C(=O)NC(C(C)O)C(=O)NC(CC(=O)O)C(=O)O)NC(=O)C(CCCCN)NC(=O)C(C(C)O)NC(=O)C(CCC(=O)N)NC(=O)C(C(C)CC)NC(=O)C(CC(C)C)NC(=O)C(CC1=CNC2=CC=CC=C21)NC(=O)C(CC(=O)N)NC(=O)C(C(C)CC)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CC(=O)O)NC(=O)C(CCCNC(=N)N)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CC(C)C)NC(=O)C(CC(=O)N)NC(=O)C(CC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(C(C)CC)NC(=O)C(C(C)O)NC(=O)C(CC(=O)N)NC(=O)C(CCSC)NC(=O)C(CCC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(CC4=CC=CC=C4)NC(=O)C(CO)NC(=O)CNC(=O)C(CC(=O)O)NC(=O)CNC(=O)C(CC5=CN=CN5)N,0,"biologic / oversized (MW=3752, heavy=264)"
+9774,O[Si](=O)[O-].O[Si](=O)[O-].[O-][Si](=O)[O-].[O-][Si](=O)[O-].[Mg+2].[Mg+2].[Mg+2],0,inorganic (no carbon)
+9790,[S],0,inorganic (no carbon)
+9815,C(C1C(C(C(C(O1)OC2(C(C(C(O2)COS(=O)(=O)O[Al])OS(=O)(=O)O[Al])OS(=O)(=O)O[Al])COS(=O)(=O)O[Al])OS(=O)(=O)O[Al])OS(=O)(=O)O[Al])OS(=O)(=O)O[Al])OS(=O)(=O)O[Al].O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Al],0,contains metal
+9830,C(CCCCCCCC1=NNN=N1)CCCCCCCC(=O)NS(=O)(=O)CCCC(=O)NCCOCCOCC(=O)NC(CCC(=O)NC(CCC(=O)NCCOCCOCC(=O)NC(CCCCNC(=O)CSCC(C(=O)O)N)C(=O)N)C(=O)O)C(=O)O,0,"biologic / oversized (MW=1311, heavy=89)"
+9835,[O-]P(=O)([O-])[O-].[Na+].[Na+].[Na+],0,inorganic (no carbon)
+9836,[O-]S(=O)(=O)[O-].[Na+].[Na+],0,inorganic (no carbon)
+9838,OP(=O)([O-])[O-].[Na+].[Na+],0,inorganic (no carbon)
+9839,[Na+].[I-],0,inorganic (no carbon)
+9841,[O-][Se](=O)(=O)[O-].[Na+].[Na+],0,inorganic (no carbon)
+9842,[F-].[Na+],0,inorganic (no carbon)
+9846,[O-]P(=O)([O-])F.[Na+].[Na+],0,inorganic (no carbon)
+9847,[O-][Cr](=O)(=O)[O-].[Na+].[Na+],0,inorganic (no carbon)
+9850,[O-]S(=O)(=S)[O-].[Na+].[Na+],0,inorganic (no carbon)
+9852,[O-]P(=O)([O-])OP(=O)([O-])[O-].[Na+].[Na+].[Na+].[Na+],0,inorganic (no carbon)
+9853,[O-]Cl.[Na+],0,inorganic (no carbon)
+9855,[OH-].[Na+],0,inorganic (no carbon)
+9856,N(=O)[O-].[Na+],0,inorganic (no carbon)
+9864,CSCCC(C(=O)NCC(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CCSC)C(=O)NC(CC(=O)O)C(=O)NC(CC3=CC=CC=C3)C(=O)N)NC(=O)C(CC4=CC=C(C=C4)OS(=O)(=O)O)NC(=O)C(CC(=O)O)N,0,"biologic / oversized (MW=1143, heavy=78)"
+9866,[N+](=O)([O-])[O-].[Ag+],0,inorganic (no carbon)
+9868,O=[Si]=O,0,inorganic (no carbon)
+9874,CC1C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(C(=O)N1)NC(=O)C(CCCN=C(N)N)NC(=O)C)C(=O)N)CC2=CNC3=CC=CC=C32)CCCN=C(N)N)CC4=CC=CC=C4)CC5=CN=CN5,0,"biologic / oversized (MW=1117, heavy=78)"
+9879,CC(C)CC(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)O)NC(=O)C2CCCN2C(=O)C(CC3=CC=CC=C3)NC(=O)C(C)NC(=O)C(CCC(=O)O)NC(=O)C(C)NC(=O)C(CO)NC(=O)C(CCC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(C)NC(=O)CNC(=O)C(CC(=O)N)NC(=O)C4CCCN4C(=O)C(CC5=CC=C(C=C5)O)NC(=O)C(C(C)C)NC(=O)C(CCCCN)NC(=O)C(C(C)C)NC(=O)C6CCCN6C(=O)C(CCCNC(=N)N)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCCCN)NC(=O)C(CCCCN)NC(=O)CNC(=O)C(C(C)C)NC(=O)C7CCCN7C(=O)C(CCCCN)NC(=O)CNC(=O)C(CC8=CNC9=CC=CC=C98)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC1=CC=CC=C1)NC(=O)C(CC1=CNC=N1)NC(=O)C(CCC(=O)O)NC(=O)C(CCSC)NC(=O)C(CO)NC(=O)C(CC1=CC=C(C=C1)O)NC(=O)C(CO)N,0,"biologic / oversized (MW=4541, heavy=322)"
+9881,CCC(C)C(C(=O)NC(C)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)O)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CCC(=O)O)NC(=O)C(CCCCNC(=O)COCCOCCNC(=O)COCCOCCNC(=O)CCC(C(=O)O)NC(=O)CCCCCCCCCCCCCCCCC(=O)O)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CCC(=O)N)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(C(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(C)(C)NC(=O)C(CC6=CN=CN6)N,0,"biologic / oversized (MW=4114, heavy=291)"
+9887,CC(C)CC(C(=O)NC(C(C)C)C(=O)N)NC(=O)CNC(=O)C(CCC(=O)N)NC(=O)C(CC(C)C)NC(=O)C(CC(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCC(=O)N)NC(=O)C(CC(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(C)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(CO)NC(=O)C(CC(C)C)NC(=O)C(CCC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC1=CC=CC=C1)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(CC2=CN=CN2)N,0,"biologic / oversized (MW=3039, heavy=214)"
+9905,[Cl-].[Rb+],0,inorganic (no carbon)
+10022,CCC(C)C(C(=O)NC(CC(C)C)C(=O)N1CCCC1C(=O)N2CCCC2C(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(C(C)C)C(=O)NCC(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(C(C)O)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)N)NC(=O)C4CCCN4C(=O)CNC(=O)C(CC5=CC=CC=C5)NC(=O)C(CC(=O)N)NC(=O)C(CC(=O)N)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(CC6=CNC=N6)NC(=O)C(C(C)C)NC(=O)C(CC(C)C)NC(=O)C(CC7=CC=CC=C7)NC(=O)C(CC(=O)N)NC(=O)C(C)NC(=O)C(CC(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCC(=O)N)NC(=O)C(C(C)O)NC(=O)C(C)NC(=O)C8CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N8)C(C)O)C)C(C)O)CC(=O)N)NC(=O)C(CCCCN)N,0,"biologic / oversized (MW=3949, heavy=277)"
+10027,[N+](=O)([O-])[O-].[K+],0,inorganic (no carbon)
+10028,OP(=O)([O-])[O-].[K+].[K+],0,inorganic (no carbon)
+10031,[O-]Cl(=O)(=O)=O.[K+],0,inorganic (no carbon)
+10032,OP(=O)(O)[O-].[K+],0,inorganic (no carbon)
+10034,[K+].[I-],0,inorganic (no carbon)
+10048,CC1C(=O)NC2CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(NC(=O)CNC(=O)C(NC2=O)C(C)O)C(=O)NC(CC(C)C)C(=O)O)C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)C(C)C)CC(=O)N)C(C)C)CC(C)C)CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CC(=O)N)N,0,"biologic / oversized (MW=1682, heavy=113)"
+10068,CC(C(C(=O)N1CCCC1C2=NC3=C(N2)C=C(C(=C3)F)C4CCC(N4C5=CC(=C(C(=C5)F)N6CCC(CC6)C7=CC=C(C=C7)F)F)C8=CC9=C(C=C8F)N=C(N9)C1CCCN1C(=O)C(C(C)OC)NC(=O)OC)NC(=O)OC)OC,0,"biologic / oversized (MW=1113, heavy=80)"
+10150,CCC(C)C1C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(C(=O)NC(C(=O)N1)CC2=CC=C(C=C2)O)N)C(=O)N3CCCC3C(=O)NC(CC(C)C)C(=O)NCC(=O)N)CC(=O)N)CCC(=O)N,0,"biologic / oversized (MW=1007, heavy=69)"
+10182,CC1C(C(CC(O1)OC2C3C(=O)NC(C4=C(C(=CC(=C4)O)O)C5=C(C=CC(=C5)C(C(=O)N3)NC(=O)C6C7=CC(=C(C(=C7)OC8=C(C=C2C=C8)Cl)OC9C(C(C(C(O9)CO)O)O)OC1CC(C(C(O1)C)O)(C)NCC1=CC=C(C=C1)C1=CC=C(C=C1)Cl)OC1=C(C=C(C=C1)C(C(C(=O)NC(C(=O)N6)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)O)C(=O)O)(C)N)O,0,"biologic / oversized (MW=1793, heavy=125)"
+10205,CC1=CN(C(=O)NC1=O)C2C(C(C(O2)CO)OP(=S)(O)OCC3C(C(C(O3)N4C=C(C(=NC4=O)N)C)OCCOC)OP(=S)(O)OCC5C(C(C(O5)N6C=NC7=C(N=CN=C76)N)OCCOC)OP(=S)(O)OCC8C(C(C(O8)N9C=C(C(=NC9=O)N)C)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=C(C(=O)NC1=O)C)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=C(C(=O)NC1=O)C)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=C(C(=O)NC1=O)C)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=C(C(=NC1=O)N)C)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=NC2=C(N=CN=C21)N)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=C(C(=O)NC1=O)C)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=NC2=C(N=CN=C21)N)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=NC2=C(N=CN=C21)N)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=C(C(=O)NC1=O)C)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=NC2=C1N=C(NC2=O)N)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=C(C(=NC1=O)N)C)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=C(C(=O)NC1=O)C)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=NC2=C1N=C(NC2=O)N)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=NC2=C1N=C(NC2=O)N)OCCOC)O)OCCOC,0,"biologic / oversized (MW=7127, heavy=457)"
+10215,[N-]=[N+]=O,0,inorganic (no carbon)
+10218,[N]=O,0,inorganic (no carbon)
+10240,CCC(C)C1C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NCC(=O)NC(CSSCC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCNC(=N)N)CC(=O)O)CCSC)CCCCN)CCCNC(=N)N)CC2=CC=CC=C2)NC(=O)CNC(=O)C(CO)NC(=O)CNC(=O)C(CCC(=O)N)NC(=O)C(C(C)C)NC(=O)C(CCSC)NC(=O)C(CCCCN)NC(=O)C3CCCN3C(=O)C(CO)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC4=CN=CN4)C(=O)O)CC(C)C)CO)CO)CO)CO,0,"biologic / oversized (MW=3464, heavy=239)"
+10264,CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)N1CCCC1C(=O)NCC(=O)N)NC(=O)C(CC2=CC3=CC=CC=C3C=C2)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CC7=CN=CN7)NC(=O)C8CCC(=O)N8,0,"biologic / oversized (MW=1322, heavy=96)"
+10283,C[N+]1(CCC2=CC(=C(C=C2C1CC3=CC(=C(C(=C3)OC)OC)OC)OC)OC)CCCOC(=O)CCC=CCCC(=O)OCCC[N+]4(CCC5=CC(=C(C=C5C4CC6=CC(=C(C(=C6)OC)OC)OC)OC)OC)C,0,"biologic / oversized (MW=1029, heavy=74)"
+10291,CC1=CN(C(=O)NC1=O)C2CC(C(O2)COP(=S)(O)OC3CC(OC3COP(=S)(O)OC4CC(OC4COP(=S)(O)OC5CC(OC5COP(=S)(O)OC6CC(OC6COP(=S)(O)OC7CC(OC7COP(=S)(O)OC8CC(OC8COP(=S)(O)OC9CC(OC9COP(=S)(O)OC1CC(OC1COP(=S)(O)OC1C(OC(C1OCCOC)N1C=C(C(=NC1=O)N)C)COP(=S)(O)OC1C(OC(C1OCCOC)N1C=C(C(=O)NC1=O)C)COP(=S)(O)OC1C(OC(C1OCCOC)N1C=C(C(=NC1=O)N)C)COP(=S)(O)OC1C(OC(C1OCCOC)N1C=C(C(=NC1=O)N)C)COP(=S)(O)OC1C(OC(C1OCCOC)N1C=NC2=C1N=C(NC2=O)N)CO)N1C=NC2=C(N=CN=C21)N)N1C=NC2=C1N=C(NC2=O)N)N1C=C(C(=O)NC1=O)C)N1C=C(C(=NC1=O)N)C)N1C=C(C(=O)NC1=O)C)N1C=NC2=C1N=C(NC2=O)N)N1C=C(C(=NC1=O)N)C)N1C=C(C(=O)NC1=O)C)OP(=S)(O)OCC1C(CC(O1)N1C=C(C(=NC1=O)N)C)OP(=S)(O)OCC1C(C(C(O1)N1C=NC2=C1N=C(NC2=O)N)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=C(C(=NC1=O)N)C)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=NC2=C(N=CN=C21)N)OCCOC)OP(=O)(OCC1C(C(C(O1)N1C=C(C(=NC1=O)N)C)OCCOC)OP(=S)(O)OCC1C(C(C(O1)N1C=C(C(=NC1=O)N)C)OCCOC)O)S,0,"biologic / oversized (MW=7177, heavy=457)"
+10305,CCCCCOC1=CC=C(C=C1)C2=CC(=NO2)C3=CC=C(C=C3)C(=O)NC4CC(C(NC(=O)C5C(C(CN5C(=O)C(NC(=O)C(NC(=O)C6CC(CN6C(=O)C(NC4=O)C(C)O)O)C(C(C7=CC(=C(C=C7)O)OS(=O)(=O)O)O)O)C(CC(=O)N)O)C)O)O)O,0,"biologic / oversized (MW=1270, heavy=89)"
+10359,CCN(CC)CCOC(=O)C1=CC=C(C=C1)N.COCCOC(CNC(=O)C1=CC=CC=C1OCC(=O)O)C[Hg+].[OH-],0,contains metal
+10396,[O-]S(=O)(=O)[O-].[Mn+2],0,inorganic (no carbon)
+10397,O.O.O.O.[Cl-].[Cl-].[Mn+2],0,inorganic (no carbon)
+10404,O=[Mg],0,inorganic (no carbon)
+10405,[Mg+2].[Cl-].[Cl-],0,inorganic (no carbon)
+10406,[O-]S(=O)(=O)[O-].[Mg+2],0,inorganic (no carbon)
+10407,[OH-].[OH-].[Mg+2],0,inorganic (no carbon)
+10408,[O-2].[O-2].[O-2].[Mg+2].[Si+4],0,inorganic (no carbon)
+10415,C1CC(N(C1)C(=O)C2CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N2)CC(=O)N)CCC(=O)N)CC3=CC=CC=C3)CC4=CC=C(C=C4)O)N)C(=O)NC(CCCCN)C(=O)NCC(=O)N,0,"biologic / oversized (MW=1056, heavy=73)"
+10417,C1CC(CCC1CNC(=O)CN2CCN(CCN(CCN(CC2)CC(=O)[O-])CC(=O)[O-])CC(=O)[O-])C(=O)NC(CC3=CC4=CC=CC=C4C=C3)C(=O)NCCCCC(C(=O)O)NC(=O)NC(CCC(=O)O)C(=O)O.[Lu+3],0,"biologic / oversized (MW=1039, heavy=74)"
+10426,CC(C)CC(C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)O)NC(=O)C(CCCCN)N.CC(=O)O,0,"biologic / oversized (MW=2469, heavy=174)"
+10474,CCNC(=O)C1CCCN1C(=O)C(CCCN=C(N)N)NC(=O)C(CC(C)C)NC(=O)C(CC(C)C)NC(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CO)NC(=O)C(CC3=CNC4=CC=CC=C43)NC(=O)C(CC5=CN=CN5)NC(=O)C6CCC(=O)N6,0,"biologic / oversized (MW=1209, heavy=87)"
+10526,[Fe],0,inorganic (no carbon)
+10530,CC(=O)N(C)C1=C(C(=C(C(=C1I)C(=O)NCC(=O)NC2=C(C(=C(C(=C2I)C(=O)O)I)C(=O)NCCO)I)I)C(=O)NC)I,0,"biologic / oversized (MW=1269, heavy=43)"
+10532,CN(C1=C(C(=C(C(=C1I)C(=O)NC(CO)C(CO)O)I)C(=O)NC(CO)C(CO)O)I)C(=O)CC(=O)N(C)C2=C(C(=C(C(=C2I)C(=O)NC(CO)C(CO)O)I)C(=O)NC(CO)C(CO)O)I,0,"biologic / oversized (MW=1626, heavy=67)"
+10541,C1=C(C(=C(C(=C1I)NC(=O)CCOCCOCCOCCOCCC(=O)NC2=C(C=C(C(=C2I)C(=O)O)I)I)I)C(=O)O)I,0,"biologic / oversized (MW=1288, heavy=44)"
+10542,CC(=O)N(CC(CN(C1=C(C(=C(C(=C1I)C(=O)NCC(CO)O)I)C(=O)NCC(CO)O)I)C(=O)C)O)C2=C(C(=C(C(=C2I)C(=O)NCC(CO)O)I)C(=O)NCC(CO)O)I,0,"biologic / oversized (MW=1550, heavy=62)"
+10546,C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)COC3(C(C(C(O3)CO)O)O)COC4(C(C(C(O4)CO)O)O)COC5(C(C(C(O5)CO)O)O)COC6(C(C(C(O6)CO)O)O)COC7(C(C(C(O7)CO)O)O)COC8(C(C(C(O8)CO)O)O)COC9(C(C(C(O9)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)COC1(C(C(C(O1)CO)O)O)CO)O)O)O)O,0,"biologic / oversized (MW=6179, heavy=419)"
+10548,CCC(C)C(C(=O)NC(C(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)N)C(=O)NC1CSSCC2C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)CNC(=O)C(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N2)C(C)C)CO)C)NC1=O)NC(=O)C(CC(C)C)NC(=O)C(CC3=CNC=N3)NC(=O)C(CCC(=O)N)NC(=O)C(CC(=O)N)NC(=O)C(C(C)C)NC(=O)C(CC4=CC=CC=C4)N)CO)CC5=CNC=N5)CC(C)C)C(C)C)CCC(=O)O)C)CC(C)C)CC6=CC=C(C=C6)O)CC(C)C)C(C)C)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CC7=CC=CC=C7)C(=O)NC(CC8=CC=CC=C8)C(=O)NC(CC9=CC=C(C=C9)O)C(=O)NC(C(C)O)C(=O)N1CCCC1C(=O)NC(CCCCN)C(=O)NC(C)C(=O)O)C(=O)NC(CC(=O)N)C(=O)O)CC1=CC=C(C=C1)O)CC(=O)N)CCC(=O)O)CC(C)C)CCC(=O)N)CC1=CC=C(C=C1)O)CC(C)C)CO)NC(=O)CN,0,"biologic / oversized (MW=5734, heavy=400)"
+10549,CCC(C)C1C(=O)NC2CSSCC(C(=O)NC(CSSCC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC2=O)CO)CC(C)C)CC3=CC=C(C=C3)O)CCC(=O)N)CC(C)C)CCC(=O)O)CC(=O)N)CC4=CC=C(C=C4)O)C(=O)NC(CC(=O)N)C(=O)O)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CC5=CC=CC=C5)C(=O)NC(CC6=CC=CC=C6)C(=O)NC(CC7=CC=C(C=C7)O)C(=O)NC(C(C)O)C(=O)N8CCCC8C(=O)NC(CCCCNC(=O)CCC(C(=O)O)NC(=O)CCCCCCCCCCCCCCC(=O)O)C(=O)O)C(C)C)CC(C)C)CC9=CC=C(C=C9)O)CC(C)C)C)CCC(=O)O)C(C)C)CC(C)C)CC2=CNC=N2)CO)NC(=O)C(CC(C)C)NC(=O)C(CC2=CNC=N2)NC(=O)C(CCC(=O)N)NC(=O)C(CC(=O)N)NC(=O)C(C(C)C)NC(=O)C(CC2=CC=CC=C2)N)C(=O)NC(C(=O)NC(C(=O)N1)CO)C(C)O)NC(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)O)NC(=O)C(C(C)C)NC(=O)C(C(C)CC)NC(=O)CN,0,"biologic / oversized (MW=6104, heavy=426)"
+10550,CCC(C)C1C(=O)NC2CSSCC(C(=O)NC(CSSCC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC2=O)CO)CC(C)C)CC3=CC=C(C=C3)O)CCC(=O)N)CC(C)C)CCC(=O)O)CC(=O)N)CC4=CC=C(C=C4)O)C(=O)NC(CC(=O)N)C(=O)O)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CC5=CC=CC=C5)C(=O)NC(CC6=CC=CC=C6)C(=O)NC(CC7=CC=C(C=C7)O)C(=O)NC(C(C)O)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)NC(C(C)O)C(=O)O)C(C)C)CC(C)C)CC8=CC=C(C=C8)O)CC(C)C)C)CCC(=O)O)C(C)C)CC(C)C)CC9=CNC=N9)CO)NC(=O)C(CC(C)C)NC(=O)C(CC2=CNC=N2)NC(=O)C(CCC(=O)N)NC(=O)C(CC(=O)N)NC(=O)C(C(C)C)NC(=O)C(CC2=CC=CC=C2)N)C(=O)NC(C(=O)NC(C(=O)N1)CO)C(C)O)NC(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)O)NC(=O)C(C(C)C)NC(=O)C(C(C)CC)NC(=O)CN,0,"biologic / oversized (MW=5826, heavy=406)"
+10551,CCC(C)C1C(=O)NC2CSSCC(C(=O)NC(CSSCC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC2=O)CO)CC(C)C)CC3=CC=C(C=C3)O)CCC(=O)N)CC(C)C)CCC(=O)O)CC(=O)N)CC4=CC=C(C=C4)O)C(=O)NC(CC(=O)N)C(=O)O)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CC5=CC=CC=C5)C(=O)NC(CC6=CC=CC=C6)C(=O)NC(CC7=CC=C(C=C7)O)C(=O)NC(C(C)O)C(=O)N8CCCC8C(=O)NC(CCCCN)C(=O)NC(C(C)O)C(=O)O)C(C)C)CC(C)C)CC9=CC=C(C=C9)O)CC(C)C)C)CCC(=O)O)C(C)C)CC(C)C)CC2=CNC=N2)CO)NC(=O)C(CC(C)C)NC(=O)C(CC2=CNC=N2)NC(=O)C(CCC(=O)N)NC(=O)C(CC(=O)N)NC(=O)C(C(C)C)NC(=O)C(CC2=CC=CC=C2)N)C(=O)NC(C(=O)NC(C(=O)N1)CO)C(C)O)NC(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)O)NC(=O)C(C(C)C)NC(=O)C(C(C)CC)NC(=O)CN,0,"biologic / oversized (MW=5808, heavy=405)"
+10552,CCCCCCCCCCCCCC(=O)NCCCCC(C(=O)O)NC(=O)C1CCCN1C(=O)C(C(C)O)NC(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CC4=CC=CC=C4)NC(=O)CNC(=O)C(CCCNC(=N)N)NC(=O)C(CCC(=O)O)NC(=O)CNC(=O)C5CSSCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C6CSSCC(C(=O)NC(CSSCC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N5)C(C)C)CC(C)C)CC7=CC=C(C=C7)O)CC(C)C)C)CCC(=O)O)C(C)C)CC(C)C)CC8=CNC=N8)CO)NC(=O)C(CC(C)C)NC(=O)C(CC9=CNC=N9)NC(=O)C(CCC(=O)N)NC(=O)C(CC(=O)N)NC(=O)C(C(C)C)NC(=O)C(CC1=CC=CC=C1)N)C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N6)C(C)CC)CO)C(C)O)NC(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)O)NC(=O)C(C(C)C)NC(=O)C(C(C)CC)NC(=O)CN)CO)CC(C)C)CC1=CC=C(C=C1)O)CCC(=O)N)CC(C)C)CCC(=O)O)CC(=O)N)CC1=CC=C(C=C1)O)C(=O)NC(CC(=O)N)C(=O)O,0,"biologic / oversized (MW=5917, heavy=413)"
+10563,CC(=O)NC1C(C(C(OC1OCCCCC(=O)NCCCNC(=O)CCOCC(COCCC(=O)NCCCNC(=O)CCCCOC2C(C(C(C(O2)CO)O)O)NC(=O)C)(COCCC(=O)NCCCNC(=O)CCCCOC3C(C(C(C(O3)CO)O)O)NC(=O)C)NC(=O)CCCCCCCCCCC(=O)N4CC(CC4COP(=O)(O)O)O)CO)O)O,0,"biologic / oversized (MW=1807, heavy=124)"
+10587,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.CC(=O)[O-].[Co+2],0,"biologic / oversized (MW=1270, heavy=90)"
+10590,OO,0,inorganic (no carbon)
+10591,F,0,inorganic (no carbon)
+10607,CCNC(=O)C1CCCN1C(=O)C(CCCN=C(N)N)NC(=O)C(CC(C)C)NC(=O)C(CC2=CN(C=N2)CC3=CC=CC=C3)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CC7=CN=CN7)NC(=O)C8CCC(=O)N8,0,"biologic / oversized (MW=1324, heavy=96)"
+10616,CC(=O)NC1C(C(C(OC1O)COS(=O)(=O)O)OC2C(C(C(C(O2)C(=O)O)OC3C(C(C(C(O3)CO)OC4C(C(C(C(O4)C(=O)O)O)O)OS(=O)(=O)O)OS(=O)(=O)O)NS(=O)(=O)O)O)OS(=O)(=O)O)O,0,"biologic / oversized (MW=1135, heavy=70)"
+10617,[He],0,inorganic (no carbon)
+10633,CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)N1CCCC1C(=O)NNC(=O)N)NC(=O)C(COC(C)(C)C)NC(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CO)NC(=O)C(CC3=CNC4=CC=CC=C43)NC(=O)C(CC5=CN=CN5)NC(=O)C6CCC(=O)N6,0,"biologic / oversized (MW=1269, heavy=91)"
+10634,CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)N1CCCC1C(=O)NCC(=O)N)NC(=O)CNC(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CO)NC(=O)C(CC3=CNC4=CC=CC=C43)NC(=O)C(CC5=CN=CN5)NC(=O)C6CCC(=O)N6,0,"biologic / oversized (MW=1182, heavy=85)"
+10648,[Zn+2].[Zn+2].[Zn+2].[Zn+2],0,inorganic (no carbon)
+10649,CC(C)CC(C(=O)NC(CCSC)C(=O)NC(CC(=O)N)C(=O)NC(C(C)O)C(=O)O)NC(=O)C(CC1=CNC2=CC=CC=C21)NC(=O)C(CCC(=O)N)NC(=O)C(C(C)C)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CC(=O)O)NC(=O)C(CCC(=O)N)NC(=O)C(C)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCCNC(=N)N)NC(=O)C(CO)NC(=O)C(CC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CCCCN)NC(=O)C(CO)NC(=O)C(CC5=CC=C(C=C5)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC6=CC=CC=C6)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)N)NC(=O)C(CO)NC(=O)C(CC7=CN=CN7)N,0,"biologic / oversized (MW=3483, heavy=246)"
+10655,CC1CC(CN1C(=O)CCCCCCCCCCC(=O)NC(COCCC(=O)NCCCNC(=O)CCCCOC2C(C(C(C(O2)CO)O)O)NC(=O)C)(COCCC(=O)NCCCNC(=O)CCCCOC3C(C(C(C(O3)CO)O)O)NC(=O)C)COCCC(=O)NCCCNC(=O)CCCCOC4C(C(C(C(O4)CO)O)O)NC(=O)C)O,0,"biologic / oversized (MW=1711, heavy=119)"
+10663,CCNC(=NCCCCC(C(=O)NC(CC(C)C)C(=O)NC(CCCCN=C(NCC)NCC)C(=O)N1CCCC1C(=O)NC(C)C(=O)N)NC(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CO)NC(=O)C(CC3=CN=CC=C3)NC(=O)C(CC4=CC=C(C=C4)Cl)NC(=O)C(CC5=CC6=CC=CC=C6C=C5)NC(=O)C)NCC,0,"biologic / oversized (MW=1570, heavy=112)"
+10667,CC(C1C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCCN)CC2=CNC3=CC=CC=C32)CC4=CC=C(C=C4)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)CN6CCN(CCN(CCN(CC6)CC(=O)[O-])CC(=O)[O-])CC(=O)[O-])C(=O)NC(C(C)O)C(=O)O)O.[Ga+3],0,"biologic / oversized (MW=1433, heavy=100)"
+10668,[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.O.O.O.[Ga+3],0,inorganic (no carbon)
+10669,CC(C1C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCCN)CC2=CNC3=CC=CC=C32)CC4=CC=C(C=C4)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)CN6CCN(CCN(CCN(CC6)CC(=O)[O-])CC(=O)[O-])CC(=O)[O-])C(=O)NC(CO)C(C)O)O.[Ga+3],0,"biologic / oversized (MW=1419, heavy=99)"
+10696,COC1C(C(C(C(O1)COS(=O)(=O)O)OC2C(C(C(C(O2)C(=O)O)OC3C(C(C(C(O3)COS(=O)(=O)O)OC4C(C(C(C(O4)C(=O)O)OC5C(C(C(C(O5)COS(=O)(=O)O)O)O)NS(=O)(=O)O)O)O)OS(=O)(=O)O)NS(=O)(=O)O)O)OS(=O)(=O)O)O)NS(=O)(=O)O,0,"biologic / oversized (MW=1508, heavy=91)"
+10746,O[Fe]=O.O[Fe]=O.[Fe],0,inorganic (no carbon)
+10748,[O-]S(=O)(=O)[O-].[Fe+2],0,inorganic (no carbon)
+10751,O.O.O.[Fe].[Fe],0,inorganic (no carbon)
+10752,[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[Fe+3].[Fe+3],0,inorganic (no carbon)
+10791,CC(C(=O)NC(CCCN=C(N)N)C(=O)N)NC(=O)C(CCCN=C(N)N)NC(=O)C(CCCN=C(N)N)NC(=O)C(CCCN=C(N)N)NC(=O)C(C)NC(=O)C(CSSCC(C(=O)O)N)NC(=O)C,0,"biologic / oversized (MW=1048, heavy=71)"
+10827,CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(C)C(=O)NC(CO)C(=O)NC(CC(C)C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC(=O)N)C(=O)NC(CC5=CNC6=CC=CC=C65)C(=O)NC(CC7=CC=CC=C7)C(=O)N)NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C(CC8=CN=CN8)NC(=O)C(C(C)CC)NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC9=CC=C(C=C9)O)NC(=O)C,0,"biologic / oversized (MW=4492, heavy=319)"
+10872,C[N+]1(CCC2=CC(=C(C(=C2C1CC3=CC(=C(C(=C3)OC)OC)OC)OC)OC)OC)CCCOC(=O)CCC(=O)OCCC[N+]4(CCC5=CC(=C(C(=C5C4CC6=CC(=C(C(=C6)OC)OC)OC)OC)OC)OC)C,0,"biologic / oversized (MW=1035, heavy=74)"
+10952,C1CC(N(C1)C(=O)C2CSSCCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N2)CC(=O)N)CCC(=O)N)CC3=CC=CC=C3)CC4=CC=C(C=C4)O)C(=O)NC(CCCN=C(N)N)C(=O)NCC(=O)N,0,"biologic / oversized (MW=1069, heavy=74)"
+10955,CCC(C)C1C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC2C(=O)NCC(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(CSSCC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)N2)C(C)C)CC(=O)N)CO)CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C3CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)N3)CC(C)C)CC(=O)N)CCC(=O)N)CO)CCC(=O)O)C(C)O)NC(=O)C(CC(=O)O)NC(=O)C(C(C)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(C(C)C)NC(=O)C(C(C)C)N)C(=O)N1)CCCCN)CC(=O)N)CCC(=O)N)C(=O)NC(C(C)C)C(=O)NC(C(C)O)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NCC(=O)NC(C(C)O)C(=O)N5CCCC5C(=O)NC(CCCCN)C(=O)N6CCCC6C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC7=CN=CN7)C(=O)NC(CC(=O)N)C(=O)NC(CC(=O)O)C(=O)NCC(=O)NC(CC(=O)O)C(=O)NC(CC8=CC=CC=C8)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)CC)C(=O)N9CCCC9C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)O)CCC(=O)N)CC(=O)N)CCCCN)CCC(=O)O)CC(=O)O)CO)CC(C)C,0,"biologic / oversized (MW=6964, heavy=483)"
+10963,CC(C)CC(C(=O)NC(CCCCNC(C)C)C(=O)N1CCCC1C(=O)NC(C)C(=O)N)NC(=O)C(CC2=CC=C(C=C2)NC(=O)N)NC(=O)C(CC3=CC=C(C=C3)NC(=O)C4CC(=O)NC(=O)N4)NC(=O)C(CO)NC(=O)C(CC5=CN=CC=C5)NC(=O)C(CC6=CC=C(C=C6)Cl)NC(=O)C(CC7=CC8=CC=CC=C8C=C7)NC(=O)C,0,"biologic / oversized (MW=1632, heavy=117)"
+10972,CC(C)CC(C(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(C(C)O)C(=O)O)NC(=O)C(CC1=CNC2=CC=CC=C21)NC(=O)C(CCCCN)NC(=O)C(C(C)C)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(C)NC(=O)C(CCCNC(=N)N)NC(=O)C(C)NC(=O)C(C)(C)NC(=O)C(CC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CCCCN)NC(=O)C(CO)NC(=O)C(CC5=CC=C(C=C5)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC6=CC=CC=C6)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)N)NC(=O)C(CO)NC(=O)C(CC7=CNC=N7)N,0,"biologic / oversized (MW=3382, heavy=240)"
+10983,CC1C(C(=O)NC(C(=O)N2CCCC2C(=O)N(CC(=O)N(C(C(=O)O1)C(C)C)C)C)C(C)C)NC(=O)C3=C4C(=C(C=C3)C)OC5=C(C(=O)C(=C(C5=N4)C(=O)NC6C(OC(=O)C(N(C(=O)CN(C(=O)C7CCCN7C(=O)C(NC6=O)C(C)C)C)C)C(C)C)C)N)C,0,"biologic / oversized (MW=1255, heavy=90)"
+10998,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)(O)OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co],0,"biologic / oversized (MW=1271, heavy=90)"
+11002,CC(C)CC(C(=O)NC(CCSC)C(=O)N)NC(=O)CNC(=O)C(CC1=CC=CC=C1)NC(=O)C(CC2=CC=CC=C2)NC(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)N)NC(=O)C3CCCN3C(=O)C(CCCCN)NC(=O)C4CCCN4C(=O)C(CCCN=C(N)N)N,0,"biologic / oversized (MW=1348, heavy=95)"
+11006,CC(C)CC(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)O)NC(=O)C2CCCN2C(=O)C(CC3=CC=CC=C3)NC(=O)C(C)NC(=O)C(CCC(=O)O)NC(=O)C(C)NC(=O)C(CO)NC(=O)C(CCC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(C)NC(=O)CNC(=O)C(CC(=O)N)NC(=O)C4CCCN4C(=O)C(CC5=CC=C(C=C5)O)NC(=O)C(C(C)C)NC(=O)C(CCCCN)NC(=O)C(C(C)C)NC(=O)C6CCCN6C(=O)C(CCCNC(=N)N)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCCCN)NC(=O)C(CCCCN)NC(=O)CNC(=O)C(C(C)C)NC(=O)C7CCCN7C(=O)C(CCCCN)NC(=O)CNC(=O)C(CC8=CNC9=CC=CC=C98)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC1=CC=CC=C1)NC(=O)C(CC1=CN=CN1)NC(=O)C(CCC(=O)O)NC(=O)C(CCSC)NC(=O)C(CO)NC(=O)C(CC1=CC=C(C=C1)O)NC(=O)C(CO)N,0,"biologic / oversized (MW=4541, heavy=322)"
+11007,CCC(C)C(C(=O)NC(CO)C(=O)NC(CC(C)C)C(=O)NC(CC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(C(C)O)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CC2=CN=CN2)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CCSC)C(=O)NC(C(C)O)C(=O)NC(CCCCN)C(=O)NC(C)C(=O)NC(CC(=O)O)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(C)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(C)C(=O)NC(CC3=CN=CN3)C(=O)NC(CO)C(=O)NC(CC(=O)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(C)C(=O)N)NC(=O)C4CCCN4C(=O)C5CCCN5C(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)N)NC(=O)C(CO)N,0,"biologic / oversized (MW=4670, heavy=328)"
+11009,[O-]S(=O)(=O)[O-].[Cu+2],0,inorganic (no carbon)
+11010,CC(C1C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCCN)CC2=CNC3=CC=CC=C32)CC4=CC=C(C=C4)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)CN6CCN(CCN(CCN(CC6)CC(=O)[O-])CC(=O)O)CC(=O)[O-])C(=O)NC(C(C)O)C(=O)O)O.[Cu+2],0,"biologic / oversized (MW=1434, heavy=100)"
+11015,CCC(C)CCCCC(=O)NC(CCNCS(=O)(=O)[O-])C(=O)NC(C(C)O)C(=O)NC(CCNCS(=O)(=O)[O-])C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCNCS(=O)(=O)[O-])CC(C)C)CC(C)C)CCNCS(=O)(=O)[O-])CCNCS(=O)(=O)[O-])C(C)O.[Na+].[Na+].[Na+].[Na+].[Na+],0,"biologic / oversized (MW=1635, heavy=107)"
+11053,N.N.Cl[Pt]Cl,0,inorganic (no carbon)
+11064,CCC1C(=O)N(CC(=O)N(C(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)NC(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N1)C(C(C)CC=CC)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)CC(C)C)C)C,0,"biologic / oversized (MW=1203, heavy=85)"
+11100,CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)N1CCCC1C(=O)NC(C)C(=O)N)NC(=O)C(CCCNC(=O)N)NC(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CO)NC(=O)C(CC3=CN=CC=C3)NC(=O)C(CC4=CC=C(C=C4)Cl)NC(=O)C(CC5=CC6=CC=CC=C6C=C5)NC(=O)C,0,"biologic / oversized (MW=1431, heavy=102)"
+11102,CC(C(C(=O)NCC(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CCSC)C(=O)NC(CC(=O)O)C(=O)NC(CC3=CC=CC=C3)C(=O)N)NC(=O)C(CC4=CC=C(C=C4)OS(=O)(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CCC(=O)N)NC(=O)C5CCC(=O)N5)O,0,"biologic / oversized (MW=1352, heavy=94)"
+11158,CC1C=CC=CC=CC=CC=CC=CC=CC(CC(C(C(CC(=O)CC(CC(CC(CC(=O)CCCC(=O)CC(=O)OC1C(C)CC(C)C(CC(=O)C2=CC=C(C=C2)N)O)O)O)O)O)C(=O)O)O)OC3C(C(C(C(O3)C)O)N)O,0,"biologic / oversized (MW=1109, heavy=79)"
+11164,[O-]P(=O)([O-])[O-].[O-]P(=O)([O-])[O-].[Ca+2].[Ca+2].[Ca+2],0,inorganic (no carbon)
+11165,O.O.[Cl-].[Cl-].[Ca+2],0,inorganic (no carbon)
+11169,O.O.OP(=O)([O-])[O-].[Ca+2],0,inorganic (no carbon)
+11173,CCC(C)C(C(=O)NCC(=O)NC(C(C)C)C(=O)NCC(=O)NC(C)C(=O)N1CCCC1C(=O)N)NC(=O)C(C)NC(=O)C(C(C)O)NC(=O)C(CCC(=O)N)NC(=O)C2CCCN2C(=O)C(CC3=CC=CC=C3)NC(=O)C(C(C)O)NC(=O)C(CC4=CNC=N4)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(CCCCN)NC(=O)C(CC(=O)N)NC(=O)C(CC6=CC=CC=C6)NC(=O)C(CC(=O)O)NC(=O)C(CCC(=O)N)NC(=O)C(C(C)O)NC(=O)C(CC7=CC=C(C=C7)O)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CC(C)C)NC(=O)C(CCSC)NC(=O)C8CSSCC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N8)C(C)O)CO)CC(C)C)CC(=O)N)N,0,"biologic / oversized (MW=3418, heavy=239)"
+11204,CCCCC(C(=O)NC1CC(=O)NCCCCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CC2=CN=CN2)CC3=CC=CC=C3)CCCN=C(N)N)CC4=CNC5=CC=CC=C54)C(=O)O)NC(=O)C,0,"biologic / oversized (MW=1025, heavy=74)"
+11208,B(O)(O)O,0,inorganic (no carbon)
+11210,CCC(C)C(C(=O)N1CCCC1C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CC(C)C)C(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CC(=O)O)NC(=O)CNC(=O)C(CC(=O)N)NC(=O)CNC(=O)CNC(=O)CNC(=O)CNC(=O)C4CCCN4C(=O)C(CCCNC(=N)N)NC(=O)C5CCCN5C(=O)C(CC6=CC=CC=C6)N,0,"biologic / oversized (MW=2180, heavy=155)"
+11215,C1=CC=C2C(=C1)C(=O)O[Bi]O2.O,0,contains metal
+11257,O.O=[Al]O[Al]=O.O=[Si]=O,0,inorganic (no carbon)
+11270,[O-]S(=O)(=O)[O-].[Ba+2],0,inorganic (no carbon)
+11305,[O-2].[O-2].[O-2].[As+3].[As+3],0,inorganic (no carbon)
+11320,CCCCCOC1=CC=C(C=C1)C2=CC=C(C=C2)C3=CC=C(C=C3)C(=O)NC4CC(C(NC(=O)C5C(C(CN5C(=O)C(NC(=O)C(NC(=O)C6CC(CN6C(=O)C(NC4=O)C(C)O)O)C(C(C7=CC=C(C=C7)O)O)O)C(C)O)C)O)O)O,0,"biologic / oversized (MW=1140, heavy=82)"
+11321,CCC(C)C(C(=O)NC(CC1=CN=CN1)C(=O)N2CCCC2C(=O)NC(CC3=CC=CC=C3)C(=O)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(C(C)C)NC(=O)C(CCCN=C(N)N)NC(=O)C(CC(=O)O)N,0,"biologic / oversized (MW=1046, heavy=75)"
+11333,[NH4+].[Cl-],0,inorganic (no carbon)
+11334,N,0,inorganic (no carbon)
+11355,O.[OH-].[OH-].[OH-].[OH-].[OH-].[Al+3].[Al+3].[Cl-],0,inorganic (no carbon)
+11356,[Al](Cl)(Cl)Cl,0,inorganic (no carbon)
+11357,[O-]P(=O)([O-])[O-].[Al+3],0,inorganic (no carbon)
+11366,O.[O-][Si]([O-])([O-])[O-].[O-][Si]([O-])([O-])[O-].[Mg+2].[Al+3].[Al+3],0,inorganic (no carbon)
+11371,O.[OH-].[OH-].[OH-].[Al+3],0,inorganic (no carbon)
+11385,C1=C(C(=C(C(=C1I)NC(=O)CCCCC(=O)NC2=C(C=C(C(=C2I)C(=O)O)I)I)I)C(=O)O)I,0,"biologic / oversized (MW=1140, heavy=34)"
+11409,CC(C)CC(C(=O)NC(CCCCNC(C)C)C(=O)N1CCCC1C(=O)NC(C)C(=O)N)NC(=O)C(CC(=O)N)NC(=O)C(CC2=CC=C(C=C2)O)N(C)C(=O)C(CO)NC(=O)C(CC3=CN=CC=C3)NC(=O)C(CC4=CC=C(C=C4)Cl)NC(=O)C(CC5=CC6=CC=CC=C6C=C5)NC(=O)C,0,"biologic / oversized (MW=1416, heavy=101)"
+11411,CCC(C)C(C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(C)(C)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC1=CN=CN1)C(=O)NC(C(C)O)C(=O)NC(C)C(=O)N)NC(=O)C(CO)NC(=O)C(CCCCN)NC(=O)CNC(=O)C(CCCCN)NC(=O)C(CC(=O)O)NC(=O)C(CC2=CN=CN2)NC(=O)C(CC(C)C)NC(=O)C(CC(C)C)NC(=O)C(CCC(=O)N)NC(=O)C(CC3=CN=CN3)NC(=O)C(CCC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)C)NC(=O)C(C)N,0,"biologic / oversized (MW=3961, heavy=279)"
+11423,CCC1C=C(C(CC=CC=C(C(=O)OC(CC=C(C=C(C1OC2C(C(C(C(O2)(C)C)OC(=O)C(C)C)O)O)C)C)C(C)O)COC3C(C(C(C(O3)C)OC(=O)C4=C(C(=C(C(=C4O)Cl)O)Cl)CC)O)OC)O)C,0,"biologic / oversized (MW=1058, heavy=72)"
+11425,C1CCC2C(C1)CC(N2C(=O)C3CC4=CC=CC=C4CN3C(=O)C(CO)NC(=O)C(CC5=CC=CS5)NC(=O)CNC(=O)C6CC(CN6C(=O)C7CCCN7C(=O)C(CCCN=C(N)N)NC(=O)C(CCCN=C(N)N)N)O)C(=O)NC(CCCN=C(N)N)C(=O)O,0,"biologic / oversized (MW=1305, heavy=92)"
+11427,C1C(CN2C1C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C2=O)CC3=CC=CC=C3)CC4=CC=C(C=C4)OCC5=CC=CC=C5)CCCCN)CC6=CNC7=CC=CC=C76)C8=CC=CC=C8)OC(=O)NCCN,0,"biologic / oversized (MW=1047, heavy=77)"
+11428,CCCCC(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CN=CN1)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NCC(=O)NC(CCCCN)C(=O)N5CCCC5C(=O)NC(C(C)C)C(=O)N)NC(=O)C(CO)NC(=O)C(CC6=CC=C(C=C6)O)NC(=O)C(CO)NC(=O)C,0,"biologic / oversized (MW=1647, heavy=118)"
+11451,CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)NCC(=O)NCC(=O)N3CCCC3C(=O)NC(CO)C(=O)NC(CO)C(=O)NCC(=O)NC(C)C(=O)N4CCCC4C(=O)N5CCCC5C(=O)N6CCCC6C(=O)NC(CO)C(=O)N)NC(=O)C(CC7=CC=CC=C7)NC(=O)C(CC(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CCSC)NC(=O)C(CCC(=O)N)NC(=O)C(CCCCN)NC(=O)C(CO)NC(=O)C(CC(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC8=CC=CC=C8)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)CNC(=O)C(CC9=CNC=N9)N,0,"biologic / oversized (MW=4187, heavy=295)"
+11461,CC(C)C1C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCCN)CC2=CNC3=CC=CC=C32)CC4=CC=C(C=C4)O)NC(=O)C(CC5=CC6=CC=CC=C6C=C5)N)C(=O)NC(C(C)O)C(=O)N,0,"biologic / oversized (MW=1096, heavy=77)"
+11464,CC(C1C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCCN)CC2=CNC3=CC=CC=C32)CC4=CC=CC=C4)NC(=O)C(CC5=CC=CC=C5)N)C(=O)NC(CO)C(C)O)O,0,"biologic / oversized (MW=1019, heavy=71)"
+11472,CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(C(NC(=O)C2C(CCN2C(=O)C(NC(=O)C(NC(=O)C3CC(CN3C(=O)C(NC1=O)C(C)O)O)C(C(C4=CC=C(C=C4)O)O)O)C(CCN)O)O)NCCN)O,0,"biologic / oversized (MW=1093, heavy=77)"
+11478,CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)OC(=O)C(C)(CO)CO)C)C)O)OC)C)C)C)OC,0,"biologic / oversized (MW=1030, heavy=73)"
+11479,C(CSCC1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(O2)C(C9O)O)CSCCC(=O)O)CSCCC(=O)O)CSCCC(=O)O)CSCCC(=O)O)CSCCC(=O)O)CSCCC(=O)O)CSCCC(=O)O)O)O)C(=O)O,0,"biologic / oversized (MW=2002, heavy=128)"
+11480,CC(C)C(C(=O)NCC(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)N1CCCC1C(=O)NC(C(C)C)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)N3CCCC3C(=O)O)NC(=O)C4CCCN4C(=O)C(CCCCN)NC(=O)CNC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC7=CC=CC=C7)NC(=O)C(CC8=CNC=N8)NC(=O)C(CCC(=O)O)NC(=O)C(CCSC)NC(=O)C(CO)NC(=O)C(CC9=CC=C(C=C9)O)NC(=O)C(CO)N,0,"biologic / oversized (MW=2933, heavy=208)"
+11483,CCC(C)C(C(=O)NC(C)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CCCCN)C(=O)NCC(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CCC(=O)O)NC(=O)C(CCCCN)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CCC(=O)N)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(C(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)CNC(=O)C(CC6=CN=CN6)N,0,"biologic / oversized (MW=3284, heavy=233)"
+11487,C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OCC3C(C(C(C(O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O,0,"biologic / oversized (MW=1701, heavy=122)"
+11490,CCC(C)C1C(=O)NC2CSSCC(C(=O)NC(CSSCC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC2=O)CO)CC(C)C)CC3=CC=C(C=C3)O)CCC(=O)N)CC(C)C)CCC(=O)O)CC(=O)N)CC4=CC=C(C=C4)O)C(=O)NC(CC(=O)N)C(=O)O)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CC5=CC=CC=C5)C(=O)NC(CC6=CC=CC=C6)C(=O)NC(CC7=CC=C(C=C7)O)C(=O)NC(C(C)O)C(=O)N8CCCC8C(=O)NC(CCC(=O)O)C(=O)NC(C(C)O)C(=O)O)C(C)C)CC(C)C)CC9=CC=C(C=C9)O)CC(C)C)C)CCC(=O)O)C(C)C)CC(C)C)CC2=CNC=N2)CO)NC(=O)C(CC(C)C)NC(=O)C(CC2=CNC=N2)NC(=O)C(CCC(=O)N)NC(=O)C(CCCCN)NC(=O)C(C(C)C)NC(=O)C(CC2=CC=CC=C2)N)C(=O)NC(C(=O)NC(C(=O)N1)CO)C(C)O)NC(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)O)NC(=O)C(C(C)C)NC(=O)C(C(C)CC)NC(=O)CN,0,"biologic / oversized (MW=5823, heavy=406)"
+11492,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11493,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co],0,"biologic / oversized (MW=1270, heavy=90)"
+11494,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11495,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)(O)OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+2],0,"biologic / oversized (MW=1271, heavy=90)"
+11496,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)(O)OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3],0,"biologic / oversized (MW=1271, heavy=90)"
+11497,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)(O)OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co],0,"biologic / oversized (MW=1271, heavy=90)"
+11498,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O,0,"biologic / oversized (MW=1270, heavy=90)"
+11499,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+2],0,"biologic / oversized (MW=1270, heavy=90)"
+11500,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=C(C4=N5)C)[N-]8)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11501,CCC(C)C1C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC2C(=O)NCC(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(CSSCC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)N2)C(C)C)CC(=O)N)CO)CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C3CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)N3)CC(C)C)CC(=O)N)CCC(=O)N)CO)CCC(=O)O)C(C)O)NC(=O)C(CC(=O)O)NC(=O)C(C(C)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(C(C)O)NC(=O)C(CC(C)C)N)C(=O)N1)CCCCN)CC(=O)N)CCC(=O)N)C(=O)NC(C(C)C)C(=O)NC(C(C)O)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NCC(=O)NC(C(C)O)C(=O)N5CCCC5C(=O)NC(CCCCN)C(=O)N6CCCC6C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NC(CC7=CNC=N7)C(=O)NC(CC(=O)N)C(=O)NC(CC(=O)O)C(=O)NCC(=O)NC(CC(=O)O)C(=O)NC(CC8=CC=CC=C8)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(C(C)CC)C(=O)N9CCCC9C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)O)CCC(=O)N)CC(=O)N)CCCCN)CCC(=O)O)CC(=O)O)CO)CC(C)C,0,"biologic / oversized (MW=6980, heavy=484)"
+11502,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[CH2-]C1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O.[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11503,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[CH2-]C1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O.[Co],0,"biologic / oversized (MW=1270, heavy=90)"
+11504,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[CH2-]C1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O.[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11505,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[CH2-]C1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O.[Co+2],0,"biologic / oversized (MW=1270, heavy=90)"
+11506,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)(O)OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[CH2-]C1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O.[Co+2],0,"biologic / oversized (MW=1271, heavy=90)"
+11525,Cl[Tl],0,inorganic (no carbon)
+11527,CCC(C)C1C(=O)NC2CSSCC(C(=O)NC(CSSCC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC2=O)CO)CC(C)C)CC3=CC=C(C=C3)O)CCC(=O)N)CC(C)C)CCC(=O)O)CC(=O)N)CC4=CC=C(C=C4)O)C(=O)NCC(=O)O)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CC5=CC=CC=C5)C(=O)NC(CC6=CC=CC=C6)C(=O)NC(CC7=CC=C(C=C7)O)C(=O)NC(C(C)O)C(=O)N8CCCC8C(=O)NC(CCCCN)C(=O)NC(C(C)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)O)C(C)C)CC(C)C)CC9=CC=C(C=C9)O)CC(C)C)C)CCC(=O)O)C(C)C)CC(C)C)CC2=CNC=N2)CO)NC(=O)C(CC(C)C)NC(=O)C(CC2=CNC=N2)NC(=O)C(CCC(=O)N)NC(=O)C(CC(=O)N)NC(=O)C(C(C)C)NC(=O)C(CC2=CC=CC=C2)N)C(=O)NC(C(=O)NC(C(=O)N1)CO)C(C)O)NC(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)O)NC(=O)C(C(C)C)NC(=O)C(C(C)CC)NC(=O)CN,0,"biologic / oversized (MW=6063, heavy=423)"
+11532,CC(C1C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCCN)CC2=CNC3=CC=CC=C32)CC4=CC=C(C=C4)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)CN6CCN(CCN(CCN(CC6)CC(=O)[O-])CC(=O)[O-])CC(=O)[O-])C(=O)NC(C(C)O)C(=O)O)O.[Lu+3],0,"biologic / oversized (MW=1433, heavy=100)"
+11544,CC(C1C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCCN)CC2=CNC3=CC=CC=C32)CC4=CC=C(C=C4)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)CN6CCN(CCN(CCN(CC6)CC(=O)[O-])CC(=O)[O-])CC(=O)O)C(=O)NC(C(C)O)C(=O)O)O.[Cu+2],0,"biologic / oversized (MW=1434, heavy=100)"
+11550,CCC(C)C1C(=O)NC(C(=O)NCC(=O)NCC(=O)NC2CSSCC3C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N4CCCC4C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NCC(=O)N5CCCC5C(=O)N3)CC(=O)O)CC(=O)O)C)CCCCN)CC6=CC=CC=C6)C)NC(=O)C(CC7=CC=CC=C7)NC(=O)C(CO)NC(=O)C(CC8=CN=CN8)NC(=O)C(CCSC)NC(=O)C(C)NC(=O)C(CCC(=O)O)N)C(=O)NC(C(C)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(=O)O)C(=O)O)CCSC)CCCCN)CCCCN)NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)CNC(=O)C(NC2=O)CCC(=O)O)CC(=O)N)CCC(=O)N)CC(=O)N)CCCNC(=N)N)CC9=CC=CC=C9)CCC(=O)O)CO)CC(C)C)CCC(=O)O)CCC(=O)O)C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CC1=CC=CC=C1)CCC(=O)O)CCC(=O)O)CCC(=O)N)CCCNC(=N)N)C(C)O)CC1=CC=CC=C1)C(C)CC)CC(=O)N)CC1=CC=CC=C1)CC1=CC=CC=C1)CC1=CNC2=CC=CC=C21)CCCNC(=N)N)CC1=CN=CN1)C)C)CCCNC(=N)N)CC1=CC=C(C=C1)O,0,"biologic / oversized (MW=7054, heavy=492)"
+11551,CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,0,"biologic / oversized (MW=1155, heavy=81)"
+11558,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.O.[Co+2],0,"biologic / oversized (MW=1270, heavy=90)"
+11559,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[OH-].[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11560,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.O.[Co],0,"biologic / oversized (MW=1270, heavy=90)"
+11561,[HH].CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)N7)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[OH-].Cl.[Co+3],0,"biologic / oversized (MW=1271, heavy=90)"
+11562,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)(O)OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.O.[Co],0,"biologic / oversized (MW=1271, heavy=90)"
+11563,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)(O)OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.O.[Co+2],0,"biologic / oversized (MW=1271, heavy=90)"
+11574,CCC(C)C(C(=O)NC(C(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)N)C(=O)NC(CS)C(=O)NC(CS)C(=O)NC(C(C)O)C(=O)NC(CO)C(=O)NC(C(C)CC)C(=O)NC(CS)C(=O)NC(CO)C(=O)NC(CC(C)C)C(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)N)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CS)C(=O)NC(CC(=O)N)C(=O)O)NC(=O)CN.CC(C)CC(C(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CS)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CC2=CC=CC=C2)C(=O)NC(CC3=CC=CC=C3)C(=O)NC(CC4=CC=C(C=C4)O)C(=O)NC(C(C)O)C(=O)NC(CCCCN)C(=O)N5CCCC5C(=O)NC(C(C)O)C(=O)O)NC(=O)C(C)NC(=O)C(CCC(=O)O)NC(=O)C(C(C)C)NC(=O)C(CC(C)C)NC(=O)C(CC6=CN=CN6)NC(=O)C(CO)NC(=O)CNC(=O)C(CS)NC(=O)C(CC(C)C)NC(=O)C(CC7=CN=CN7)NC(=O)C(CCC(=O)N)NC(=O)C(CC(=O)N)NC(=O)C(C(C)C)NC(=O)C(CC8=CC=CC=C8)N,0,"biologic / oversized (MW=3430, heavy=242)"
+11581,CCC(C)CCCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC2=CC=CC=C2)CC(C)C)CCN)CCN)C(C)O,0,"biologic / oversized (MW=1203, heavy=85)"
+11590,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.CC(=O)O.[Co],0,"biologic / oversized (MW=1270, heavy=90)"
+11591,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.CC(=O)O.O.[Co+2],0,"biologic / oversized (MW=1270, heavy=90)"
+11592,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)(O)OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.CC(=O)O.[Co],0,"biologic / oversized (MW=1271, heavy=90)"
+11593,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.CC(=O)O.[OH-].[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11594,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.CC(=O)[O-].[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11595,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.C=C(O)[O-].[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11600,CC(C)CCCCCCCCC(=O)NC1C(C(C(OC1OC2=C3C=C4C=C2OC5=C(C=C(C=C5)C(C6C(=O)NC(C7=C(C(=CC(=C7)O)OC8C(C(C(C(O8)CO)O)O)O)C9=C(C=CC(=C9)C(C(=O)N6)NC(=O)C4NC(=O)C1C2=C(C(=CC(=C2)OC2=C(C=CC(=C2)C(C(=O)NC(CC2=CC=C(O3)C=C2)C(=O)N1)NC)O)O)Cl)O)C(=O)NCCCN(C)C)O)Cl)C(=O)O)O)O,0,"biologic / oversized (MW=1817, heavy=128)"
+11605,CCC1C(=O)N2CCCC2C(=O)N(C(C(=O)N3CC(C(=O)CC3C(=O)NC(C(=O)OC(C(C(=O)N1)NC(=O)C4=C(C=CC=N4)O)C)C5=CC=CC=C5)CSC6CN7CCC6CC7)CC8=CC=C(C=C8)N(C)C)C,0,"biologic / oversized (MW=1022, heavy=73)"
+11624,CC(C)CC(C(=O)NC(C)C(=O)NC(C(C)C)C(=O)NC(C(C)C)C(=O)NC(C(C)C)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(C)C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC(C)C)C(=O)NC(CC5=CNC6=CC=CC=C65)C(=O)NC(CC(C)C)C(=O)NC(CC7=CNC8=CC=CC=C87)C(=O)NCCO)NC(=O)C(C)NC(=O)CNC(=O)C(C(C)C)NC=O,0,"biologic / oversized (MW=1882, heavy=136)"
+11632,CCCCCCCCCCCCCCCC(=O)NC(CCC(=O)NCCCCC(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)CC)C(=O)NC(C)C(=O)NC(CC2=CNC3=CC=CC=C32)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)O)NC(=O)C(C)NC(=O)C(C)NC(=O)C(CCC(=O)N)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C(C(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC5=CC=CC=C5)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)C(C)NC(=O)C(CC6=CN=CN6)N)C(=O)O,0,"biologic / oversized (MW=3751, heavy=266)"
+11638,CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)NCC(=O)NCC(=O)N3CCCC3C(=O)NC(CO)C(=O)NC(CO)C(=O)NCC(=O)NC(C)C(=O)N4CCCC4C(=O)N5CCCC5C(=O)NC(CO)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)N)NC(=O)C(CC6=CC=CC=C6)NC(=O)C(CC(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CCSC)NC(=O)C(CCC(=O)N)NC(=O)C(CCCCN)NC(=O)C(CO)NC(=O)C(CC(C)C)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC7=CC=CC=C7)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)O)NC(=O)CNC(=O)C(CC8=CNC=N8)N,0,"biologic / oversized (MW=4859, heavy=342)"
+11639,CC1C(C(OC(C1OC2CC(C(C(C2O)O)OC3C(C(C(C(O3)COS(=O)(=O)O)OC4C(C(C=C(O4)C(=O)[O-])O)O)O)NC(=O)C)C(=O)[O-])CO)OC5C(C(C(OC5C(=O)[O-])OC6C7COC(O7)C(C6O)NS(=O)(=O)[O-])O)O)NC(=O)C.[Na+].[Na+].[Na+].[Na+],0,"biologic / oversized (MW=1230, heavy=82)"
+11644,CC1(C2=C(C=CC(=C2)S(=O)(=O)[O-])[N+](=C1C=CC3=C(C(=CC=C4C(C5=C(N4CCCCS(=O)(=O)O)C=CC(=C5)S(=O)(=O)O)(C)C)CCC3)OC6=CC=C(C=C6)CC(C(=O)O)NC(=O)C7=CC=C(C=C7)NCC8=CN=C9C(=N8)C(=O)NC(=N9)N)CCCCS(=O)(=O)O)C,0,"biologic / oversized (MW=1327, heavy=91)"
+11647,CCC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)NC(C(C)O)C(=O)NC(CC(=O)N)C(=O)NC(CO)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CCC(=O)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC(C(C)CC)C(=O)NC(CCSC)C(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)N)NC(=O)C(C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(CC3=CC=C(C=C3)O)N,0,"biologic / oversized (MW=3358, heavy=236)"
+11648,CC1C(=O)NC2CSSCC3C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(NC(=O)CNC(=O)C(NC2=O)C(C)O)C(=O)NC(CC4=CC=C(C=C4)O)C(=O)O)C(=O)NC(CSSCC(C(=O)N3)N)C(=O)NC(C(=O)N5CCCC5C(=O)N1)CC(=O)N)CC6=CC=C(C=C6)O)CCC(=O)O,0,"biologic / oversized (MW=1527, heavy=101)"
+11664,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co+2],0,"biologic / oversized (MW=1270, heavy=90)"
+11665,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co],0,"biologic / oversized (MW=1270, heavy=90)"
+11666,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11667,CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)(O)OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=C(C4=N5)C)[N-]8)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co],0,"biologic / oversized (MW=1271, heavy=90)"
+11668,[CH3-].CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11669,[CH3-].CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co],0,"biologic / oversized (MW=1270, heavy=90)"
+11670,[CH3-].CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co+3],0,"biologic / oversized (MW=1270, heavy=90)"
+11671,[CH3-].CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)N7)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co+2],0,"biologic / oversized (MW=1271, heavy=90)"
+11679,CC1=C(N=C(N=C1N)C(CC(=O)N)NCC(C(=O)N)N)C(=O)NC(C(C2=CN=CN2)OC3C(C(C(C(O3)CO)O)O)OC4C(C(C(C(O4)CO)O)OC(=O)N)O)C(=O)NC(C)C(C(C)C(=O)NC(C(C)O)C(=O)NCCC5=NC(=CS5)C6=NC(=CS6)C(=O)NCCC[S+](C)C)O,0,"biologic / oversized (MW=1416, heavy=96)"
+11680,CCC(C)C1C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC2CSSCC3C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)N4CCCC4C(=O)N5CCCC5C(=O)NC(C(=O)NC(C(=O)NCC(=O)N6CCCC6C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N3)CC(=O)O)CCC(=O)O)C)CO)CCCCN)CC7=CC=CC=C7)CC(=O)N)CC(=O)N)CCCNC(=N)N)CCCCN)C)CCCNC(=N)N)NC(=O)CNC(=O)CNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC2=O)CCC(=O)N)C(C)O)CC8=CC=CC=C8)C(C)C)CC9=CC=C(C=C9)O)C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCNC(=N)N)C)CCCCN)C(C)O)CC1=CC=C(C=C1)O)CCC(=O)O)CC(C)C)NC(=O)C(CC1=CC=CC=C1)NC(=O)C(CC(=O)O)NC(=O)C1CCCN1C(=O)C(CCCNC(=N)N)N)C(=O)NCC(=O)NCC(=O)NC(C)C(=O)O)C(C)O)CCCNC(=N)N)CCSC)CC(C)C)C)CCCCN)C)CC(=O)N)CC1=CC=C(C=C1)O)CC1=CC=CC=C1)CC1=CC=C(C=C1)O)CCCNC(=N)N)C(C)CC,0,"biologic / oversized (MW=6512, heavy=454)"
+11681,CCC1=C2CN3C(=CC4=C(C3=O)COC(=O)C4(CC)OC(=O)OCC5=CC=C(C=C5)NC(=O)C(CCCCN)NC(=O)COCC(=O)NCCOCCOCCOCCOCCOCCOCCOCCOCCN6C=C(N=N6)CNC(=O)C7CCC(CC7)CN8C(=O)CC(C8=O)SCC(C(=O)O)N)C2=NC9=C1C=C(C=C9)O,0,"biologic / oversized (MW=1602, heavy=113)"
+11685,CC1C(C(CC(O1)OC2CC(OC(C2O)C)OC3=CC4=CC5=C(C(=O)C(C(C5)C(C(=O)C(C(C)O)O)OC)OC6CC(C(C(O6)C)O)OC7CC(C(C(O7)C)O)OC8CC(C(C(O8)C)O)(C)O)C(=C4C(=C3C)O)O)O)O,0,"biologic / oversized (MW=1085, heavy=76)"
+11690,CCCCCCCCCC(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC3C(OC(=O)C(NC(=O)C(NC(=O)C(NC(=O)CNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)CNC3=O)CCCN)CC(=O)O)C)CC(=O)O)CO)C(C)CC(=O)O)CC(=O)C4=CC=CC=C4N)C,0,"biologic / oversized (MW=1621, heavy=115)"
+11702,II,0,inorganic (no carbon)
+11754,O=N[Fe](C#N)(C#N)(C#N)(C#N)C#N,0,contains metal
+11780,O=C(c1ccccc1O)O[Mg]OC(=O)c1ccccc1O,0,contains metal
+11791,I[IH]I,0,inorganic (no carbon)
+11817,OS(=S)(=O)O,0,inorganic (no carbon)
+12042,Br[Ca]Br,0,inorganic (no carbon)
+12142,O[S@](=O)S(=O)(=O)O,0,inorganic (no carbon)
+12185,O[P@]1(=O)O[P@@](=O)(O)O[P@@](=O)(O1)O,0,inorganic (no carbon)
+12294,ClCl,1,inorganic (no carbon)
+12295,ClO[Ba]OCl,1,inorganic (no carbon)
+12300,CN(C)[Sb](N(C)C)N(C)C,1,contains metal
+12313,CN(C)C(=S)S[Zn]SC(=S)N(C)C,1,contains metal
+12481,CO[Al](C)C,1,contains metal
+12482,CO[C@@H](CC1=CC=CC=C1)[C@@H](C)\C=C(/C)\C=C\[C@@H]1NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@@H](C)[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](C)NC(=O)C(=C)N(C)C(=O)CC[C@@H](NC(=O)[C@H]1C)C(O)=O)C(O)=O,1,"biologic / oversized (MW=986, heavy=71)"
+12483,CO[C@H](CC1=CC=CC=C1)[C@@H](C)\C=C(/C)\C=C\[C@@H]1N=C(O)[C@H](CC2=CNC3=CC=CC=C23)N=C(O)[C@@H](C)[C@@H](N=C(O)[C@H](CC(C)C)N=C(O)[C@@H](C)N=C(O)C(=C)N(C)C(=O)CC[C@@H](N=C(O)[C@H]1C)C(O)=O)C(O)=O,1,"biologic / oversized (MW=1025, heavy=74)"
+12484,CO\C(O[K])=N\S(=O)(=O)C1=CC=C(N)C=C1,1,contains metal
+12521,COC(CC1=CC=CC=C1)C(C)C=C(C)C=CC1NC(=O)C(CC2=CC=C(O)C=C2)NC(=O)C(C)C(NC(=O)C(CC(C)C)NC(=O)C(C)NC(=O)C(=C)N(C)C(=O)CCC(NC(=O)C1C)C(O)=O)C(O)=O,1,"biologic / oversized (MW=1002, heavy=72)"
+12523,COC(CC1=CC=CC=C1)C(C)C=C(C)C=CC1NC(=O)C(CCCN=C(N)N)NC(=O)C(C)C(NC(=O)C(CC(C)C)NC(=O)C(C)NC(=O)C(=C)N(C)C(=O)CCC(NC(=O)C1C)C(O)=O)C(O)=O,1,"biologic / oversized (MW=995, heavy=71)"
+12524,COC(CC1=CC=CC=C1)C(C)C=C(C)C=CC1NC(=O)C(CCCN=C(N)N)NC(=O)C(C)C(NC(=O)C(CC2=CC=C(O)C=C2)NC(=O)C(C)NC(=O)C(=C)N(C)C(=O)CCC(NC(=O)C1C)C(O)=O)C(O)=O,1,"biologic / oversized (MW=1045, heavy=75)"
+12525,COC(CC1=CC=CC=C1)C(C)C=C(C)C=CC1NC(=O)C(CCCN=C(N)N)NC(=O)C(C)C(NC(=O)C(CCCN=C(N)N)NC(=O)C(C)NC(=O)C(=C)N(C)C(=O)CCC(NC(=O)C1C)C(O)=O)C(O)=O,1,"biologic / oversized (MW=1038, heavy=74)"
+12526,COC(CNC(=O)C1=CC=CC=C1OCC(=O)O[Na])O[Hg]O,1,contains metal
+12527,COC(CNC(=O)C1CCC(C)(C(O)=O)C1(C)C)C[Hg]SCC(O)=O,1,contains metal
+12528,COC(CNC(=O)NC(=O)CCC(O)=O)C[Hg]O,1,contains metal
+12610,COCC[Hg]OC(C)=O,1,contains metal
+12646,F.F.F.O=[V],1,inorganic (no carbon)
+12647,F.F.O=[U]=O,1,inorganic (no carbon)
+12648,F.F[Sb](F)(F)(F)F,1,inorganic (no carbon)
+12649,F[Ag]F,1,inorganic (no carbon)
+12650,F[Al],1,inorganic (no carbon)
+12651,F[As](F)(F)(F)F,1,inorganic (no carbon)
+12652,F[As](F)F,1,inorganic (no carbon)
+12653,F[Be]F,1,inorganic (no carbon)
+12654,F[Br](F)F,1,unparseable SMILES
+12655,F[Co](F)F,1,inorganic (no carbon)
+12656,F[Co]F,1,inorganic (no carbon)
+12657,F[Cr](F)F,1,inorganic (no carbon)
+12658,F[Cu],1,inorganic (no carbon)
+12659,F[Hg][Hg]F,1,inorganic (no carbon)
+12660,F[Hg]F,1,inorganic (no carbon)
+12661,F[Mn](F)F,1,inorganic (no carbon)
+12662,F[Mn]F,1,inorganic (no carbon)
+12663,F[Ni]F,1,inorganic (no carbon)
+12664,F[Pb]F,1,inorganic (no carbon)
+12665,F[Se](F)(F)(F)(F)F,1,inorganic (no carbon)
+12666,F[Se](F)(F)F,1,inorganic (no carbon)
+12667,F[Sn](F)(F)F,1,inorganic (no carbon)
+12668,F[Sn]F,1,inorganic (no carbon)
+12669,F[U](F)(F)(F)(F)F,1,inorganic (no carbon)
+12670,F[U](F)(F)(F)F,1,inorganic (no carbon)
+12671,F[V](F)(F)F,1,inorganic (no carbon)
+12672,F[V](F)F,1,inorganic (no carbon)
+12673,F[Zn]F.F[Si](F)(F)F,1,inorganic (no carbon)
+12677,FC(F)(F)C1=CC(=CC=C1)[Sb](C1=CC(=CC=C1)C(F)(F)F)C1=CC=CC(=C1)C(F)(F)F,1,contains metal
+12681,FC(F)(F)S(=O)(=O)O[Ag],1,contains metal
+12682,FC(F)(F)S(=O)(=O)O[Cu]OS(=O)(=O)C(F)(F)F,1,contains metal
+12690,FC1=CC=CC2=C1\C=N\CC\N=C\C1=C(F)C=CC=C1O[Co]O2,1,contains metal

@@ -1,0 +1,358 @@
+=== SilicoTox x TDC  2026-08-08T14:17:48.000183+00:00 ===
+stage=fetch split=scaffold folds=5 repeats=1
+
+[1] FETCH from TDC
+=== SilicoTox x TDC  2026-08-08T14:18:08.372355+00:00 ===
+stage=fetch split=scaffold folds=5 repeats=1
+
+[1] FETCH from TDC
+  herg_karim             n=13445    TDC:hERG_Karim
+  ames                   n=7278     TDC:AMES
+  ld50_binary            n=7385     TDC:LD50_Zhu binarized at LD50<500 mg/kg
+  tox21_ed               n=7377     TDC:Tox21[NR-AR+NR-AR-LBD+NR-ER+NR-ER-LBD] any-active
+  clintox                n=1478     TDC:ClinTox
+  herg                   n=655      TDC:hERG
+  dili                   n=475      TDC:DILI
+  skin_reaction          n=404      TDC:Skin Reaction
+  carcinogens_lagunin    n=280      TDC:Carcinogens_Lagunin
+=== SilicoTox x TDC  2026-08-08T14:22:32.410168+00:00 ===
+stage=run split=scaffold folds=5 repeats=1
+models=['LightGBM'] calibration=isotonic
+
+[3] NESTED CV (scaffold)
+  [dili] no clean file -- run --stage prep
+=== SilicoTox x TDC  2026-08-08T14:25:27.249716+00:00 ===
+stage=prep split=scaffold folds=5 repeats=1
+models=['LightGBM', 'LightGBM-FP', 'RandomForest', 'XGBoost', 'SVM', 'Bagging', 'eToxPred-ET'] calibration=isotonic
+
+[2] PREP  standardize -> MW window -> exact dedup -> TC 0.8
+  herg_karim             n=8220    tox=3963   prev=0.482 maj_acc=0.518  {'raw': 13445, 'standardized': 13445, 'dropped_unparseable': 0, 'dropped_no_roundtrip': 0, 'dropped_mw_error': 0, 'mw_window': 13051, 'exact_dedup': 12744, 'label_conflicts_dropped': 32, 'tc80_dedup': 8220}
+  ames                   n=5870    tox=3215   prev=0.548 maj_acc=0.548  {'raw': 7278, 'standardized': 7278, 'dropped_unparseable': 0, 'dropped_no_roundtrip': 0, 'dropped_mw_error': 0, 'mw_window': 6830, 'exact_dedup': 6807, 'label_conflicts_dropped': 0, 'tc80_dedup': 5870}
+  ld50_binary            n=6488    tox=2375   prev=0.366 maj_acc=0.634  {'raw': 7385, 'standardized': 7385, 'dropped_unparseable': 0, 'dropped_no_roundtrip': 0, 'dropped_mw_error': 0, 'mw_window': 6936, 'exact_dedup': 6895, 'label_conflicts_dropped': 5, 'tc80_dedup': 6488}
+  tox21_ed               n=5974    tox=910    prev=0.152 maj_acc=0.848  {'raw': 7377, 'standardized': 7365, 'dropped_unparseable': 7, 'dropped_no_roundtrip': 5, 'dropped_mw_error': 0, 'mw_window': 6754, 'exact_dedup': 6541, 'label_conflicts_dropped': 73, 'tc80_dedup': 5974}
+  clintox                n=1145    tox=45     prev=0.039 maj_acc=0.961  {'raw': 1478, 'standardized': 1478, 'dropped_unparseable': 0, 'dropped_no_roundtrip': 0, 'dropped_mw_error': 0, 'mw_window': 1298, 'exact_dedup': 1197, 'label_conflicts_dropped': 98, 'tc80_dedup': 1145}
+  herg                   n=500     tox=337    prev=0.674 maj_acc=0.674  {'raw': 655, 'standardized': 655, 'dropped_unparseable': 0, 'dropped_no_roundtrip': 0, 'dropped_mw_error': 0, 'mw_window': 632, 'exact_dedup': 585, 'label_conflicts_dropped': 18, 'tc80_dedup': 500}
+  dili                   n=434     tox=220    prev=0.507 maj_acc=0.507  {'raw': 475, 'standardized': 475, 'dropped_unparseable': 0, 'dropped_no_roundtrip': 0, 'dropped_mw_error': 0, 'mw_window': 440, 'exact_dedup': 439, 'label_conflicts_dropped': 0, 'tc80_dedup': 434}
+  skin_reaction          n=339     tox=225    prev=0.664 maj_acc=0.664  {'raw': 404, 'standardized': 404, 'dropped_unparseable': 0, 'dropped_no_roundtrip': 0, 'dropped_mw_error': 0, 'mw_window': 373, 'exact_dedup': 373, 'label_conflicts_dropped': 0, 'tc80_dedup': 339}
+  carcinogens_lagunin    n=234     tox=41     prev=0.175 maj_acc=0.825  {'raw': 280, 'standardized': 280, 'dropped_unparseable': 0, 'dropped_no_roundtrip': 0, 'dropped_mw_error': 0, 'mw_window': 243, 'exact_dedup': 239, 'label_conflicts_dropped': 4, 'tc80_dedup': 234}
+=== SilicoTox x TDC  2026-08-08T14:28:03.541805+00:00 ===
+stage=run split=scaffold folds=5 repeats=1
+models=['LightGBM'] calibration=isotonic
+
+[3] NESTED CV (scaffold)
+
+  dili -- Drug-induced liver injury (n=434)
+    featurized: silicotox=(434, 2071)
+    LightGBM         AUC=0.833+/-0.074  BA=0.784  MCC=0.571  ACC=0.784
+    Majority         ACC=0.507 (floor)
+    [17s]
+=== SilicoTox x TDC  2026-08-08T14:30:59.819379+00:00 ===
+stage=run split=scaffold folds=3 repeats=10
+models=['LightGBM'] calibration=sigmoid
+
+[3] NESTED CV (scaffold)
+
+  carcinogens_lagunin -- Rodent carcinogenicity (n=234)
+    !! MINORITY CLASS SPARSE: 41 minority samples -> ~14 per test fold, ~5 in the inner calibration slice.
+    !! Consider: --folds 3 --repeats 10 --calibration sigmoid
+    !! Treat point estimates for this endpoint as indicative only.
+    featurized: silicotox=(234, 2071)
+    LightGBM         AUC=0.795+/-0.069  BA=0.708  MCC=0.383  ACC=0.746
+    Majority         ACC=0.825 (floor)
+    [30s]
+=== SilicoTox x TDC  2026-08-08T14:31:42.568528+00:00 ===
+stage=run split=scaffold folds=5 repeats=5
+models=['LightGBM'] calibration=isotonic
+
+[3] NESTED CV (scaffold)
+
+  skin_reaction -- Skin sensitization (n=339)
+    featurized: silicotox=(339, 2071)
+    LightGBM         AUC=0.720+/-0.070  BA=0.647  MCC=0.299  ACC=0.645
+    Majority         ACC=0.664 (floor)
+    [31s]
+=== SilicoTox x TDC  2026-08-08T14:32:25.302096+00:00 ===
+stage=run split=scaffold folds=5 repeats=5
+models=['LightGBM'] calibration=isotonic
+
+[3] NESTED CV (scaffold)
+
+  dili -- Drug-induced liver injury (n=434)
+    featurized: silicotox=(434, 2071)
+    LightGBM         AUC=0.857+/-0.055  BA=0.801  MCC=0.607  ACC=0.801
+    Majority         ACC=0.507 (floor)
+    [41s]
+=== SilicoTox x TDC  2026-08-08T14:33:19.234468+00:00 ===
+stage=run split=scaffold folds=5 repeats=5
+models=['LightGBM'] calibration=isotonic
+
+[3] NESTED CV (scaffold)
+
+  herg -- hERG blockers (cardiotoxicity) (n=500)
+    featurized: silicotox=(500, 2071)
+    LightGBM         AUC=0.852+/-0.041  BA=0.771  MCC=0.540  ACC=0.779
+    Majority         ACC=0.674 (floor)
+    [46s]
+=== SilicoTox x TDC  2026-08-08T14:34:17.818325+00:00 ===
+stage=run split=scaffold folds=3 repeats=10
+models=['LightGBM'] calibration=sigmoid
+
+[3] NESTED CV (scaffold)
+
+  clintox -- Clinical trial toxicity failure (n=1145)
+    !! MINORITY CLASS SPARSE: 45 minority samples -> ~15 per test fold, ~6 in the inner calibration slice.
+    !! Consider: --folds 3 --repeats 10 --calibration sigmoid
+    !! Treat point estimates for this endpoint as indicative only.
+    featurized: silicotox=(1145, 2071)
+    LightGBM         AUC=0.630+/-0.117  BA=0.542  MCC=0.065  ACC=0.927
+    Majority         ACC=0.961 (floor)
+    [88s]
+=== SilicoTox x TDC  2026-08-08T14:35:58.427621+00:00 ===
+stage=run split=scaffold folds=5 repeats=3
+models=['LightGBM'] calibration=isotonic
+
+[3] NESTED CV (scaffold)
+
+  ames -- Ames mutagenicity (n=5870)
+    featurized: silicotox=(5870, 2071)
+    LightGBM         AUC=0.833+/-0.024  BA=0.765  MCC=0.529  ACC=0.764
+    Majority         ACC=0.548 (floor)
+    [279s]
+=== SilicoTox x TDC  2026-08-08T14:40:49.409928+00:00 ===
+stage=run split=scaffold folds=5 repeats=3
+models=['LightGBM'] calibration=isotonic
+
+[3] NESTED CV (scaffold)
+
+  tox21_ed -- Endocrine disruption (androgen + estrogen receptor panels) (n=5974)
+    featurized: silicotox=(5974, 2071)
+    LightGBM         AUC=0.719+/-0.070  BA=0.666  MCC=0.300  ACC=0.786
+    Majority         ACC=0.848 (floor)
+    [260s]
+=== SilicoTox x TDC  2026-08-08T14:45:21.232420+00:00 ===
+stage=run split=scaffold folds=5 repeats=3
+models=['LightGBM'] calibration=isotonic
+
+[3] NESTED CV (scaffold)
+
+  ld50_binary -- Acute oral toxicity, binarized at LD50 < 500 mg/kg (n=6488)
+    featurized: silicotox=(6488, 2071)
+    LightGBM         AUC=0.794+/-0.022  BA=0.713  MCC=0.426  ACC=0.729
+    Majority         ACC=0.634 (floor)
+    [313s]
+=== SilicoTox x TDC  2026-08-08T14:50:46.965809+00:00 ===
+stage=run split=scaffold folds=5 repeats=3
+models=['LightGBM'] calibration=isotonic
+
+[3] NESTED CV (scaffold)
+
+  herg_karim -- hERG blockers, integrated set (<10uM) (n=8220)
+    featurized: silicotox=(8220, 2071)
+    LightGBM         AUC=0.835+/-0.012  BA=0.756  MCC=0.519  ACC=0.759
+    Majority         ACC=0.518 (floor)
+    [475s]
+=== SilicoTox x TDC  2026-08-08T14:58:51.032193+00:00 ===
+stage=report split=scaffold folds=5 repeats=1
+
+[5] REPORT
+
+TABLE A -- dataset integrity
+           Endpoint                                                Description TDC documented N  N after harmonization Retention %  Toxic  Prevalence  Majority ACC  Label conflicts dropped  Removed by TC 0.8
+         herg_karim                      hERG blockers, integrated set (<10uM)            13445                   8220        61.1   3963      0.4821        0.5179                       32               4524
+               ames                                          Ames mutagenicity             7255                   5870        80.9   3215      0.5477        0.5477                        0                937
+        ld50_binary         Acute oral toxicity, binarized at LD50 < 500 mg/kg             7385                   6488        87.9   2375      0.3661        0.6339                        5                407
+           tox21_ed Endocrine disruption (androgen + estrogen receptor panels)           varies                   5974         n/a    910      0.1523        0.8477                       73                567
+            clintox                            Clinical trial toxicity failure             1484                   1145        77.2     45      0.0393        0.9607                       98                 52
+               herg                             hERG blockers (cardiotoxicity)              648                    500        77.2    337      0.6740        0.6740                       18                 85
+               dili                                  Drug-induced liver injury              475                    434        91.4    220      0.5069        0.5069                        0                  5
+      skin_reaction                                         Skin sensitization              404                    339        83.9    225      0.6637        0.6637                        0                 34
+carcinogens_lagunin                                     Rodent carcinogenicity              278                    234        84.2     41      0.1752        0.8248                        4                  5
+
+TABLE B -- model comparison
+           Endpoint    Model   AUC  AUC_SD  BalAcc   MCC   ACC  PR-AUC Rank Beats majority ACC
+         herg_karim LightGBM 0.835   0.012   0.756 0.519 0.759   0.815    1                yes
+         herg_karim Majority 0.500   0.000   0.500 0.000 0.518   0.482    -                 NO
+               ames LightGBM 0.833   0.024   0.765 0.529 0.764   0.836    1                yes
+               ames Majority 0.500   0.000   0.500 0.000 0.548   0.548    -                yes
+        ld50_binary LightGBM 0.794   0.022   0.713 0.426 0.729   0.696    1                yes
+        ld50_binary Majority 0.500   0.000   0.500 0.000 0.634   0.366    -                yes
+           tox21_ed LightGBM 0.719   0.070   0.666 0.300 0.786   0.435    1                 NO
+           tox21_ed Majority 0.500   0.000   0.500 0.000 0.848   0.152    -                 NO
+            clintox LightGBM 0.630   0.117   0.542 0.065 0.927   0.131    1                 NO
+            clintox Majority 0.500   0.000   0.500 0.000 0.961   0.039    -                 NO
+               herg LightGBM 0.852   0.041   0.771 0.540 0.779   0.898    1                yes
+               herg Majority 0.500   0.000   0.500 0.000 0.674   0.674    -                 NO
+               dili LightGBM 0.857   0.055   0.801 0.607 0.801   0.827    1                yes
+               dili Majority 0.500   0.000   0.500 0.000 0.507   0.507    -                yes
+      skin_reaction LightGBM 0.720   0.070   0.647 0.299 0.645   0.802    1                 NO
+      skin_reaction Majority 0.500   0.000   0.500 0.000 0.664   0.664    -                yes
+carcinogens_lagunin LightGBM 0.795   0.069   0.708 0.383 0.746   0.630    1                 NO
+carcinogens_lagunin Majority 0.500   0.000   0.500 0.000 0.825   0.175    -                 NO
+
+TABLE D -- eToxPred cross-reference
+eToxPred endpoint        TDC endpoint  eToxPred N  TDC N (ours)  SilicoTox AUC         95% CI  eToxPred AUC   dAUC  SilicoTox ACC  eToxPred ACC  Majority ACC Same dataset?
+               AO         ld50_binary       12612          6488          0.794 [0.800, 0.821]         0.800 -0.006          0.729         0.854        0.6339            NO
+               ED            tox21_ed       17059          5974          0.719 [0.711, 0.750]         0.750 -0.031          0.786         0.744        0.8477            NO
+               CD                herg        1571           500          0.852 [0.833, 0.902]         0.799  0.053          0.779         0.798        0.6740            NO
+               CP carcinogens_lagunin        1401           234          0.795 [0.704, 0.884]         0.721  0.074          0.746         0.722        0.8248            NO
+
+Wrote tables + report_scaffold.md + /home2/ai_ml/SilicoTox/src_24_06_2026/tdc_out/figures/roc_scaffold.png
+=== SilicoTox x TDC  2026-08-08T15:11:44.609036+00:00 ===
+stage=run split=scaffold folds=5 repeats=3
+models=['LightGBM', 'LightGBM-FP', 'RandomForest', 'XGBoost', 'eToxPred-ET'] calibration=isotonic
+
+[3] NESTED CV (scaffold)
+
+  herg_karim -- hERG blockers, integrated set (<10uM) (n=8220)
+    featurized: daylight=(8220, 1024), silicotox=(8220, 2071)
+    LightGBM         AUC=0.835+/-0.012  BA=0.756  MCC=0.519  ACC=0.759
+    LightGBM-FP      AUC=0.792+/-0.015  BA=0.717  MCC=0.443  ACC=0.720
+    RandomForest     AUC=0.835+/-0.011  BA=0.752  MCC=0.512  ACC=0.755
+    XGBoost          AUC=0.831+/-0.015  BA=0.751  MCC=0.507  ACC=0.753
+    eToxPred-ET      AUC=0.777+/-0.017  BA=0.712  MCC=0.429  ACC=0.713
+    Majority         ACC=0.518 (floor)
+    [5103s]
+
+  ames -- Ames mutagenicity (n=5870)
+    featurized: daylight=(5870, 1024), silicotox=(5870, 2071)
+    LightGBM         AUC=0.833+/-0.024  BA=0.765  MCC=0.529  ACC=0.764
+    LightGBM-FP      AUC=0.810+/-0.025  BA=0.736  MCC=0.473  ACC=0.736
+    RandomForest     AUC=0.846+/-0.028  BA=0.771  MCC=0.543  ACC=0.771
+    XGBoost          AUC=0.832+/-0.024  BA=0.761  MCC=0.521  ACC=0.761
+    eToxPred-ET      AUC=0.803+/-0.028  BA=0.735  MCC=0.471  ACC=0.733
+    Majority         ACC=0.548 (floor)
+    [3331s]
+
+  dili -- Drug-induced liver injury (n=434)
+    featurized: daylight=(434, 1024), silicotox=(434, 2071)
+    LightGBM         AUC=0.852+/-0.063  BA=0.794  MCC=0.593  ACC=0.795
+    LightGBM-FP      AUC=0.800+/-0.046  BA=0.724  MCC=0.466  ACC=0.725
+    RandomForest     AUC=0.857+/-0.066  BA=0.805  MCC=0.616  ACC=0.805
+    XGBoost          AUC=0.846+/-0.067  BA=0.799  MCC=0.604  ACC=0.799
+    eToxPred-ET      AUC=0.804+/-0.065  BA=0.752  MCC=0.518  ACC=0.753
+    Majority         ACC=0.507 (floor)
+    [212s]
+
+  herg -- hERG blockers (cardiotoxicity) (n=500)
+    featurized: daylight=(500, 1024), silicotox=(500, 2071)
+    LightGBM         AUC=0.858+/-0.043  BA=0.779  MCC=0.547  ACC=0.781
+    LightGBM-FP      AUC=0.784+/-0.068  BA=0.701  MCC=0.391  ACC=0.687
+    RandomForest     AUC=0.870+/-0.045  BA=0.784  MCC=0.560  ACC=0.784
+    XGBoost          AUC=0.854+/-0.040  BA=0.784  MCC=0.555  ACC=0.787
+    eToxPred-ET      AUC=0.811+/-0.040  BA=0.738  MCC=0.460  ACC=0.725
+    Majority         ACC=0.674 (floor)
+    [238s]
+=== SilicoTox x TDC  2026-08-08T17:40:01.583004+00:00 ===
+stage=leaderboard split=scaffold folds=5 repeats=1
+models=['LightGBM', 'LightGBM-FP', 'RandomForest', 'XGBoost', 'SVM', 'Bagging', 'eToxPred-ET'] calibration=isotonic
+
+[4] OFFICIAL TDC LEADERBOARD HARNESS
+=== SilicoTox x TDC  2026-08-09T04:21:51.169603+00:00 ===
+stage=leaderboard split=scaffold folds=5 repeats=1
+models=['LightGBM', 'LightGBM-FP', 'RandomForest', 'XGBoost', 'SVM', 'Bagging', 'eToxPred-ET'] calibration=isotonic
+
+[4] OFFICIAL TDC LEADERBOARD HARNESS
+=== SilicoTox x TDC  2026-08-09T05:39:01.994702+00:00 ===
+stage=leaderboard split=scaffold folds=5 repeats=1
+models=['LightGBM', 'LightGBM-FP', 'RandomForest', 'XGBoost', 'SVM', 'Bagging', 'eToxPred-ET'] calibration=isotonic
+
+[4] OFFICIAL TDC LEADERBOARD HARNESS
+      seed 1 done
+      seed 2 done
+      seed 3 done
+      seed 4 done
+      seed 5 done
+    [dili] LightGBM: roc-auc = 0.875 +/- 0.013 (official split, 5 seeds)
+      seed 1 done
+      seed 2 done
+      seed 3 done
+      seed 4 done
+      seed 5 done
+    [herg] LightGBM: roc-auc = 0.806 +/- 0.023 (official split, 5 seeds)
+      seed 1 done
+      seed 2 done
+      seed 3 done
+      seed 4 done
+      seed 5 done
+    [ames] LightGBM: roc-auc = 0.835 +/- 0.003 (official split, 5 seeds)
+=== SilicoTox x TDC  2026-08-09T05:59:55.493107+00:00 ===
+stage=report split=scaffold folds=5 repeats=1
+
+[5] REPORT
+
+TABLE A -- dataset integrity
+           Endpoint                                                Description TDC documented N  N after harmonization Retention %  Toxic  Prevalence  Majority ACC  Label conflicts dropped  Removed by TC 0.8
+         herg_karim                      hERG blockers, integrated set (<10uM)            13445                   8220        61.1   3963      0.4821        0.5179                       32               4524
+               ames                                          Ames mutagenicity             7255                   5870        80.9   3215      0.5477        0.5477                        0                937
+        ld50_binary         Acute oral toxicity, binarized at LD50 < 500 mg/kg             7385                   6488        87.9   2375      0.3661        0.6339                        5                407
+           tox21_ed Endocrine disruption (androgen + estrogen receptor panels)           varies                   5974         n/a    910      0.1523        0.8477                       73                567
+            clintox                            Clinical trial toxicity failure             1484                   1145        77.2     45      0.0393        0.9607                       98                 52
+               herg                             hERG blockers (cardiotoxicity)              648                    500        77.2    337      0.6740        0.6740                       18                 85
+               dili                                  Drug-induced liver injury              475                    434        91.4    220      0.5069        0.5069                        0                  5
+      skin_reaction                                         Skin sensitization              404                    339        83.9    225      0.6637        0.6637                        0                 34
+carcinogens_lagunin                                     Rodent carcinogenicity              278                    234        84.2     41      0.1752        0.8248                        4                  5
+
+TABLE B -- model comparison
+           Endpoint        Model   AUC  AUC_SD  BalAcc   MCC   ACC  PR-AUC Rank Beats majority ACC
+         herg_karim     LightGBM 0.835   0.012   0.756 0.519 0.759   0.815    1                yes
+         herg_karim  LightGBM-FP 0.792   0.015   0.717 0.443 0.720   0.771    4                yes
+         herg_karim RandomForest 0.835   0.011   0.752 0.512 0.755   0.816    2                yes
+         herg_karim      XGBoost 0.831   0.015   0.751 0.507 0.753   0.810    3                yes
+         herg_karim  eToxPred-ET 0.777   0.017   0.712 0.429 0.713   0.753    5                yes
+         herg_karim     Majority 0.500   0.000   0.500 0.000 0.518   0.482    -                  -
+               ames     LightGBM 0.833   0.024   0.765 0.529 0.764   0.836    2                yes
+               ames  LightGBM-FP 0.810   0.025   0.736 0.473 0.736   0.818    4                yes
+               ames RandomForest 0.846   0.028   0.771 0.543 0.771   0.845    1                yes
+               ames      XGBoost 0.832   0.024   0.761 0.521 0.761   0.837    3                yes
+               ames  eToxPred-ET 0.803   0.028   0.735 0.471 0.733   0.807    5                yes
+               ames     Majority 0.500   0.000   0.500 0.000 0.548   0.548    -                  -
+        ld50_binary     LightGBM 0.794   0.022   0.713 0.426 0.729   0.696    1                yes
+        ld50_binary     Majority 0.500   0.000   0.500 0.000 0.634   0.366    -                  -
+           tox21_ed     LightGBM 0.719   0.070   0.666 0.300 0.786   0.435    1                 NO
+           tox21_ed     Majority 0.500   0.000   0.500 0.000 0.848   0.152    -                  -
+            clintox     LightGBM 0.630   0.117   0.542 0.065 0.927   0.131    1                 NO
+            clintox     Majority 0.500   0.000   0.500 0.000 0.961   0.039    -                  -
+               herg     LightGBM 0.858   0.043   0.779 0.547 0.781   0.900    2                yes
+               herg  LightGBM-FP 0.784   0.068   0.701 0.391 0.687   0.857    5                yes
+               herg RandomForest 0.870   0.045   0.784 0.560 0.784   0.911    1                yes
+               herg      XGBoost 0.854   0.040   0.784 0.555 0.787   0.896    3                yes
+               herg  eToxPred-ET 0.811   0.040   0.738 0.460 0.725   0.874    4                yes
+               herg     Majority 0.500   0.000   0.500 0.000 0.674   0.674    -                  -
+               dili     LightGBM 0.852   0.063   0.794 0.593 0.795   0.820    2                yes
+               dili  LightGBM-FP 0.800   0.046   0.724 0.466 0.725   0.772    5                yes
+               dili RandomForest 0.857   0.066   0.805 0.616 0.805   0.829    1                yes
+               dili      XGBoost 0.846   0.067   0.799 0.604 0.799   0.818    3                yes
+               dili  eToxPred-ET 0.804   0.065   0.752 0.518 0.753   0.779    4                yes
+               dili     Majority 0.500   0.000   0.500 0.000 0.507   0.507    -                  -
+      skin_reaction     LightGBM 0.720   0.070   0.647 0.299 0.645   0.802    1                 NO
+      skin_reaction     Majority 0.500   0.000   0.500 0.000 0.664   0.664    -                  -
+carcinogens_lagunin     LightGBM 0.795   0.069   0.708 0.383 0.746   0.630    1                 NO
+carcinogens_lagunin     Majority 0.500   0.000   0.500 0.000 0.825   0.175    -                  -
+
+SIGNIFICANCE
+  Endpoint  LightGBM vs  AUC_LGBM  AUC_other   dAUC DeLong_p McNemar_p LGBM better (p<0.05)
+herg_karim  LightGBM-FP     0.852      0.812  0.040 5.51e-24  2.69e-13                  yes
+herg_karim RandomForest     0.852      0.846  0.005 3.48e-03  2.36e-01                  yes
+herg_karim      XGBoost     0.852      0.845  0.006 2.47e-05  7.28e-01                  yes
+herg_karim  eToxPred-ET     0.852      0.791  0.061 2.18e-47  1.70e-20                  yes
+      ames  LightGBM-FP     0.846      0.827  0.019 2.43e-06  3.00e-05                  yes
+      ames RandomForest     0.846      0.853 -0.007 4.76e-04  8.13e-01                   no
+      ames      XGBoost     0.846      0.843  0.003 5.34e-02  7.14e-01                   no
+      ames  eToxPred-ET     0.846      0.808  0.038 3.73e-18  6.11e-08                  yes
+      herg  LightGBM-FP     0.869      0.809  0.061 1.43e-03  4.99e-04                  yes
+      herg RandomForest     0.869      0.876 -0.007 3.06e-01  4.41e-01                   no
+      herg      XGBoost     0.869      0.870 -0.000 9.76e-01  8.68e-01                   no
+      herg  eToxPred-ET     0.869      0.826  0.043 1.56e-02  1.19e-03                  yes
+      dili  LightGBM-FP     0.863      0.822  0.041 2.73e-02  1.89e-01                  yes
+      dili RandomForest     0.863      0.864 -0.001 9.51e-01  8.78e-04                   no
+      dili      XGBoost     0.863      0.849  0.014 5.73e-02  3.83e-01                   no
+      dili  eToxPred-ET     0.863      0.810  0.054 7.02e-03  1.56e-01                  yes
+
+TABLE D -- eToxPred cross-reference
+eToxPred endpoint        TDC endpoint  eToxPred N  TDC N (ours)  SilicoTox AUC (mean of folds)  AUC SD  Pooled AUC  Pooled 95% CI  eToxPred AUC  dAUC (mean-of-folds)  SilicoTox ACC  eToxPred ACC  Majority ACC Same dataset?
+               AO         ld50_binary       12612          6488                          0.794   0.022       0.810 [0.800, 0.821]         0.800                -0.006          0.729         0.854        0.6339            NO
+               ED            tox21_ed       17059          5974                          0.719   0.070       0.730 [0.711, 0.750]         0.750                -0.031          0.786         0.744        0.8477            NO
+               CD                herg        1571           500                          0.858   0.043       0.869 [0.832, 0.901]         0.799                 0.059          0.781         0.798        0.6740            NO
+               CP carcinogens_lagunin        1401           234                          0.795   0.069       0.798 [0.704, 0.884]         0.721                 0.074          0.746         0.722        0.8248            NO
+
+Wrote tables + report_scaffold.md + /home2/ai_ml/SilicoTox/src_24_06_2026/tdc_out/figures/roc_scaffold.png

@@ -1,0 +1,4 @@
+endpoint,model,metric,mean,std,seeds,TDC leaderboard value
+dili,LightGBM,roc-auc,0.875,0.013,"[1, 2, 3, 4, 5]",<fill from https://tdcommons.ai/benchmark/admet_group/>
+herg,LightGBM,roc-auc,0.806,0.023,"[1, 2, 3, 4, 5]",<fill from https://tdcommons.ai/benchmark/admet_group/>
+ames,LightGBM,roc-auc,0.835,0.003,"[1, 2, 3, 4, 5]",<fill from https://tdcommons.ai/benchmark/admet_group/>

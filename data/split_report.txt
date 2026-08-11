@@ -1,0 +1,61 @@
+==============================================================================
+TOXICITY DATASET CURATION AND SPLIT
+==============================================================================
+input                : Toxic_nontoxic_data.txt
+seed                 : 42
+external fraction    : 10%
+train:test           : 80%:20%
+redundancy cutoff    : 0.95
+label conflicts      : drop
+small-molecule scope : MW <= 1000, heavy atoms <= 70
+
+[1/5] Loaded 12691 rows.
+      by label: {'0': 6269, '1': 6422}
+
+[2/5] Standardised: 11622 kept, 1069 removed.
+        inorganic                      636
+        biologic / oversized           212
+        contains metal                 209
+        unparseable SMILES              12
+
+[3/5] Deduplicated: 11622 -> 9759 unique structures.
+        exact duplicate rows collapsed :  1486
+        structures with both labels    :   377  (drop)
+          DrugBank|T3DB                   197
+          DrugBank|unlabelled              83
+          DrugBank|ZINC                    27
+          T3DB|unlabelled                  16
+          DrugBank|T3DB|unlabelled         13
+
+[4/5] Redundancy filter (Tanimoto > 0.95, within class): 9759 -> 8545
+      curated total            8545   toxic  4279 (50.1%)   non-toxic  4266 (49.9%)
+
+      relocating 17 external molecules with Tanimoto > 0.9 to the pool
+
+[5/5] Splits
+      external validation       838   toxic   418 (49.9%)   non-toxic   420 (50.1%)
+      modelling pool           7707   toxic  3861 (50.1%)   non-toxic  3846 (49.9%)
+        train                  6166   toxic  3089 (50.1%)   non-toxic  3077 (49.9%)
+        test                   1541   toxic   772 (50.1%)   non-toxic   769 (49.9%)
+
+Leakage checks
+      identical structures external n pool : 0
+      shared Murcko scaffolds              : 0
+      external molecules that are acyclic  : 278 (33.2%, no scaffold to share)
+      external -> nearest pool molecule, max Tanimoto:
+        mean 0.464   median 0.444   95th pct 0.737
+        >= 0.95:    0 ( 0.0%)
+        >= 0.80:   11 ( 1.3%)
+        >= 0.70:   69 ( 8.2%)
+        >= 0.50:  336 (40.1%)
+      test -> nearest train molecule, max Tanimoto:
+        mean 0.557   median 0.533
+
+Written to external_validation.csv
+      external_validation.smi
+      modeling_set.csv
+      modeling_set.smi
+      train.csv
+      train.smi
+      test.csv
+      test.smi

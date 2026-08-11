@@ -1,0 +1,10 @@
+Endpoint,Description,TDC documented N,N after harmonization,Retention %,Toxic,Prevalence,Majority ACC,Label conflicts dropped,Removed by TC 0.8
+herg_karim,"hERG blockers, integrated set (<10uM)",13445,8220,61.1,3963,0.4821,0.5179,32,4524
+ames,Ames mutagenicity,7255,5870,80.9,3215,0.5477,0.5477,0,937
+ld50_binary,"Acute oral toxicity, binarized at LD50 < 500 mg/kg",7385,6488,87.9,2375,0.3661,0.6339,5,407
+tox21_ed,Endocrine disruption (androgen + estrogen receptor panels),varies,5974,n/a,910,0.1523,0.8477,73,567
+clintox,Clinical trial toxicity failure,1484,1145,77.2,45,0.0393,0.9607,98,52
+herg,hERG blockers (cardiotoxicity),648,500,77.2,337,0.674,0.674,18,85
+dili,Drug-induced liver injury,475,434,91.4,220,0.5069,0.5069,0,5
+skin_reaction,Skin sensitization,404,339,83.9,225,0.6637,0.6637,0,34
+carcinogens_lagunin,Rodent carcinogenicity,278,234,84.2,41,0.1752,0.8248,4,5

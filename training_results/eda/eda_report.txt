@@ -1,0 +1,35 @@
+================================================================
+ToxAI — EXPLORATORY DATA ANALYSIS
+================================================================
+Molecules (rows)        : 7707
+Valid SMILES            : 7707
+Invalid SMILES          : 0
+
+CLASS BALANCE (valid molecules)
+----------------------------------------------------------------
+  Toxic     (1) :    3861  ( 50.1%)
+  Non-Toxic (0) :    3846  ( 49.9%)
+  Imbalance ratio (majority:minority): 1.0 : 1
+
+DATA QUALITY (reported, not modified)
+----------------------------------------------------------------
+  Unique structures (canonical) : 7649
+  Rows that are exact duplicates: 105
+  Structures with conflicting labels: 4
+
+SCAFFOLD DIVERSITY
+----------------------------------------------------------------
+  Unique Murcko scaffolds: 3006
+  Acyclic molecules      : 903 (11.7%)
+
+PROPERTY RANGES (valid molecules)
+----------------------------------------------------------------
+  MolWt              mean=  318.79  min=   18.04  max=  973.68
+  MolLogP            mean=    2.66  min=  -13.05  max=   17.85
+  TPSA               mean=   67.89  min=    0.00  max=  474.90
+  NumHDonors         mean=    1.58  min=    0.00  max=   18.00
+  NumHAcceptors      mean=    3.86  min=    0.00  max=   30.00
+  NumRotatableBonds  mean=    4.10  min=    0.00  max=   37.00
+  NumAromaticRings   mean=    1.40  min=    0.00  max=    8.00
+  FractionCSP3       mean=    0.41  min=    0.00  max=    1.00
+  qed                mean=    0.54  min=    0.03  max=    0.95
